@@ -9,6 +9,8 @@ copyright: AlignOne — WrapAround care coordination
 theme:
   name: material
   language: en
+  logo: assets/wraparound-icon.png
+  favicon: assets/wraparound-icon.png
   features:
     - navigation.sections
     - navigation.top
