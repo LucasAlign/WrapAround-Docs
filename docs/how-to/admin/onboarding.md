@@ -10,7 +10,7 @@ primary: frontend
 # Onboard a family & invite people
 
 **Who this is for:** Program staff (Admins and Coordinators); advocates for their church.
-**When to use it:** When you bring a new family into AlignOne and invite the people who'll
+**When to use it:** When you bring a new family into WrapAround and invite the people who'll
 support them.
 **Before you start:** You're signed in with staff access.
 

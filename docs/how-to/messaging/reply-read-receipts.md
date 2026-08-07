@@ -25,7 +25,7 @@ what.
 A **read receipt** shows that your message has been seen.
 <!-- @frontend: confirm how read receipts appear (a "Seen" label, names, a checkmark?) -->
 
-- After you send, AlignOne shows when people in the thread have **read** it.
+- After you send, WrapAround shows when people in the thread have **read** it.
 - Use this to tell whether a request has been picked up or whether to follow up another way.
 
 ## What you'll see

@@ -10,7 +10,7 @@ something isn't here, see [Troubleshooting](troubleshooting.md).
 
 ## Accounts & access
 
-**How do I join AlignOne?**
+**How do I join WrapAround?**
 The program emails you an invite. Open it, set a password, and sign in.
 → [Accept your invite & sign in](../how-to/account/accept-invite.md)
 
@@ -20,7 +20,7 @@ Invite links expire (typically after 7 days). Ask the program to
 
 **Why can I only see one family?**
 If you're a **volunteer**, you're meant to see just the family you're assigned to. That's
-how AlignOne keeps every family's information private.
+how WrapAround keeps every family's information private.
 → [Roles & who sees what](../concepts/roles-and-visibility.md)
 
 **Can I support more than one family?**

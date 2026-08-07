@@ -10,10 +10,10 @@ advocate.
 
 ## I didn't get my invite email
 
-1. Check your **spam / junk** folder and search for AlignOne.
+1. Check your **spam / junk** folder and search for WrapAround.
    <!-- @frontend: confirm the sender name/address so readers can search for it -->
 2. Confirm the program has your **correct email address** — invites go to one specific
-   address, and that address is how AlignOne connects you to the right family and role.
+   address, and that address is how WrapAround connects you to the right family and role.
 3. Ask program staff to [resend the invite](../how-to/admin/onboarding.md#resend-an-invite).
 
 ## My invite link expired or won't open

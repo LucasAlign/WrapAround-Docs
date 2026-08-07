@@ -15,13 +15,13 @@ activity without checking constantly.
     are final.
 
 !!! warning "Not available yet"
-    AlignOne doesn't send notifications yet — there's no notification service in the backend.
+    WrapAround doesn't send notifications yet — there's no notification service in the backend.
     This page describes how they're intended to work, so it's ready when they're built. For
     now, check your circle's needs, schedule, and messages directly.
 
 ## What notifications will tell you
 
-Once available, AlignOne will flag things that need your attention in your care circle —
+Once available, WrapAround will flag things that need your attention in your care circle —
 such as **new or claimed needs**, **schedule** changes, new **messages**, and circle
 **posts**. (The exact events will be defined when notifications are built.)
 

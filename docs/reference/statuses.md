@@ -5,7 +5,7 @@ primary: backend
 
 # Statuses explained
 
-Many records in AlignOne carry a **status** that tracks where they are in their lifecycle.
+Many records in WrapAround carry a **status** that tracks where they are in their lifecycle.
 Statuses are managed lists — program staff can adjust the available options — so the live
 list you see in the app is always the source of truth. Below are the standard values and
 the few that drive how the system behaves.
