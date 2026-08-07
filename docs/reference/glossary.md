@@ -5,14 +5,14 @@ primary: backend
 
 # Glossary
 
-The shared vocabulary for AlignOne Help. **Backend** owns the *What it means* column;
+The shared vocabulary for WrapAround Help. **Backend** owns the *What it means* column;
 **frontend** owns the *In-app label* column — fill each with the exact wording the app
 shows. Use these spellings everywhere so docs and the UI never drift. The coordination
 rules live in `CONTRIBUTING.md` at the repo root.
 
 | Term | What it means | In-app label |
 |---|---|---|
-| **Family** | The foster/adoptive family being served. In AlignOne the family *is* the WrapAround care circle. | Families |
+| **Family** | The foster/adoptive family being served. In WrapAround the family *is* the care circle. | Families |
 | **Care circle / WrapAround** | The family plus everyone supporting them — the advocate and volunteers. | Care circle |
 | **Parent** | An adult in the family. | Parents |
 | **Child** | A child in the family. | Children |
@@ -34,7 +34,7 @@ rules live in `CONTRIBUTING.md` at the repo root.
 | **Comment** | A reply on a post. | _Not yet surfaced_ |
 | **Training module** | A unit of assigned training. | Training |
 | **Training resource** | Supporting material for a training module. | Resources Library |
-| **Onboarding / invite** | The flow that brings a new person into AlignOne by email invite. | Create New User / Invite New User |
+| **Onboarding / invite** | The flow that brings a new person into WrapAround by email invite. | Create New User / Invite New User |
 | **Status** | A lifecycle state (for example family status or volunteer status). | Status |
 | **Serving church** | The church coordinating care for a family — distinct from the family's *attending* church. | Serving Church |
 | **County** | The county a family or volunteer is associated with. | County |

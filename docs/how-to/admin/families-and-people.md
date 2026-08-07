@@ -18,7 +18,7 @@ families.
 
 ## The family is the care circle
 
-In AlignOne a **family** *is* the WrapAround care circle — everything else is organized
+In WrapAround a **family** *is* the care circle — everything else is organized
 around it. A family record holds its **parents** and **children**, with one parent set as
 the **primary contact**. Each family also contains lots of information regarding the family and how they can be served.
 

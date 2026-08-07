@@ -24,7 +24,7 @@ you serve.
 
 ## What happens when you finish
 
-When you complete **all** your assigned modules, AlignOne records you as **trained**. A
+When you complete **all** your assigned modules, WrapAround records you as **trained**. A
 program staff member then **activates** you so you can start serving a family — there can
 be a short wait for that step.
 

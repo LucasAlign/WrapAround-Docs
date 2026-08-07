@@ -32,7 +32,7 @@ and you're assigned to a family.
 
 A profile for each family in your scope — a **Lead Volunteer** sees their one family; an
 **Advocate** sees every family their church serves. You never see families outside your
-scope; that's how AlignOne keeps every family's information private.
+scope; that's how WrapAround keeps every family's information private.
 
 → [Roles & who sees what](../../concepts/roles-and-visibility.md)
 

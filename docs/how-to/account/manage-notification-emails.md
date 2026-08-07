@@ -5,11 +5,11 @@ primary: frontend
 
 # Manage your notification emails
 
-**Who this is for:** Everyone with an AlignOne account — volunteers, lead volunteers, advocates, program staff, and families.
+**Who this is for:** Everyone with an WrapAround account — volunteers, lead volunteers, advocates, program staff, and families.
 **When to use it:** Any time you're getting too many (or too few) emails, or when your role changes what you're notified about.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md).
 
-AlignOne sends you an email when something happens that you might want to act on — a
+WrapAround sends you an email when something happens that you might want to act on — a
 new need is posted, a volunteer finishes onboarding, a family's status changes. You
 control which of these emails you receive from your account settings. Turning one off
 stops **only** that email; everything else keeps arriving.

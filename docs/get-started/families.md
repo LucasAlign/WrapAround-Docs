@@ -5,7 +5,7 @@ primary: frontend
 
 # Getting started for families
 
-If you're a foster or adoptive parent, AlignOne is where your **care circle** comes
+If you're a foster or adoptive parent, WrapAround is where your **care circle** comes
 together — the advocate and volunteers helping your family. You'll see **your own family**
 only.
 
@@ -13,7 +13,7 @@ only.
 
 ## What you can do
 
-AlignOne gives you a window into your own care circle:
+WrapAround gives you a window into your own care circle:
 
 - See your family's circle — your advocate and the volunteers helping you.
 - See the **needs** raised for your family and who's helping with each.

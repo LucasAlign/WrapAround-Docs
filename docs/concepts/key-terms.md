@@ -5,7 +5,7 @@ primary: backend
 
 # Key terms
 
-A quick orientation to the words you'll see across AlignOne. The full list, with the exact
+A quick orientation to the words you'll see across WrapAround. The full list, with the exact
 in-app wording, is in the [Glossary](../reference/glossary.md).
 
 - **Family / care circle** — the foster/adoptive family being served, together with the

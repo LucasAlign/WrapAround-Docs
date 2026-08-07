@@ -5,7 +5,7 @@ primary: frontend
 
 # Upload your photo
 
-**Who this is for:** Everyone with an AlignOne account.
+**Who this is for:** Everyone with an WrapAround account.
 **When to use it:** To put a face to your name so your care circle recognizes you.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md), and
 you have a photo on the device you're using.
@@ -24,7 +24,7 @@ you have a photo on the device you're using.
 
 ## What you'll see
 
-Your photo appears on your profile and next to your name across AlignOne — on messages,
+Your photo appears on your profile and next to your name across WrapAround — on messages,
 claims, and the schedule — so the team can recognize you.
 
 !!! tip "Pick a clear, friendly photo"

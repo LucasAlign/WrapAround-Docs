@@ -6,7 +6,7 @@ primary: frontend
 # Get started as a Volunteer
 
 Welcome! As a **volunteer** you support **one family** — your part of their WrapAround
-care circle. This page walks you through your first day on AlignOne, start to finish.
+care circle. This page walks you through your first day on WrapAround, start to finish.
 
 ![Your volunteer dashboard after signing in.](../assets/screens/vol-dashboard.png)
 
