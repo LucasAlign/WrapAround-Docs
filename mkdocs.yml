@@ -1,10 +1,10 @@
-site_name: AlignOne Help
-site_description: How to use AlignOne — guides for volunteers, advocates, and program staff.
+site_name: WrapAround Help
+site_description: How to use WrapAround — guides for volunteers, advocates, and program staff.
 site_url: https://austinlucas.github.io/AlignOne-Docs/
 repo_url: https://github.com/AustinLucas/AlignOne-Docs
 repo_name: AustinLucas/AlignOne-Docs
 edit_uri: edit/main/docs/
-copyright: AlignOne — WrapAround care coordination
+copyright: WrapAround — care coordination
 
 theme:
   name: material
