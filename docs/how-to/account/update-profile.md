@@ -5,7 +5,7 @@ primary: frontend
 
 # Update your profile
 
-**Who this is for:** Everyone with an AlignOne account.
+**Who this is for:** Everyone with an WrapAround account.
 **When to use it:** After you first sign in, or any time your details change.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md).
 

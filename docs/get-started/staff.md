@@ -5,7 +5,7 @@ primary: frontend
 
 # Get started as Program Staff
 
-Welcome! As **program staff** (an Admin) you run AlignOne for your organization. You have
+Welcome! As **program staff** (an Admin) you run WrapAround for your organization. You have
 **full access** — every family and all data — and you set up the people and families that
 everyone else works with.
 
@@ -13,7 +13,7 @@ everyone else works with.
 
 ## What program staff do
 
-You bring families into AlignOne, invite the volunteers and advocates who support them,
+You bring families into WrapAround, invite the volunteers and advocates who support them,
 keep roles and statuses current, and watch over needs, schedules, and training across the
 whole program.
 

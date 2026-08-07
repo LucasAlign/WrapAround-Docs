@@ -1,6 +1,6 @@
-# Welcome to AlignOne Help
+# Welcome to WrapAround Help
 
-AlignOne helps foster and adoptive families and the people who support them — the
+WrapAround helps foster and adoptive families and the people who support them — the
 **WrapAround care circle** — coordinate care in one place.
 
 Pick the path that matches your role:
@@ -41,4 +41,4 @@ families, advocates, and volunteers fit together.
 
 !!! question "Can't sign in or didn't get your invite?"
     You don't need to be logged in to read this site. See
-    [Troubleshooting](reference/troubleshooting.md) for help getting into AlignOne.
+    [Troubleshooting](reference/troubleshooting.md) for help getting into WrapAround.

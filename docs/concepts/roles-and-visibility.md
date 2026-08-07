@@ -5,7 +5,7 @@ primary: backend
 
 # Roles & who sees what
 
-AlignOne is built around one rule: **you only see the families you're responsible for.**
+WrapAround is built around one rule: **you only see the families you're responsible for.**
 Your role decides how wide that reach is. This is enforced by the server on every
 request — it isn't just hidden in the interface.
 

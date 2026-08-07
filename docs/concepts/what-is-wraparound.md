@@ -5,13 +5,13 @@ primary: backend
 
 # What is WrapAround?
 
-AlignOne helps a foster or adoptive **family** and the people around them coordinate care in
+WrapAround helps a foster or adoptive **family** and the people around them coordinate care in
 one place. That circle of support — the family plus everyone helping them — is a
 **WrapAround care circle**.
 
 ## The people in a care circle
 
-- **The family** — the foster/adoptive parents and children being served. In AlignOne the
+- **The family** — the foster/adoptive parents and children being served. In WrapAround the
   family *is* the care circle; everything else is organized around it.
 - **The advocate** — the case lead who coordinates support for a family on behalf of a
   church. One advocate looks after the families their church serves.
