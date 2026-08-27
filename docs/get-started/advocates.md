@@ -1,7 +1,11 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Advocate: dashboard heading is "Managed Families" with a family list and shared
+calendar, matching this page's description. -->
 
 # Get started as an Advocate
 
@@ -9,7 +13,7 @@ Welcome! As an **advocate** you're the case lead for the families your **church*
 You coordinate care across those families — a wider view than a volunteer's single family,
 but scoped to your church rather than the whole program.
 
-![Your advocate dashboard after signing in.](../assets/screens/adv-dashboard.png)
+![Your advocate dashboard after signing in — Managed Families, showing the churches's families and a shared calendar.](img/adv-dashboard-desktop.png)
 
 ## What an advocate does
 

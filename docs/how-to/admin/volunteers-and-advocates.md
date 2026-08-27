@@ -1,11 +1,15 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
 <!-- @backend verified: a volunteer is scoped to ONE assigned family — assignment is what
      grants access. A volunteer can be marked Lead Volunteer for extra abilities within that
      one family. Advocates are scoped to their serving church. -->
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: Volunteers & Advocates directory columns (Volunteer, Partnered Church,
+Family, Serving, Status) and filters (county/church/family/status) confirmed live. -->
 
 # Manage volunteers & advocates
 
@@ -15,7 +19,7 @@ or update their role or status.
 **Before you start:** You're signed in with staff access, and the family you'll assign to
 exists.
 
-![The Volunteers & Advocates directory, with an In Training section.](../../assets/screens/admin-volunteers.png)
+![The Volunteers & Advocates directory, with search, filters, and each person's status.](img/volunteers-advocates-directory-desktop.png)
 
 ## Invite a volunteer or advocate
 

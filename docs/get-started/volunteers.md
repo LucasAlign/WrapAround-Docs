@@ -1,14 +1,18 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: dashboard heading is "My Care Community" with the family card and a
+shared calendar, matching this page's description. -->
 
 # Get started as a Volunteer
 
 Welcome! As a **volunteer** you support **one family** — your part of their WrapAround
 care circle. This page walks you through your first day on WrapAround, start to finish.
 
-![Your volunteer dashboard after signing in.](../assets/screens/vol-dashboard.png)
+![Your volunteer dashboard after signing in — My Care Community, showing your family and a shared calendar.](img/vol-dashboard-desktop.png)
 
 ## What a volunteer does
 

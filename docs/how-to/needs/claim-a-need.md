@@ -1,5 +1,5 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
@@ -7,13 +7,16 @@ primary: frontend
      family's needs; withdrawal is allowed until the need is completed; completion is a
      separate state. Don't change these assertions without backend review. -->
 
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Needs Board confirmed live (screenshot shared with browse-needs.md). -->
+
 # Claim a need
 
 **Who this is for:** Volunteers (advocates and program staff can do this too).
 **When to use it:** When you want to sign up to take care of something your family needs — a meal, a ride, supplies, or a helping hand.
 **Before you start:** You've [accepted your invite and signed in](../account/accept-invite.md), and you're assigned to a family.
 
-![Each open need has an "I can help" button.](../../assets/screens/vol-needs.png)
+![Each open need has an "I can help" button.](img/needs-board-open-filled-closed-desktop.png)
 
 ## What is a "need"?
 

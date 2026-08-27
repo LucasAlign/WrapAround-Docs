@@ -3,13 +3,17 @@ status: needs-review
 primary: frontend
 ---
 
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Coordinator: Overview tab, county-scoped Impact at a Glance tiles, and the same
+nav tabs as Central Admin all confirmed live. -->
+
 # Getting started for coordinators
 
 As a **coordinator** you have the same full access as program staff, with a view focused on
 managing your **county**. You can see and manage every family — every API call the app
 makes is automatically scoped to your county, so you never need to filter it yourself.
 
-![Your coordinator dashboard after signing in — Overview tab, scoped to your county.](../assets/screens/coord-dashboard.png)
+![Your coordinator dashboard after signing in — Overview tab, scoped to your county.](img/coord-dashboard-desktop.png)
 
 ## Your first day, step by step
 

@@ -1,7 +1,13 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Schedule page is a month grid with a Viewing family selector and an
+Assigned/Unassigned legend by task type (Meals, Childcare, Transportation, etc). No
+separate "Upcoming" list was found alongside the grid this pass — the page is the
+month calendar itself. -->
 
 # View the calendar
 
@@ -10,16 +16,17 @@ primary: frontend
 **Before you start:** You've [accepted your invite and signed in](../account/accept-invite.md),
 and you're assigned to a family.
 
-![The Schedule: an Upcoming list and a month calendar.](../../assets/screens/vol-schedule.png)
+![The Schedule: a month calendar with a legend for assigned/unassigned tasks.](img/volunteer-calendar-desktop.png)
 
 ## Steps
 
 1. From the main menu, open **Schedule**.
-   You'll see your family's calendar as a **month grid**, with an **Upcoming** list beside it.
-2. Each entry shows a scheduled **event** or one of your **commitments** (a need you've
-   claimed) — what it is, the day, and the time.
-3. Use the **‹ ›** arrows next to the month name to move between months, and tap a day to
-   see its entries.
+   You'll see your family's calendar as a **month grid**, with a legend showing which task
+   types (Meals, Childcare, Transportation, and others) are **Assigned** vs.
+   **Unassigned**.
+2. Each day shows its scheduled **events** and **commitments** (needs someone's claimed) —
+   tap a day to see its full details.
+3. Use the **‹ ›** arrows next to the month name to move between months.
 
 ## What you'll see
 

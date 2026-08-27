@@ -1,7 +1,12 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Training page top confirmed live (screenshot shared with
+modules-and-progress.md); did not scroll to confirm the standalone "Resources Library"
+section described below this pass. -->
 
 # Access training resources
 
@@ -10,7 +15,7 @@ primary: frontend
 watch.
 **Before you start:** You can open your [training modules](modules-and-progress.md).
 
-![The Training page, where module resources live.](../../assets/screens/vol-training.png)
+![The Training page, where module resources live.](img/volunteer-training-modules-desktop.png)
 
 ## Steps
 

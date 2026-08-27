@@ -1,11 +1,15 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
 <!-- @backend verified: families are associated with a county; advocates are scoped to a
      serving church (distinct from a family's attending church). Churches and communities/
      families can be CSV-imported, with imports recorded in the audit log. -->
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: Churches directory columns (Church, County, Status, Families, Serving,
+Not Serving, Contact) and the Add Church / county+family filters confirmed live. -->
 
 # Manage churches & counties
 
@@ -14,7 +18,7 @@ primary: frontend
 with.
 **Before you start:** You're signed in with staff access.
 
-![The Churches directory, as Central Admin.](../../assets/screens/admin-churches.png)
+![The Churches directory, as Central Admin.](img/churches-directory-desktop.png)
 
 ## Why churches and counties matter
 

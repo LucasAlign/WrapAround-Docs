@@ -1,10 +1,14 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
 <!-- @backend verified: completing all assigned modules auto-promotes a trainee to
      "trained, not active"; an admin then activates them before they serve. -->
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Required-modules progress bar, per-module Continue/Locked state, and a
+"Join a group training session" link all confirmed live on the Training page. -->
 
 # Find your modules & track progress
 
@@ -13,7 +17,7 @@ primary: frontend
 you serve.
 **Before you start:** You've [accepted your invite and signed in](../account/accept-invite.md).
 
-![Your training modules with a progress bar and per-module status.](../../assets/screens/vol-training.png)
+![Your training modules with a progress bar and per-module status.](img/volunteer-training-modules-desktop.png)
 
 ## Steps
 

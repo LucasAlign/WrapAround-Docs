@@ -1,11 +1,17 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
 <!-- @backend verified: every import/key operation is written to the audit log; the audit
      log is visible to Admins and Coordinators, not to advocates or volunteers. Training
      completion auto-promotes a trainee to "trained, not active" pending activation. -->
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: Reports & Impact (route /dashboard/reports) with county/church filters
+and Export CSV/PDF; the Volunteer Progress matrix under Training Management; and the
+Audit Log tab under Admin Management (Action/Actor/Timestamp columns, search + date
+range) all confirmed live. -->
 
 # Oversight
 
@@ -14,7 +20,7 @@ primary: frontend
 and what's changed.
 **Before you start:** You're signed in with staff access.
 
-![Reports & Impact, with a county filter and CSV/PDF export.](../../assets/screens/admin-reports.png)
+![Reports & Impact, with a county filter and CSV/PDF export.](img/oversight-reports-desktop.png)
 
 ## Needs coverage
 
@@ -32,7 +38,7 @@ See who has completed which training modules at a glance.
 2. Find people who are **trained but not yet active** and
    [activate them](volunteers-and-advocates.md#activate-a-trained-volunteer).
 
-![The Volunteer Progress matrix under Training Management.](../../assets/screens/admin-training-management.png)
+![The Volunteer Progress matrix under Training Management.](img/oversight-training-matrix-desktop.png)
 
 ## County analytics
 
@@ -49,7 +55,7 @@ who did what.
 2. Search by name, action, or details (or filter by date) to confirm an import landed or to
    trace a change. The audit log is available to Admins and Coordinators only.
 
-![The audit log, under Admin Management.](../../assets/screens/admin-audit-log.png)
+![The audit log, under Admin Management.](img/oversight-audit-log-desktop.png)
 
 ## Related
 

@@ -1,7 +1,11 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: Overview tab with Impact at a Glance, Quick Links, and Service at a
+Glance panels confirmed live. -->
 
 # Get started as Program Staff
 
@@ -9,7 +13,7 @@ Welcome! As **program staff** (an Admin) you run WrapAround for your organizatio
 **full access** — every family and all data — and you set up the people and families that
 everyone else works with.
 
-![The Central Admin overview.](../assets/screens/admin-dashboard.png)
+![The Central Admin overview — Impact at a Glance, Quick Links, and Service at a Glance.](img/admin-dashboard-desktop.png)
 
 ## What program staff do
 

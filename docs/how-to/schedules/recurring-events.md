@@ -1,7 +1,10 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Schedule month-grid confirmed live (screenshot shared with view-calendar.md). -->
 
 # Understand recurring events
 
@@ -10,7 +13,7 @@ primary: frontend
 signing up for.
 **Before you start:** You can [view the calendar](view-calendar.md) for your family.
 
-![Recurring items repeat on the schedule (e.g. "Weekly Wednesday dinner").](../../assets/screens/vol-schedule.png)
+![The Schedule's month calendar, where recurring items repeat.](img/volunteer-calendar-desktop.png)
 
 ## What a recurring event is
 

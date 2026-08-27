@@ -1,11 +1,16 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
 <!-- @backend verified: onboarding is email-invite based; invite links are secure and
      expire (typically 7 days). A newly self-registered family starts at "Care Requested /
      Needs Vetting" and must be approved by staff before becoming active. -->
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: the "Invite New User" form (Full Name, Email, Phone, Role, Partnered
+Church, Family, Street Address, City, State, ZIP, County) confirmed live from
+Volunteers/Advocates → Create New User. -->
 
 # Onboard a family & invite people
 
@@ -14,7 +19,7 @@ primary: frontend
 support them.
 **Before you start:** You're signed in with staff access.
 
-![The Invite New User form, opened from Volunteers/Advocates.](../../assets/screens/admin-create-user-modal.png)
+![The Invite New User form, opened from Volunteers/Advocates.](img/invite-new-user-modal-desktop.png)
 
 ## Onboard a family
 

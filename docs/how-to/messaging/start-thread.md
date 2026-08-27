@@ -1,7 +1,11 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: Messages list + New Conversation panel (search people, family-member list,
+Start Chat) confirmed live. -->
 
 # Start a thread
 
@@ -11,7 +15,7 @@ coordinate a hand-off, or introduce yourself.
 **Before you start:** You've [accepted your invite and signed in](../account/accept-invite.md),
 and you're part of a family's circle.
 
-![Starting a New Conversation in Messages.](../../assets/screens/vol-messages-compose.png)
+![Starting a New Conversation in Messages.](img/start-thread-compose-desktop.png)
 
 ## What a thread is
 

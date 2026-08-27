@@ -1,7 +1,11 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Volunteer: the Needs Board actually has four tabs — Open, Filled, Closed, and
+Recurring — not three; updated the steps below to match. -->
 
 # Browse open needs
 
@@ -11,15 +15,16 @@ something to sign up for.
 **Before you start:** You've [accepted your invite and signed in](../account/accept-invite.md),
 and you're assigned to a family.
 
-![The Needs Board, grouped into Open / Filled / Closed.](../../assets/screens/vol-needs.png)
+![The Needs Board, with Open / Filled / Closed / Recurring tabs.](img/needs-board-open-filled-closed-desktop.png)
 
 ## Steps
 
 1. From the main menu, open **Needs**.
    You'll see your family's needs. As a volunteer, this is the **one family** you're
    assigned to — you won't see other families' needs.
-2. Needs are grouped into **Open** (nobody has claimed them yet), **Filled** (enough
-   volunteers have signed up), and **Closed**. Start with the **Open** group.
+2. Needs are grouped into four tabs: **Open** (nobody has claimed them yet), **Filled**
+   (enough volunteers have signed up), **Closed**, and **Recurring** (the repeating series
+   themselves, separate from their individual occurrences). Start with the **Open** tab.
 3. Each need shows its **type** (a "support type" — such as a meal, a ride, supplies, an
    errand, yardwork, or prayer), **when** it's needed, and a short description. The exact
    set of types is configured by your program, so the labels you see may differ.
@@ -31,8 +36,9 @@ A list of your family's needs, with the open ones clearly marked. From here you 
 one and [claim it](claim-a-need.md).
 
 !!! tip "Grouped by status"
-    Needs are grouped by status — **Open**, **Filled**, and **Closed** — so the ones you
-    can still pick up are together at the top. (There's no filter by type or date yet.)
+    Needs are grouped by status — **Open**, **Filled**, **Closed**, and **Recurring** — so
+    the ones you can still pick up are together in one tab. (There's no filter by type or
+    date yet.)
 
 ## Related
 
