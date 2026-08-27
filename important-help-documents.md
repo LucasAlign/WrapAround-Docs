@@ -75,6 +75,11 @@ actually does is the frontend/backend repos, not this list (see CLAUDE.md)._
   - How to onboard a new volunteer \< walk volunteer through self registry and selecting the correct church.
   - How to view volunteer details
 
+### As Lead Volunteer:
+
+  - How to view volunteer details \< Verified live 2026-08-17: Lead Volunteers get a Volunteers nav tab, but it's the same full "Volunteers & Advocates" directory an Admin/Advocate sees (all volunteers/advocates, filterable by church/family/status) — not scoped to just their own family's teammates as first assumed.
+  - **Known bug, do not document as a feature:** this directory shows a "Create New User" button to Lead Volunteers. Clicking it and submitting returns a Forbidden error — confirmed by a real Lead Volunteer user 2026-08-17. The button should not be visible to this role. Flag for @frontend; don't write a "how to create a user as a Lead Volunteer" doc.
+
 ## Family
 
   - Shared explanation of all family profile entries.
@@ -112,6 +117,10 @@ actually does is the frontend/backend repos, not this list (see CLAUDE.md)._
   - How to assign a volunteer as Lead to a family.
   - How to view child information
   - How to view individually assigned advocates per family
+
+### As Lead Volunteer
+
+  - How to view your assigned family's details \< Read only per Actions list (family bio, photo, parents/children roster on the Families page & dashboard card).
 
 ### As Self registered family
 
@@ -156,6 +165,11 @@ actually does is the frontend/backend repos, not this list (see CLAUDE.md)._
 #### For Advocate role
 
   - How to start a message thread
+  - How to reply to a message & read receipts
+
+#### For Volunteer role
+
+  - How to start a message thread \< Verified live 2026-08-17: a "New Conversation" control is available, opening a Family Members picker. This corrects an earlier assumption (from VOLUNTEER_ROLE.md) that volunteers can only reply, not start threads.
   - How to reply to a message & read receipts
 
 ## Churches & Counties
@@ -219,6 +233,10 @@ actually does is the frontend/backend repos, not this list (see CLAUDE.md)._
   - How to start group training event
   - How to Join/Manage a live group training
   - How to view attendees of a group training
+
+### As Volunteer/Lead Volunteer:
+
+  - How to join a group training session with a session code \< Verified live 2026-08-17: the Training page shows "Have a session code? Join a group training session," which opens a page with a **Session code** field, or lets you pick a session from an "Active in your community" list if any are running — no code needed for those. Volunteers and Lead volunteers can only join a session an advocate is hosting; they cannot start/host one (host controls are advocate/admin-only per the frontend's isHostEligible check).
 
 ## Admin Management (Can only be run as an admin/coordinator)
 
@@ -447,6 +465,11 @@ Not built yet.
   - How to onboard a new volunteer \< walk volunteer through self registry and selecting the correct church.
   - How to view volunteer details
 
+### As Lead Volunteer:
+
+  - How to view volunteer details \< Verified live 2026-08-17: Lead Volunteers get a Volunteers nav tab, but it's the same full "Volunteers & Advocates" directory an Admin/Advocate sees (all volunteers/advocates, filterable by church/family/status) — not scoped to just their own family's teammates as first assumed.
+  - **Known bug, do not document as a feature:** this directory shows a "Create New User" button to Lead Volunteers. Clicking it and submitting returns a Forbidden error — confirmed by a real Lead Volunteer user 2026-08-17. The button should not be visible to this role. Flag for @frontend; don't write a "how to create a user as a Lead Volunteer" doc.
+
 # Family, How-To documents
 
 ## Family
@@ -486,6 +509,10 @@ Not built yet.
   - How to assign a volunteer as Lead to a family.
   - How to view child information
   - How to view individually assigned advocates per family
+
+### As Lead Volunteer
+
+  - How to view your assigned family's details \< Read only per Actions list (family bio, photo, parents/children roster on the Families page & dashboard card).
 
 ### As Self registered family
 
@@ -534,6 +561,11 @@ Not built yet.
 #### For Advocate role
 
   - How to start a message thread
+  - How to reply to a message & read receipts
+
+#### For Volunteer role
+
+  - How to start a message thread \< Verified live 2026-08-17: a "New Conversation" control is available, opening a Family Members picker. This corrects an earlier assumption (from VOLUNTEER_ROLE.md) that volunteers can only reply, not start threads.
   - How to reply to a message & read receipts
 
 # Churches & Counties, How-To documents
@@ -601,6 +633,10 @@ Not built yet.
   - How to start group training event
   - How to Join/Manage a live group training
   - How to view attendees of a group training
+
+### As Volunteer/Lead Volunteer:
+
+  - How to join a group training session with a session code \< Verified live 2026-08-17: the Training page shows "Have a session code? Join a group training session," which opens a page with a **Session code** field, or lets you pick a session from an "Active in your community" list if any are running — no code needed for those. Volunteers and Lead volunteers can only join a session an advocate is hosting; they cannot start/host one (host controls are advocate/admin-only per the frontend's isHostEligible check).
 
 # Admin Management, How-To documents
 

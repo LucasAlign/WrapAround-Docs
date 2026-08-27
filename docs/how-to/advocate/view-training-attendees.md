@@ -12,7 +12,10 @@ primary: frontend
 ## Steps
 
 1. Open the session from **Training**.
-2. Review the attendee list.
+2. Review the **Joined** attendee list.
+
+    ![Live group training session showing the Joined attendees panel](img/manage-group-training-live-desktop.png)
+
 3. If someone joined by mistake, click **Remove** next to their name.
 
 ## What you'll see

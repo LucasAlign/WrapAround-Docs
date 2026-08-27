@@ -12,8 +12,10 @@ primary: frontend
 ## Steps
 
 1. Open the need — from the Needs board or the family's Needs tab.
-2. Open the volunteer picker on the need.
+2. Scroll to **Assign volunteers** on the need.
 3. Select a volunteer from the list.
+
+    ![Post a Need dialog showing the Assign volunteers list of care-team volunteers](img/create-a-one-time-need-desktop.png)
 
 ## What you'll see
 

@@ -67,6 +67,7 @@ nav:
   - How-To Guides:
       - Account & Profile:
           - Accept your invite & sign in: how-to/account/accept-invite.md
+          - Sign up as a volunteer: how-to/account/volunteer-self-signup.md
           - Update your profile: how-to/account/update-profile.md
           - Upload your photo: how-to/account/upload-photo.md
           - Manage your notification emails: how-to/account/manage-notification-emails.md
@@ -99,6 +100,7 @@ nav:
           - Browse open needs: how-to/needs/browse-needs.md
           - Claim a need: how-to/needs/claim-a-need.md
           - Withdraw a claim: how-to/needs/withdraw-a-claim.md
+          - Request coverage on a need you've claimed: how-to/needs/request-coverage.md
           - Mark a need complete: how-to/needs/mark-complete.md
       - Schedules:
           - View the calendar: how-to/schedules/view-calendar.md
@@ -118,6 +120,9 @@ nav:
           - Manage volunteers & advocates: how-to/admin/volunteers-and-advocates.md
           - Manage churches & counties: how-to/admin/organizations.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
+          - Manage training modules: how-to/admin/training-management.md
+          - Manage family agreements: how-to/admin/family-agreements.md
+          - Manage reference data: how-to/admin/reference-data.md
           - Oversight: how-to/admin/oversight.md
           - Build a Reports & Impact report: how-to/admin/reports-and-impact.md
       - Report Metrics:

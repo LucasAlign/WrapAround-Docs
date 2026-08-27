@@ -11,13 +11,15 @@ primary: frontend
 
 ## Steps
 
-1. Open the family and go to its care team section.
-2. Find the volunteer in the list.
-3. Toggle **Lead volunteer for this family** on for that volunteer.
+1. Open the family and go to its **Care Team** tab.
+2. Find the volunteer in the **Volunteers** list.
+3. Toggle **Lead** on for that volunteer.
+
+    ![Care Team volunteer list showing the Lead toggle, checked on for Elias Haddad](img/assign-a-lead-volunteer-desktop.png)
 
 ## What you'll see
 
-The volunteer is flagged as **Lead Volunteer** on this family and can now create and remove needs for it. This ability is scoped to this one family — a Lead Volunteer on one family isn't a Lead anywhere else.
+A small crown icon appears next to the volunteer's name in the Care Team list, marking them as Lead. They can now create and remove needs for this family. This ability is scoped to this one family — a Lead Volunteer on one family isn't a Lead anywhere else.
 
 ## Related
 

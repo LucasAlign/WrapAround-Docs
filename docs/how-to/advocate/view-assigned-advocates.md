@@ -11,8 +11,10 @@ primary: frontend
 
 ## Steps
 
-1. Open the family and find the Advocate section.
-2. Click **Show all advocates** to see the full list of advocates at your church, or view the one(s) currently assigned directly.
+1. Open the family and click its **Advocates** tab.
+2. Review the **Assigned** list of advocates tied to this specific family.
+
+    ![Family Advocates tab showing the Assigned advocates list](img/view-assigned-advocates-desktop.png)
 
 ## What you'll see
 
