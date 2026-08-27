@@ -20,9 +20,9 @@ and you're assigned to a family.
    assigned to — you won't see other families' needs.
 2. Needs are grouped into **Open** (nobody has claimed them yet), **Filled** (enough
    volunteers have signed up), and **Closed**. Start with the **Open** group.
-3. Each need shows its **type** (such as a meal, a ride, supplies, an errand, yardwork, or
-   prayer), **when** it's needed, and a short description.
-   <!-- @backend: confirm the canonical need types/categories shown to volunteers -->
+3. Each need shows its **type** (a "support type" — such as a meal, a ride, supplies, an
+   errand, yardwork, or prayer), **when** it's needed, and a short description. The exact
+   set of types is configured by your program, so the labels you see may differ.
 4. Tap any need to open it and read the full details before deciding.
 
 ## What you'll see

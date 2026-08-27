@@ -25,11 +25,12 @@ agreement text families sign when they register.
 
     ![Admin Management — Family Agreements tab, Agreement Management sub-tab, showing the active-agreement banner and New Version button.](img/family-agreements-templates-desktop.png)
 
-3. To change the agreement text, click **New Version**, fill in the version number,
-   title, and full agreement body, and choose whether to activate it immediately.
-   Click **Save**. <!-- @frontend: confirm exact save-button label live — this pass
-   read the editor's fields from AgreementEditorModal in admin-management.tsx but
-   didn't submit a real new version against the demo tenant. -->
+3. To change the agreement text, click **New Version**. In the **New Agreement Version**
+   dialog, fill in the version number, title, and full agreement body, and check the box
+   if you want to activate it immediately. Click **Create**.
+   <!-- @frontend verified 2026-08-27 against AgreementEditorModal in admin-management.tsx:
+   the dialog title is "New Agreement Version" and the confirm button reads "Create" in
+   create mode (it reads "Save" only when editing an existing unsigned version). -->
 4. To make an existing draft version the one families sign, open it and click
    **Activate**. A version that already has signatures against it is **locked** — you
    can view it but can't edit its text (editing it would retroactively change what

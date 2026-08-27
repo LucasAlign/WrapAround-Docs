@@ -25,14 +25,15 @@ organization (or your county).
       completed). Search by name, or toggle **Show completed** to include volunteers
       who've finished everything. **Invite Trainee** starts onboarding for a new
       volunteer from here.
-    - **Training Modules** — create, edit, delete, and reorder the modules themselves,
-      and mark a module **mandatory** (required) or optional.
-      <!-- @frontend: confirm exact control labels/layout on this tab — this pass
-      confirmed the tab exists and its purpose from training-management.tsx, but
-      didn't click all the way into module create/edit/reorder controls live. -->
+    - **Training Modules** — create, edit, delete, and reorder the modules themselves. Use
+      **New Module** to add one (Module title, description, duration, and an external URL),
+      and check **Required for all volunteers** to make it count toward completion — leave
+      it unchecked for an optional module.
+      <!-- @frontend verified 2026-08-27 against training-management-modals.tsx
+      (ModulesManager): New Module / Edit Module form fields and the "Required for all
+      volunteers" checkbox confirmed; reorder confirmed (orderIndex-based). -->
     - **Group Training** — see and manage group training sessions across every family/
       church in your scope, not just the ones you personally lead.
-      <!-- @frontend: confirm exact controls here too, same caveat as above. -->
 3. To change what's required, mandatory, or in what order, use the **Training Modules**
    tab. To check on an individual volunteer's progress, use **Volunteers** and search
    for their name.

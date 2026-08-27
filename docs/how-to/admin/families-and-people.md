@@ -72,7 +72,7 @@ family's "parents, children" — that claim is stale for this specific action. -
 ### Adding or Updating a photo
 1. Open the family,
    - if the family has no photo hover over the photo box and click **Add**.
-   - if the family has a out of date photo, Hover over the existing photo and click **Change**.
+   - if the family has an out-of-date photo, hover over the existing photo and click **Change**.
 2. Choose the new image and confirm to upload.
 
 ### Removing a family photo

@@ -5,7 +5,7 @@ primary: frontend
 
 # Manage your notification emails
 
-**Who this is for:** Everyone with an WrapAround account — volunteers, lead volunteers, advocates, program staff, and families.
+**Who this is for:** Everyone with a WrapAround account — volunteers, lead volunteers, advocates, program staff, and families.
 **When to use it:** Any time you're getting too many (or too few) emails, or when your role changes what you're notified about.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md).
 

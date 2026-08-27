@@ -10,16 +10,24 @@ advocate.
 
 ## I didn't get my invite email
 
-1. Check your **spam / junk** folder and search for WrapAround.
-   <!-- @frontend: confirm the sender name/address so readers can search for it -->
+1. Check your **spam / junk** folder and search for **WrapAround**. The email comes from a
+   sender named **WrapAround**, at an address ending in **@lucasalign.com** (for example,
+   `demo.WrapAround@lucasalign.com`) — searching for `lucasalign.com` also finds it.
 2. Confirm the program has your **correct email address** — invites go to one specific
    address, and that address is how WrapAround connects you to the right family and role.
 3. Ask program staff to [resend the invite](../how-to/admin/onboarding.md#resend-an-invite).
 
-## My invite link expired or won't open
+## My temporary password expired or won't work
 
-Invite links are time-limited (typically **7 days**). If yours has expired, don't keep
-retrying the old link — ask staff to **resend** a fresh invite.
+The temporary password in an invite email is time-limited (**7 days**). If yours has
+expired, you don't need a new invite:
+
+1. On the sign-in screen, choose **Forgot your password?**
+2. Enter the **same email** the invite was sent to and follow the steps to set your own
+   password.
+
+If that doesn't work, ask staff to **resend** a fresh invite, which issues a new
+temporary password.
 
 ## I can't sign in
 

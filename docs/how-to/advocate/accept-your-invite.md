@@ -9,7 +9,15 @@ primary: frontend
 **When to use it:** The first time you sign in, after program staff or an advocate has created your account.
 **Before you start:** You need the invite email sent to the address staff used to create your account.
 
-<!-- @backend: confirm the temporary password expiry window for onboarding-invite accounts (distinct from the 7-day self-registration link expiry documented elsewhere). -->
+<!-- @backend verified 2026-08-27: onboarding invites use Cognito AdminCreateUser with a
+temporary password; the auth stack sets no TemporaryPasswordValidityDays override, so the
+Cognito default of 7 days applies. -->
+
+!!! note "Use your temporary password within 7 days"
+    The temporary password in your invite email expires after **7 days**. If it's expired,
+    you don't need a new invite — on the sign-in screen, choose **Forgot your password?**
+    and follow the steps to set your own password, using the same email the invite was
+    sent to.
 
 ## Steps
 
