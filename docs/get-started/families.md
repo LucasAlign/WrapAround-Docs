@@ -1,24 +1,21 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
-<!-- @frontend: verified 2026-08-26 against Align-FrontEnd's family-signup.tsx /
-family-agreement.tsx source and the live demo at /family-signup — the registration
-form fields, headings, and button text below match the shipped code exactly, and
-the form screenshot was captured live. The **sign-in-after-registering** and
-**dashboard** screenshots could NOT be captured: the demo's WA_FAMILY_USER/PASS
-credentials (from WrapAround-Testing-Suite's .env) return "Incorrect username or
-password" against the same Cognito hosted-UI flow that works for every other role.
-Two theories, unconfirmed: (1) that demo account was provisioned before/outside the
-family self-registration flow and was never migrated into whatever Cognito app
-client family accounts actually authenticate against, or (2) the family sign-in
-flow doesn't reuse the main "Sign in" button/hosted-UI client at all and needs a
-distinct entry point this pass didn't find. Someone with access to reset that demo
-account's password (or who knows the intended returning-family sign-in path)
-should confirm before this page reaches status: ready, and a dashboard screenshot
-(fam-dashboard.png, matching adv-dashboard.png/vol-dashboard.png/coord-dashboard.png)
-should be captured then. -->
+<!-- @frontend verified 2026-08-27 end-to-end live on the dev instance, using a real
+throwaway account carried through every step: registration, the emailed 6-digit code,
+the participation-agreement signature, and the resulting dashboard while the family sits
+in Care Requested / Needs Vetting. Corrected: the post-signature dashboard does NOT show
+an advocate, volunteers, needs, or schedule yet (those only appear once staff activate
+the family and assign a serving church) — pre-activation it shows the vetting-status
+banner, a "Your county coordinators" contact card, and an editable "About your family"
+profile form. Also confirmed there is no returning-family sign-in path in this app: the
+site's one "Sign in" button goes through the staff/volunteer Cognito hosted UI, while
+families authenticate through a separate SDK-based flow that only the signup page itself
+calls (lib/cognito-family.ts). That is almost certainly why a previously-registered demo
+family account can't sign back in through "Sign in" — it's a product gap, not a bad demo
+account. Flagging for the backend/frontend teams rather than fixing in docs. -->
 
 # Getting started for families
 
@@ -38,25 +35,45 @@ register yourself.
    **county**. Set a password, agree to the Terms of Service and Privacy Policy, and
    click **Create account**.
 
-   ![The family registration form — Parent's full name, Family/household name, Email, Phone, County, Password, and the Terms of Service/Privacy Policy agreement.](../assets/screens/fam-signup-form.png)
+   ![The family registration form — Parent's full name, Family/household name, Email, Phone, County, Password, and the Terms of Service/Privacy Policy agreement.](img/fam-signup-form-desktop.png)
 
 2. **Confirm your email.** WrapAround emails you a 6-digit code. Enter it on the
    **Confirm your email** screen and continue — this signs you in automatically.
+
+   ![Confirm your email screen with a 6-digit Confirmation code field.](img/fam-signup-confirm-desktop.png)
+
 3. **Sign the participation agreement.** Before you can reach your dashboard, you're
    asked to review and sign your program's active **participation agreement**. Read it,
    click **Review & sign**, check the identity details shown (name, family, email, phone,
    agreement version, date), and click **I agree & sign**.
-   <!-- @frontend: confirm live — could not reach this screen this pass since the
-   demo family account couldn't sign in. Mechanism confirmed from family-agreement.tsx
-   source: GET /agreements/active gates ProtectedRoute until signed. -->
-4. **Land on your dashboard.** You'll see your family's care circle — your advocate and
-   the volunteers helping you — plus your needs and schedule.
+
+   ![The Participation agreement screen with the agreement text and a Review & sign button.](img/fam-agreement-gate-desktop.png)
+
+   ![The Confirm your signature dialog, showing the signer's details and an "I agree & sign" button.](img/fam-agreement-sign-dialog-desktop.png)
+
+4. **Land on your dashboard.** Right after signing, your family is in **Care Requested /
+   Needs Vetting** — so what you see is a status banner, your **county coordinators'**
+   contact details, and an editable **About your family** profile (preferred language,
+   preferences, family bio, church, and how volunteers can help). Take a few minutes to
+   fill this in; it helps staff place you.
+
+   ![Your dashboard right after signing — the vetting-status banner, county coordinators, and an About your family form.](img/fam-dashboard-desktop.png)
+
+   Your full circle — an assigned **advocate**, **volunteers**, **needs**, and a
+   **schedule** — appears once staff review your request and activate your family with a
+   serving church.
    → [View your family](../how-to/family/view-your-family.md)
 
 !!! tip "Already have an account?"
     If your family was set up by staff instead of self-registering, you'll get an invite
     email instead of using the signup form — see
     [Accept your invite & sign in](../how-to/account/accept-invite.md).
+
+!!! warning "No way back in if you close the tab before signing in elsewhere"
+    Registering yourself signs you in automatically, but there's currently no separate
+    "sign in" path built for returning families — the site's one Sign In button is for
+    staff and volunteers. If you get signed out, contact your program; don't create a
+    second account with the same email.
 
 !!! note "Care Requested / Needs Vetting"
     Right after signing the agreement, your family starts in a **vetting** status while
