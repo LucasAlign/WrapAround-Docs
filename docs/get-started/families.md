@@ -51,28 +51,28 @@ register yourself.
    ![The Confirm your signature dialog, showing the signer's details and an "I agree & sign" button.](img/fam-agreement-sign-dialog-desktop.png)
 
 4. **Land on your dashboard.** Right after signing, your family is in **Care Requested /
-   Needs Vetting** — so what you see is a status banner, your **county coordinators'**
-   contact details, and an editable **About your family** profile (preferred language,
-   preferences, family bio, church, and how volunteers can help). Take a few minutes to
-   fill this in; it helps staff place you.
+    Needs Vetting** — so what you see is a status banner, your **county coordinators'**
+    contact details, and an editable **About your family** profile (preferred language,
+    preferences, family bio, church, and how volunteers can help). Take a few minutes to
+    fill this in; it helps staff place you.
 
-   ![Your dashboard right after signing — the vetting-status banner, county coordinators, and an About your family form.](img/fam-dashboard-desktop.png)
+    ![Your dashboard right after signing — the vetting-status banner, county coordinators, and an About your family form.](img/fam-dashboard-desktop.png)
 
-   !!! info "What to expect next"
-       Your care request has been sent to your county's coordinators. Watch for an email
-       from the system that includes you and your coordinators — this is meant to help
-       start the conversation. Expect your coordinator to reach out to schedule an
-       **intake call**, where they'll go through your family profile information with
-       you.
+    !!! info "What to expect next"
+        Your care request has been sent to your county's coordinators. Watch for an
+        email from the system that includes you and your coordinators — this is meant
+        to help start the conversation. Expect your coordinator to reach out to
+        schedule an **intake call**, where they'll go through your family profile
+        information with you.
 
-       Filling in your profile ahead of time can help speed things up, but if you're not
-       sure what to put or have questions, it's fine to leave it and wait — your
-       coordinator can enter information on your behalf during the call, and can see
-       whatever you've already filled in.
+        Filling in your profile ahead of time can help speed things up, but if you're
+        not sure what to put or have questions, it's fine to leave it and wait — your
+        coordinator can enter information on your behalf during the call, and can see
+        whatever you've already filled in.
 
-   Your full circle — an assigned **advocate**, **volunteers**, **needs**, and a
-   **schedule** — appears once staff review your request and activate your family with a
-   serving church.
+    Your full circle — an assigned **advocate**, **volunteers**, **needs**, and a
+    **schedule** — appears once staff review your request and activate your family with a
+    serving church.
    → [View your family](../how-to/family/view-your-family.md)
 
 !!! tip "Already have an account?"
