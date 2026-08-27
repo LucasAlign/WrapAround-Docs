@@ -10,12 +10,11 @@ in Care Requested / Needs Vetting. Corrected: the post-signature dashboard does 
 an advocate, volunteers, needs, or schedule yet (those only appear once staff activate
 the family and assign a serving church) — pre-activation it shows the vetting-status
 banner, a "Your county coordinators" contact card, and an editable "About your family"
-profile form. Also confirmed there is no returning-family sign-in path in this app: the
-site's one "Sign in" button goes through the staff/volunteer Cognito hosted UI, while
-families authenticate through a separate SDK-based flow that only the signup page itself
-calls (lib/cognito-family.ts). That is almost certainly why a previously-registered demo
-family account can't sign back in through "Sign in" — it's a product gap, not a bad demo
-account. Flagging for the backend/frontend teams rather than fixing in docs. -->
+profile form. Also verified live that the same account signs back in later through the
+normal site-wide "Sign in" button, same as every other role — a re-login test after this
+account was already registered landed cleanly on /family. (An earlier pass here wrongly
+guessed from source code alone that family accounts had no return sign-in path; that
+guess was wrong and has been retracted.) -->
 
 # Getting started for families
 
@@ -69,11 +68,8 @@ register yourself.
     email instead of using the signup form — see
     [Accept your invite & sign in](../how-to/account/accept-invite.md).
 
-!!! warning "No way back in if you close the tab before signing in elsewhere"
-    Registering yourself signs you in automatically, but there's currently no separate
-    "sign in" path built for returning families — the site's one Sign In button is for
-    staff and volunteers. If you get signed out, contact your program; don't create a
-    second account with the same email.
+    Registered yourself already? Signing back in later works the same way as any other
+    role — from the home page choose **Sign in**, then enter your email and password.
 
 !!! note "Care Requested / Needs Vetting"
     Right after signing the agreement, your family starts in a **vetting** status while
