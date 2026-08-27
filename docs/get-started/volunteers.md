@@ -20,9 +20,12 @@ family**; that's by design, to keep every family's information private.
 
 ## Your first day, step by step
 
-1. **Accept your invite and sign in.** You'll get an email invite from the program.
-   Open it, set your password, and sign in.
+1. **Accept your invite and sign in — or sign up yourself.** Most volunteers get an
+   email invite from the program: open it, set your password, and sign in.
    → [Accept your invite & sign in](../how-to/account/accept-invite.md)
+
+    Don't have an invite? You can create your own account instead.
+    → [Sign up as a volunteer](../how-to/account/volunteer-self-signup.md)
 2. **Finish your profile.** Add your name, contact details, and how you'd like to help.
    → [Update your profile](../how-to/account/update-profile.md)
    and [upload your photo](../how-to/account/upload-photo.md).

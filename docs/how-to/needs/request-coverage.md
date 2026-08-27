@@ -1,21 +1,16 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
-<!-- @frontend: mechanism confirmed by reading Align-FrontEnd's
-components/need-detail-dialog.tsx (2026-08-26), not by clicking through it live.
-The demo's WA_VOLUNTEER_USER account is actually a Lead Volunteer (per this repo's
-CLAUDE.md and a comment in WrapAround-Testing-Suite's config/roles.ts) — a Lead
-Volunteer has useCanManageCareItems()=true for their own family, so they always see
-the *manager* view (the "Modify this day" card, same as an Advocate) and never the
-plain-volunteer "Claimed the series" row this page describes. No base Support
-Volunteer demo account exists to verify against, and this account's own schedule
-had no occurrence with a live claim to click through anyway. Steps below are
-accurate to the source (coverageControl() renders next to the claim holder's own
-name whenever canManage is false and claim.user_id === the signed-in user's id —
-see need-detail-dialog.tsx line ~303), but need a real click-through by a Support
-Volunteer account before this reaches status: ready. -->
+<!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER (a Lead Volunteer account,
+per CLAUDE.md and WrapAround-Testing-Suite's config/roles.ts). This account is Lead only
+on its own family ("Austin Lucas"); switching the family dropdown to a family it's just a
+plain assigned volunteer on (e.g. "O'Brien Family") and opening a day it has claimed shows
+exactly the plain-volunteer view this page describes: no "Modify this day" manager card,
+just the "Claimed the series" row with the volunteer's own name and a single Request
+coverage control next to it. Confirms the source-level prediction in need-detail-dialog.tsx
+(coverageControl() renders for the claim holder when canManage is false). -->
 
 # Request coverage on a need you've claimed
 
@@ -31,8 +26,9 @@ slot yet.
 2. Click the day with the occurrence you claimed. If more than one item falls on that
    day, a short list opens first — click through to the specific occurrence to open its
    detail dialog.
-3. Find your own name in the list of who's covering it. Next to it, click
-   **Request coverage**.
+3. Find your own name under **Claimed the series** (or the plain occurrence details for a one-time need). Next to it, click **Request coverage**.
+
+    ![Day-detail dialog showing "Claimed the series — Demo Volunteer" with a Request coverage control, and no manager controls](img/request-coverage-volunteer-desktop.png)
 
 ## What you'll see
 
