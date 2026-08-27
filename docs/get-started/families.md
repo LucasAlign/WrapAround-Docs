@@ -58,6 +58,18 @@ register yourself.
 
    ![Your dashboard right after signing — the vetting-status banner, county coordinators, and an About your family form.](img/fam-dashboard-desktop.png)
 
+   !!! info "What to expect next"
+       Your care request has been sent to your county's coordinators. Watch for an email
+       from the system that includes you and your coordinators — this is meant to help
+       start the conversation. Expect your coordinator to reach out to schedule an
+       **intake call**, where they'll go through your family profile information with
+       you.
+
+       Filling in your profile ahead of time can help speed things up, but if you're not
+       sure what to put or have questions, it's fine to leave it and wait — your
+       coordinator can enter information on your behalf during the call, and can see
+       whatever you've already filled in.
+
    Your full circle — an assigned **advocate**, **volunteers**, **needs**, and a
    **schedule** — appears once staff review your request and activate your family with a
    serving church.
