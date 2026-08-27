@@ -1,7 +1,14 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Advocate: the Families directory columns (Family, Status, Serving Church, Primary
+Contact, City, Community Size) and search/filter controls confirmed live. Also
+confirmed from components/layout.tsx's per-role nav list that Lead Volunteers get the
+same "Families" nav item as Advocates (scoped to their one family), consistent with
+this page's "who this is for." -->
 
 # View your family
 
@@ -17,7 +24,7 @@ and you're assigned to a family.
     [schedule](../schedules/view-calendar.md), and [messages](../messaging/start-thread.md).
     The steps below apply to **Lead Volunteers** and **Advocates**, who get a Families list.
 
-![The Families directory a Lead Volunteer / Advocate sees.](../../assets/screens/vol-families.png)
+![The Families directory an Advocate sees — one row per family their church serves.](img/families-directory-desktop.png)
 
 ## Steps
 

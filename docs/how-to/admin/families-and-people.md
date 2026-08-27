@@ -1,5 +1,5 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
@@ -14,7 +14,7 @@ families.
 **When to use it:** When you set up a new family or update who's in one.
 **Before you start:** You're signed in with staff access.
 
-![The Families directory, as Central Admin.](../../assets/screens/admin-families.png)
+![The Families directory, as Central Admin — search, filters, and a New Family button.](img/families-directory-desktop.png)
 
 ## The family is the care circle
 
@@ -24,7 +24,7 @@ the **primary contact**. Each family also contains lots of information regarding
 
 ## Add a family - Admin only
 **NOTE:**
-While working in this new family page your changes will be saved as you go. This means you can refresh, navigate to other pages or tabs to look up information and when you return your changes will still be there. There will be a small message at the top of the page saying "Restored your unsaved draft from 9:19 PM. Nothing has been created yet." This prompt will have a option to clear all fields. If you want to discard all of your changes instead of having them saved as a draft, go to the bottom of the page and click cancel. The information you have filled in is saved locally in your browser, it will survive a refresh, but it will **not** survive closing and re-opening the tab.
+While working in this new family page your changes will be saved as you go. This means you can refresh, navigate to other pages or tabs to look up information and when you return your changes will still be there. There will be a small message at the top of the page saying "Restored your unsaved draft from 9:19 PM. Nothing has been created yet." This prompt will have an option to clear all fields. If you want to discard all of your changes instead of having them saved as a draft, go to the bottom of the page and click cancel. The information you have filled in is saved locally in your browser, it will survive a refresh, but it will **not** survive closing and re-opening the tab.
 
 1. Open **Families** and choose **New Family**.
 2. Fill in, at minimum, the **Family Name** and **Primary Contact** information.
@@ -32,7 +32,13 @@ While working in this new family page your changes will be saved as you go. This
 	- **Primary Contact** means adding a parent with a name, email address, and checking the primary contact checkbox.
 	- **NOTE:** The **Create Family** button will be disabled until you have entered at least these two items.
 3. Clicking on **Create Family** will create the family, save all your entered data, and then take you directly to the new family page.
-![The New Family form.](../../assets/screens/admin-new-family-modal.png)  <!-- This photo is out of date. Need a new picture from the @frontEnd -->
+![The New Family form, with the required-fields callout and a staff-only Intake Notes panel.](img/new-family-form-desktop.png)
+
+<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
+Central Admin: /families/new shows a "To create a family you need" callout (Family
+Name; one parent marked primary contact with an email), plus County, Serving Church,
+Attending Church, and Address fields, and a staff-only "Intake Notes" side panel not
+previously documented. -->
 
 ## Update a family
 
