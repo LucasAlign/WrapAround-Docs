@@ -9,15 +9,14 @@ primary: frontend
 **When to use it:** When you want to see your program's numbers, build a custom dashboard, or produce a shareable impact report (CSV, PDF, or print).
 **Before you start:** You're signed in with staff access.
 
-!!! info "Screenshots coming"
-    These steps are described in words for now; annotated screenshots land once the screens are final.
-
 ## Open Reports & Impact
 
 1. From the top navigation, open **Reports & Impact**.
 2. The page opens with a set of **metric tiles** (counters like *Kids Served*, *Families Served*) and **charts** (like *Families Served Over Time*), all reflecting live data.
 
 Admins see figures across every county. Coordinators start filtered to their own county and can switch to another county or *All Counties* from the filters.
+
+![Reports & Impact page showing metric tiles (Kids Served, Families Served, Active Care Communities, Paused Communities, Volunteers Active, New Families, Needs Fulfilled) and charts below them](img/reports-and-impact-overview-desktop.png)
 
 ## Filter the report
 
@@ -42,12 +41,19 @@ Some metrics describe **how things stand right now** (for example *Families Serv
 
 Select **Customize** in the top-right to start editing. (Select **Done** when finished.) While customizing you can:
 
+![Reports & Impact page in Customize mode, showing the Add metric, Export, Import, Reset, and Done buttons, and drag handles / options / remove icons on every panel](img/reports-and-impact-customize-desktop.png)
+
 ### Add a metric
 
 1. Select **Add metric**.
 2. Pick a counter or chart from the list. It's added to the bottom of the report.
 
-Most metrics can be added once; the flexible **Needs Fulfilled** counter can be added **several times** so you can track different need types side by side.
+![Add metric picker open, listing Metrics (Families Served, Needs Fulfilled), Charts (Trend chart, Breakdown chart), and Layout (Text / Heading, Divider)](img/reports-and-impact-add-metric-desktop.png)
+
+The **Add metric** list only offers **Families Served**, **Needs Fulfilled**, **Trend chart**, **Breakdown chart**, **Text / Heading**, and **Divider** — Families Served and Needs Fulfilled can each be added **several times** so you can track different statuses or need types side by side. **Kids Served**, **Volunteers Active**, and **New Families** aren't in this list: they ship on every new report by default, and you can remove or reconfigure them, but you can't add a second copy or bring one back except with **Reset**.
+
+!!! note "This is a desktop feature"
+    Customizing a report — dragging, resizing, and adding panels — is a power-user layout task, so it isn't a practical experience on a phone screen. Viewing the finished report (above) works fine on mobile.
 
 ### Move and resize
 
@@ -83,7 +89,7 @@ Your customized report is remembered **in this browser**, so it's still there wh
 
 To give a teammate the same arrangement of metrics:
 
-1. While customizing, select **Export** and either **Download** the layout file or **Copy** its code.
+1. While customizing, select **Export** and either **Download .json** the layout file or **Copy code** to copy it.
 2. Have your teammate select **Import**, then paste the code or upload the file. Their report switches to your layout.
 
 ## Export and print

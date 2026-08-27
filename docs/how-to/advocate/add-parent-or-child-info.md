@@ -1,40 +1,49 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
+<!-- @frontend verified live 2026-08-27, comparing DemoAdvocate against DemoAdmin on the
+same family (Khoury Family): Admin sees "Add parent" / "Add child" controls in the
+Household section (12 buttons on the family page as Advocate vs. 27 as Admin, including
+these two); Advocate sees neither, in either the read-only Overview or Edit Details. This
+resolves the earlier open question on this page — it's a genuine role gate, not a missed
+control. Contradicts ADVOCATE_ROLE.md's claim that advocates manage a family's "parents,
+children"; that claim is stale for this specific action. See
+docs/how-to/admin/families-and-people.md for the real (Admin/Coordinator-only) steps. -->
+
 # Add parent or child information
 
-**Who this is for:** Advocate
-**When to use it:** To add a parent/caregiver or a child to a family's household record.
-**Before you start:** The family must be served by your church.
+**Who this is for:** Advocate (read this to understand why you can't do this — the
+action itself is Admin/Coordinator-only).
+**When to use it:** You need a parent or child added to a family's household record.
+**Before you start:** Nothing — but see below before looking for a button that isn't there.
 
-<!-- @frontend: on the live demo (2026-08-17, DemoAdvocate), the family's Household
-section — both in the read-only Overview and inside Edit Details — only shows the
-EXISTING parents/children (with two unlabeled icon buttons per row, likely edit-only)
-and a "Send Account Setup Emails" button. No visible "Add Parent" / "Add Child" control
-was found on the family detail page itself, which conflicts with the "Add" buttons in
-families-modals.tsx's HouseholdManager component. Possibilities: (a) this control is
-gated to Admin/Coordinator only and not exposed to Advocate despite ADVOCATE_ROLE.md
-saying advocates manage "parents, children", (b) it's reached through a different flow
-this pass didn't find, or (c) it isn't wired up yet for this role. Needs a real
-walkthrough with someone who knows the current UI before this doc's steps are trustworthy. -->
+## Advocates can't add a parent or child directly
 
-## Steps
+Unlike editing a family's profile or managing its care team, adding a parent or child to
+the Household is **not available to Advocates** — the control simply doesn't appear,
+even on families your church serves and even while you're already editing that family's
+details.
 
-1. Open the family's **Household** section (Overview tab).
-2. *(Unconfirmed)* Locate the add control for a parent or child.
-3. Fill in the fields — name, phone, email for a parent; name, birthdate, and relationship for a child.
-4. Save.
+## What to do instead
 
-## What you'll see
+1. Contact your program's Admin or Coordinator.
+2. Give them the parent or child's details (name, and for a parent, phone/email if you
+   have them).
+3. They'll add the record — see [Manage families & people](../admin/families-and-people.md#add-a-parent-or-child-to-a-family-admincoordinator-only)
+   for the steps they'll follow.
 
-The new parent or child appears in the Household list.
+## What you can do
 
-!!! tip "Want to give a parent portal access?"
-    Adding a parent here only records their information — it doesn't create their WrapAround login. See [Invite a family's parents](invite-a-familys-parents.md) for that.
+- [View child information](view-child-information.md) already on file.
+- [Invite a family's parents](invite-a-familys-parents.md) to create their own portal
+  login, once they're already listed as parents on the family.
+- [Modify a family's profile](modify-a-familys-profile.md) for everything else Advocates
+  *can* edit.
 
 ## Related
 
+- [Manage families & people](../admin/families-and-people.md) (Admin/Coordinator)
 - [Invite a family's parents](invite-a-familys-parents.md)
-- [How to view child information](view-child-information.md)
+- [View child information](view-child-information.md)

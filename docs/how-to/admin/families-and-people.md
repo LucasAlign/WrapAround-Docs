@@ -41,6 +41,32 @@ While working in this new family page your changes will be saved as you go. This
 3. Make any changes you want.
 4. **Save** your changes by clicking **Save changes** in the top right.
 
+## Add a parent or child to a family — Admin/Coordinator only
+
+<!-- @frontend verified live 2026-08-27: confirmed this control is genuinely gated to
+Admin/Coordinator. Signed in as DemoAdvocate on the same family, the Household section
+shows no "Add parent"/"Add child" control anywhere — not on the read-only Overview, not
+inside Edit Details. Signed in as DemoAdmin, both controls are present and work as
+described below. This contradicts ADVOCATE_ROLE.md's claim that advocates manage a
+family's "parents, children" — that claim is stale for this specific action. -->
+
+1. Open the family and scroll to its **Household** section.
+2. Under **Parents / Caregivers**, click **+ Add** (or **Add child** under **Children**).
+3. An inline form opens. For a parent: enter **Full name** (required), optionally **Phone** and **Email**, and check **Primary contact** if this person is the family's main point of contact.
+
+    ![Household section with the "New Parent / Caregiver" inline form open, showing Full name, Phone, Email, and Primary contact fields](img/add-parent-modal-desktop.png)
+
+    ![Same form on mobile](img/add-parent-modal-mobile.png)
+
+4. Click **Add**.
+
+**What you'll see:** the new parent or child appears immediately in the Household list.
+
+!!! tip "Advocates can't do this"
+    Adding a parent or child is Admin/Coordinator-only — the control doesn't appear for
+    Advocates, even ones who can otherwise edit the same family's profile. An advocate
+    who needs a parent or child added has to ask program staff.
+
 ## Family photo
 
 ### Adding or Updating a photo

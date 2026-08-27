@@ -1,41 +1,42 @@
 ---
-status: needs-ui
+status: needs-review
 primary: frontend
 ---
 
-# Replies & read receipts
+<!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
+     https://demo.wraparound.lucasalign.com/messages. Correcting the draft: there is no
+     read-receipt indicator anywhere in the thread UI (no "Seen" label, no checkmark, no
+     names) — confirmed both visually and by searching the frontend source for
+     read-receipt/seen-at handling, which turned up nothing message-related. Read
+     receipts are not built. Splitting this into a working "Reply" section and a
+     not-built "Read receipts" section, matching this repo's convention for confirmed
+     unbuilt features (see notifications.md). -->
+
+# Reply to a thread
 
 **Who this is for:** Volunteers, advocates, and program staff.
-**When to use it:** When you're keeping a conversation going and want to know who's seen
-what.
+**When to use it:** When you're keeping a conversation going.
 **Before you start:** You're in a [thread](start-thread.md), or someone has messaged you.
 
-!!! info "Screenshots coming"
-    These steps are described in words for now; annotated screenshots land once the screens
-    are final.
+## Steps
 
-## Reply to a thread
+1. Open **Messages** and select the thread from the list on the left.
 
-1. Open **Messages** and select the thread.
-2. Type in the message box at the bottom and **send**. Your reply joins the conversation
-   in order.
+    ![Messages list with a group and direct-message threads](img/messages-list-desktop.png)
 
-## Read receipts
+2. Type in the **Send a message…** box at the bottom and press **Enter** (or click the
+   send arrow). Your reply joins the conversation, newest at the bottom.
 
-A **read receipt** shows that your message has been seen.
-<!-- @frontend: confirm how read receipts appear (a "Seen" label, names, a checkmark?) -->
-
-- After you send, WrapAround shows when people in the thread have **read** it.
-- Use this to tell whether a request has been picked up or whether to follow up another way.
+    ![Open thread with a typed reply sent](img/thread-open-desktop.png)
 
 ## What you'll see
 
-The conversation in order, with the latest at the bottom, and an indication of who has
-read your messages.
+The conversation in order, with the latest message at the bottom.
 
-!!! tip "Read ≠ handled"
-    A read receipt means someone *saw* the message, not that they've taken the task. For
-    anything important, wait for a clear reply or [claim/sign-up](../needs/claim-a-need.md).
+!!! warning "Read receipts aren't available yet"
+    WrapAround doesn't show who's read a message — there's no "Seen" indicator, checkmark,
+    or list of names anywhere in a thread. If you need to confirm someone got your
+    message, ask them directly or wait for a reply.
 
 ## Related
 

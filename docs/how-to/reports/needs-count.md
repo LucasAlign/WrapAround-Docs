@@ -10,7 +10,7 @@ primary: frontend
 
 ## What it shows
 
-This tile counts the needs that have been met. By default it counts needs that are **Filled** or **Closed**, giving you a quick read on how much support has been delivered. This is the one metric you can add to a report **multiple times**, with each copy tracking different need types side by side.
+This tile counts the needs that have been met. By default it counts needs that are **Filled**, giving you a quick read on how much support has been delivered. This is the one metric you can add to a report **multiple times**, with each copy tracking different need types side by side.
 
 ## Options you can change
 
@@ -18,7 +18,9 @@ While in Customize mode, select the **gear (⚙)** on the panel to change what g
 
 - **Label** — give the tile a custom name, which is helpful when you add several copies (for example, "Meals Delivered" and "Rides Provided").
 - **Need types** — choose which types of need to count. Leaving none selected counts **all** types.
-- **Fulfilled statuses** — choose which statuses count as fulfilled. By default these are **Filled** and **Closed**.
+- **Counted as fulfilled** — choose which need statuses count as fulfilled: **Claimed**, **Filled**, or **Open**. Only **Filled** is checked by default.
+
+![Needs Fulfilled tile with its options panel open, showing Label, Need types, and Counted as fulfilled checklists](img/needs-fulfilled-options-desktop.png)
 
 ## Which filters affect it
 

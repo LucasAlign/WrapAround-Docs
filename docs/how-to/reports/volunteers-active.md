@@ -18,7 +18,9 @@ While in Customize mode, select the **gear (⚙)** on the panel to change what g
 
 - **Require onboarding complete** — on by default. This is what "active" means here: only volunteers who have finished onboarding are counted. Turn it off to count volunteers regardless of onboarding.
 - **Support type** — narrow the count to volunteers offering a particular kind of help, such as Meals. The list of choices comes from your program's configured **Support Types**, so every support type you use is available here.
-- **Role** — narrow the count to a single volunteer role, either Lead or Support.
+- **Leads at least one family** — a checkbox to narrow the count to volunteers who currently lead at least one family, instead of every active volunteer.
+
+![Volunteers Active tile with its options panel open, showing Require onboarding complete, Support type, and Leads at least one family](img/volunteers-active-options-desktop.png)
 
 ## Which filters affect it
 
@@ -26,6 +28,9 @@ While in Customize mode, select the **gear (⚙)** on the panel to change what g
 - **Date range does not apply.** Volunteer records don't carry the dates needed to narrow by time, so the tile always reflects your current volunteers. It shows a small **"Date range N/A"** badge to make this clear.
 
 ## Tips & notes
+
+!!! note "Ships by default, not in Add metric"
+    Volunteers Active comes with every new report by default. It isn't in the **Add metric** list, so if you remove it you can only bring it back with **Reset** (which restores the whole default layout).
 
 !!! note "What \"active\" means here"
     "Active" means a volunteer has finished onboarding — not that they were recently active or recently helped with a need.

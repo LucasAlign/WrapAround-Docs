@@ -22,6 +22,8 @@ While in Customize mode, select the gear (⚙) on the panel to adjust:
 - **Chart type** (Support activity) — **Stacked bars**, **Grouped bars**, or **Stacked area**. Stacked reads total monthly volume at a glance; grouped lets you compare need types directly.
 - **Include open / unfilled needs** (Support activity) — by default the chart counts support that was delivered; turn this on to also include needs that are still open.
 
+![Trend chart added to a report, with its options panel open showing Source (Families over time), Series (Cumulative total), Chart type (Area), and a row of color swatches](img/trend-chart-options-desktop.png)
+
 ## Which filters affect it
 
 All three filters apply. **Date range** sets which months are shown, and **County** and **Church** narrow the data to a single county or church.

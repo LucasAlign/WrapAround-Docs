@@ -16,8 +16,13 @@ This tile counts the families added during a window of time. By default that win
 
 While in Customize mode, select the **gear (⚙)** on the panel to change what gets counted:
 
-- **Counting window** — choose **This calendar month** (the default) to always count families added in the current month, or **Follow date-range filter** to count families added during the period set by the page's Date range filter.
+- **Counting window** — choose **Current calendar month** (the default) to always count families added in the current month, or **Follow date-range filter** to count families added during the period set by the page's Date range filter.
 - **Show % change vs. the previous period** — optionally display how this window compares to the one before it, so you can see whether new families are trending up or down.
+
+![New Families tile with its options panel open, showing the Counting window dropdown (Current calendar month) and the Show % change checkbox](img/new-families-month-options-desktop.png)
+
+!!! note "Ships by default, not in Add metric"
+    New Families comes with every new report by default. It isn't in the **Add metric** list, so if you remove it you can only bring it back with **Reset** (which restores the whole default layout).
 
 ## Which filters affect it
 
@@ -27,7 +32,7 @@ While in Customize mode, select the **gear (⚙)** on the panel to change what g
 ## Tips & notes
 
 !!! tip "Pick the window that fits your report"
-    Use **This calendar month** for a steady "this month" headline, or switch to **Follow date-range filter** when you want the tile to match the same period as the rest of your report.
+    Use **Current calendar month** for a steady "this month" headline, or switch to **Follow date-range filter** when you want the tile to match the same period as the rest of your report.
 
 ## Related
 

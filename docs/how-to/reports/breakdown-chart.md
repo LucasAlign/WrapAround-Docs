@@ -24,6 +24,8 @@ While in Customize mode, select the gear (⚙) on the panel to adjust:
 - **Bar color** — pick the color for single-series bars.
 - **Show % of total** — annotate each bar, or the donut legend, with its share of the total.
 
+![Breakdown chart added to a report, with its options panel open showing Source (Families), Group by (County), Chart type (Column bars), Show top (All), Bar color swatches, and Show % of total](img/breakdown-chart-options-desktop.png)
+
 ## Which filters affect it
 
 **County** and **Church** apply and narrow which records are included. **Date range does not apply** — this chart reflects current totals (a family's status today, a church's volunteers today), and the app doesn't keep a history of when those changed, so there's no past window to count. The panel shows a small **"Date range N/A"** badge to make this clear.

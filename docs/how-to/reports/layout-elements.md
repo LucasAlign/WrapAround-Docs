@@ -27,6 +27,8 @@ While in Customize mode, select the **gear (⚙)** on the block to edit it:
 
 You can fill in just the heading, just the text, or both. A new block shows a faint reminder until you add something.
 
+![Text / Heading block added to a report, with its options panel open showing the Heading field, Text field, and Alignment dropdown](img/layout-text-heading-options-desktop.png)
+
 ## Divider
 
 A simple line that separates sections of a report.
@@ -37,6 +39,8 @@ While in Customize mode, select the **gear (⚙)** on the divider to change it:
 
 - **Orientation** — **Auto** (the default), **Horizontal**, or **Vertical**. In **Auto**, the line follows the shape of the block: drag it wider than it is tall and it draws across (horizontal); make it taller than it is wide and it stands up (vertical). Choose Horizontal or Vertical to lock it regardless of shape.
 - **Line style** — **Solid**, **Dashed**, or **Dotted**.
+
+![Divider added to a report, with its options panel open showing the Orientation (Auto) and Line style (Solid) dropdowns](img/layout-divider-options-desktop.png)
 
 !!! tip "Resize to reshape it"
     With orientation set to Auto, just resize the divider's block to switch between a horizontal rule and a vertical one — no need to change the setting.

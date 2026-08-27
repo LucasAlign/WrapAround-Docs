@@ -15,9 +15,11 @@ activity without checking constantly.
     are final.
 
 !!! warning "Not available yet"
-    WrapAround doesn't send notifications yet — there's no notification service in the backend.
-    This page describes how they're intended to work, so it's ready when they're built. For
-    now, check your circle's needs, schedule, and messages directly.
+    Confirmed live (2026-08-26): the dashboard has a **Notifications** card, but it reads
+    "In-app notifications coming soon — you'll see needs, schedule changes, and community
+    updates here once the API supports notifications." This page describes how
+    notifications are intended to work, so it's ready when they're built. For now, check
+    your circle's needs, schedule, and messages directly.
 
 ## What notifications will tell you
 
