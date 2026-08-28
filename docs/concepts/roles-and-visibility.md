@@ -3,6 +3,13 @@ status: needs-review
 primary: backend
 ---
 
+<!-- @frontend verified 2026-08-28: filled in the Family row's "What they typically do"
+column (previously blank in effect — it just repeated the "Sees" claim) with what a
+family can actually do: view-only needs/schedule plus messaging. Lead Volunteer's "extra
+abilities... such as creating or removing needs" confirmed against hooks/use-user.tsx's
+useCanManageCareItems, which explicitly excludes "volunteer" and "family" roles but not
+"lead_volunteer". Cross-referenced with the corrected reference/permissions-matrix.md. -->
+
 # Roles & who sees what
 
 WrapAround is built around one rule: **you only see the families you're responsible for.**
@@ -19,7 +26,7 @@ The names below are the labels shown on your role badge in the app.
 | **Coordinator Admin** | **Every** family (same access as Central Admin) | Admin-level access, focused on managing their county |
 | **Church Advocate** | Every family served by **their church** | Coordinate care across their church's families |
 | **Support Volunteer** | **One** family — the one they're assigned to | Claim needs, keep an eye on the schedule, message the team |
-| **Family** | **Their own** family only | Self-registered parents managing their own circle |
+| **Family** | **Their own** family only | View their own needs and schedule, message the team; can't create or manage needs |
 
 ## How your scope is decided
 

@@ -1,7 +1,15 @@
 ---
-status: needs-ui
+status: needs-review
 primary: backend
 ---
+
+<!-- @frontend verified 2026-08-28: Post/Comment corrected — Posts is live (nav label
+"Posts", page heading "Community Feed", verified with screenshots in
+how-to/posts/read-and-comment.md), not "not yet surfaced" as this table previously
+claimed. Read receipt confirmed still accurate (genuinely not shown in-app, per
+how-to/messaging/reply-read-receipts.md). Added Need type/support type, Temporary
+password, and Participation agreement rows for terms that came up repeatedly during
+verification passes but were missing here. -->
 
 # Glossary
 
@@ -24,17 +32,20 @@ rules live in `CONTRIBUTING.md` at the repo root.
 | **Lead Volunteer** | A volunteer with extra abilities (e.g. creating needs) within their one family. | Lead Volunteer |
 | **Volunteer role** | The kind of help a volunteer provides. | Support Types |
 | **Need** | A specific task a family has asked for help with. | Needs (Needs Board) |
+| **Need type / support type** | The kind of help a need or volunteer offers (meal, ride, supplies, etc.) — an admin-configured reference list, not a fixed set. | Support Types |
 | **Claim** | A volunteer signing up to handle a need. | I can help |
 | **Schedule / event** | A planned event on the family's calendar. | Schedule |
 | **Recurring event** | An event that repeats on a rule. | Recurring |
 | **Thread** | A message conversation among participants. | Conversation (New Conversation) |
 | **Message** | A single entry within a thread. | Messages |
 | **Read receipt** | Shows that a message has been read. | _Not shown in-app_ |
-| **Post** | An update shared with the family's circle. | _Community Feed — not yet surfaced_ |
-| **Comment** | A reply on a post. | _Not yet surfaced_ |
+| **Post** | An update shared with the family's circle — a single freeform message, no separate title field. Limited to Lead Volunteers, advocates, and program staff. | Posts (nav) / Community Feed (page heading) |
+| **Comment** | A reply on a post, added by expanding its comments row. | Comments |
 | **Training module** | A unit of assigned training. | Training |
 | **Training resource** | Supporting material for a training module. | Resources Library |
 | **Onboarding / invite** | The flow that brings a new person into WrapAround by email invite. | Create New User / Invite New User |
+| **Temporary password** | The one-time password sent in an invite email; expires after 7 days and must be replaced with a permanent password on first sign-in. | Temporary Password |
+| **Participation agreement** | The document a family reviews and signs before staff can activate their request. | Participation agreement |
 | **Status** | A lifecycle state (for example family status or volunteer status). | Status |
 | **Serving church** | The church coordinating care for a family — distinct from the family's *attending* church. | Serving Church |
 | **County** | The county a family or volunteer is associated with. | County |

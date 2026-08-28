@@ -3,6 +3,13 @@ status: needs-review
 primary: backend
 ---
 
+<!-- @backend verified 2026-08-28 against KeyFam-infrastructure: "Care Requested / Needs
+Vetting" and "Prospect" are real, hardcoded-by-name backend gates (the API looks them up
+by that exact string), confirming this page's two "the system enforces this gate"
+claims. The "Other common values" lists are appropriately hedged as non-exhaustive and
+weren't independently re-verified this pass — the dev instance was unreachable to pull
+the live reference-data list. -->
+
 # Statuses explained
 
 Many records in WrapAround carry a **status** that tracks where they are in their lifecycle.

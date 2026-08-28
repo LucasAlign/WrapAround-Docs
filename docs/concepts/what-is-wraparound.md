@@ -3,6 +3,10 @@ status: needs-review
 primary: backend
 ---
 
+<!-- @frontend verified 2026-08-28: every feature named here (needs/claim, schedules,
+messages, posts, training) checked against pages already live-verified elsewhere in
+this repo — no changes needed, this page holds up. -->
+
 # What is WrapAround?
 
 WrapAround helps a foster or adoptive **family** and the people around them coordinate care in
