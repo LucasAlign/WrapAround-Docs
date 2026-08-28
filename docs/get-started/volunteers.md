@@ -12,6 +12,11 @@ shared calendar, matching this page's description. -->
 Welcome! As a **volunteer** you support **one family** — your part of their WrapAround
 care circle. This page walks you through your first day on WrapAround, start to finish.
 
+!!! tip "No invite yet? You can sign up yourself"
+    You don't need to wait for a program to invite you — see
+    [Sign up as a volunteer](../how-to/account/volunteer-self-signup.md) to create your
+    own account right now.
+
 ![Your volunteer dashboard after signing in — My Care Community, showing your family and a shared calendar.](img/vol-dashboard-desktop.png)
 
 ## What a volunteer does
