@@ -24,7 +24,7 @@ only.
 
 ## Your first day, step by step
 
-WrapAround is one of the few roles that **doesn't require a staff invite** — you can
+The Family role is one of the few roles that **doesn't require a staff invite** — you can
 register yourself.
 
 1. **Register your family.** Go to the family signup page (your local program can give
