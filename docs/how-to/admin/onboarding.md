@@ -72,4 +72,5 @@ If someone didn't get their invite or their temporary password expired:
 
 - [Manage families & people](families-and-people.md)
 - [Manage volunteers & advocates](volunteers-and-advocates.md)
+- [Backfill user accounts](backfill-user-accounts.md) — bulk-invite an imported roster
 - [Troubleshooting](../../reference/troubleshooting.md)

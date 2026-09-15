@@ -63,4 +63,5 @@ them start serving:
 
 - [Onboard a family & invite people](onboarding.md)
 - [Manage families & people](families-and-people.md)
+- [Backfill user accounts](backfill-user-accounts.md) — bulk-invite an imported roster
 - [Roles & permissions matrix](../../reference/permissions-matrix.md)

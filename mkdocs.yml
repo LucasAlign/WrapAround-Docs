@@ -125,6 +125,7 @@ nav:
           - Manage reference data: how-to/admin/reference-data.md
           - Oversight: how-to/admin/oversight.md
           - Build a Reports & Impact report: how-to/admin/reports-and-impact.md
+          - Backfill user accounts: how-to/admin/backfill-user-accounts.md
       - Report Metrics:
           - Kids Served: how-to/reports/kids-served.md
           - Families Served: how-to/reports/families-served.md
