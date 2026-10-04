@@ -75,13 +75,14 @@ register yourself.
     serving church.
    → [View your family](../how-to/family/view-your-family.md)
 
-!!! tip "Already have an account?"
-    If your family was set up by staff instead of self-registering, you'll get an invite
-    email instead of using the signup form — see
-    [Accept your invite & sign in](../how-to/account/accept-invite.md).
+## Already have an account?
 
-    Registered yourself already? Signing back in later works the same way as any other
-    role — from the home page choose **Sign in**, then enter your email and password.
+If your family was set up by staff instead of self-registering, you'll get an invite
+email instead of using the signup form — see
+[Accept your invite & sign in](../how-to/account/accept-invite.md).
+
+Registered yourself already? Signing back in later works the same way as any other
+role — from the home page choose **Sign in**, then enter your email and password.
 
 !!! note "Care Requested / Needs Vetting"
     Right after signing the agreement, your family starts in a **vetting** status while
