@@ -39,6 +39,11 @@ theme:
 plugins:
   - search
 
+# A missing section anchor must fail the same strict build as a missing page.
+validation:
+  links:
+    anchors: warn
+
 markdown_extensions:
   - admonition
   - attr_list
