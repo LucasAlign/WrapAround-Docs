@@ -17,7 +17,15 @@ Clone any that are missing, then `git pull --ff-only` each. Never push to the co
 
 ## Run procedure
 
-**0. Gate.** If any open PR in WrapAround-Docs has the `docs-agent` label, stop now. No work, no PR.
+**0. Answer PR feedback (always runs).** For each open `docs-agent` PR, read its comments and review threads. For
+each unaddressed one: if it's a clear, in-scope fix, check out that PR's branch, make the fix (verify
+against code as usual), run `mkdocs build --strict`, commit `docs: address review feedback`, push to
+that branch, reply on the thread with what changed, and resolve it. If it's a question or ambiguous,
+reply with your answer or a clarifying question instead. Skip threads whose last comment is yours.
+Never merge, close, or force-push these PRs.
+
+**0a. Gate.** After step 0, count open PRs in WrapAround-Docs labelled `docs-agent`. If there are
+**8 or more**, stop now. No further work, no new PR.
 
 **1. Clean up leftovers.** If `.docs-agent/created.json` lists items, try to delete them in dev
 (they were created by an earlier run). Keep any that still fail.
@@ -33,11 +41,17 @@ then how-tos, then oldest). For each:
 - set `status: ready` only when the Definition of Done in `CLAUDE.md` is fully met **and** the page
   makes no role/permission claim; otherwise leave it at `needs-review`.
 
+**3a. Maintenance review.** Pick up to **3** pages (any status, not already touched this run) whose
+front-matter `last_reviewed` is missing or more than **30 days** old — missing first, then oldest.
+For each, verify every claim against code (same rules as step 3) and fix what's wrong; don't change
+`status` unless the fix warrants it. Set `last_reviewed: YYYY-MM-DD` (today, ET) on each page you
+reviewed, even if nothing else changed. Steps 2–3 also set `last_reviewed` on pages they verify.
+
 **4. New page.** At most **1**: a user-facing feature with no help page (from step 2 or
 `user-docs-plan.md`). Start from `templates/how-to-template.md`, add it to `nav:` in `mkdocs.yml`,
 set `status: draft`.
 
-**5. Live verify + screenshots (best effort).** For pages touched in steps 2–4:
+**5. Live verify + screenshots (best effort).** For pages touched in steps 2–4 (including 3a):
 - write a `shots.json` (format in `Wraparound-testing-Suite/src/screenshot.ts`) that logs in as
   the page's role and walks its steps, one `shot` per step;
 - run `npm run screenshot -- shots.json --out <docs>/docs/assets/screens/<page-slug>` in the suite
@@ -59,7 +73,7 @@ whatever breaks it.
 deleted to `.docs-agent/created.json` (otherwise `[]`). Update `state.json` → `lastRun` (now, ET)
 and `lastCommits` (head SHAs you synced to).
 
-**8. Publish.** If no page changed, open no PR and exit (state isn't saved, so the next run simply
+**8. Publish.** If no page changed (a `last_reviewed` bump alone counts as a change), open no PR and exit (state isn't saved, so the next run simply
 re-checks the same window — harmless). Otherwise branch
 `docs-agent/YYYY-MM-DD` from `main`, commit `docs: nightly docs-agent update (YYYY-MM-DD)`, push,
 open a PR labelled `docs-agent` with the body below.
@@ -71,6 +85,8 @@ open a PR labelled `docs-agent` with the body below.
 - <code repo commit/PR> → <page>: <what changed>
 ## Pages advanced
 - <page>: <old status> → <new status>
+## Maintenance reviewed
+- <page>: <no changes | what was fixed>
 ## New pages
 - <page>
 ## Screenshots
