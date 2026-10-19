@@ -17,15 +17,15 @@ Clone any that are missing, then `git pull --ff-only` each. Never push to the co
 
 ## Run procedure
 
-**0. Gate.** Count open PRs in WrapAround-Docs labelled `docs-agent`. If there are **8 or more**,
-stop now. No work, no PR.
-
-**0a. Answer PR feedback.** For each open `docs-agent` PR, read its comments and review threads. For
+**0. Answer PR feedback (always runs).** For each open `docs-agent` PR, read its comments and review threads. For
 each unaddressed one: if it's a clear, in-scope fix, check out that PR's branch, make the fix (verify
 against code as usual), run `mkdocs build --strict`, commit `docs: address review feedback`, push to
 that branch, reply on the thread with what changed, and resolve it. If it's a question or ambiguous,
 reply with your answer or a clarifying question instead. Skip threads whose last comment is yours.
 Never merge, close, or force-push these PRs.
+
+**0a. Gate.** After step 0, count open PRs in WrapAround-Docs labelled `docs-agent`. If there are
+**8 or more**, stop now. No further work, no new PR.
 
 **1. Clean up leftovers.** If `.docs-agent/created.json` lists items, try to delete them in dev
 (they were created by an earlier run). Keep any that still fail.
