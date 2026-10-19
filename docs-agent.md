@@ -28,7 +28,9 @@ Never merge, close, or force-push these PRs.
 **8 or more**, stop now. No further work, no new PR.
 
 **1. Clean up leftovers.** If `.docs-agent/created.json` lists items, try to delete them in dev
-(they were created by an earlier run). Keep any that still fail.
+(they were created by an earlier run). Keep any that still fail. If the branch
+`docs-agent/pending-reviews` exists, merge it into your working tree so earlier date-only
+`last_reviewed` bumps carry forward.
 
 **2. Sync drift.** List commits merged to `main` in Align-Core and Align-FrontEnd since
 `.docs-agent/state.json` → `lastRun`. For each user-visible change (labels, routes, nav, roles,
@@ -73,10 +75,13 @@ whatever breaks it.
 deleted to `.docs-agent/created.json` (otherwise `[]`). Update `state.json` → `lastRun` (now, ET)
 and `lastCommits` (head SHAs you synced to).
 
-**8. Publish.** If no page changed (a `last_reviewed` bump alone counts as a change), open no PR and exit (state isn't saved, so the next run simply
-re-checks the same window — harmless). Otherwise branch
-`docs-agent/YYYY-MM-DD` from `main`, commit `docs: nightly docs-agent update (YYYY-MM-DD)`, push,
-open a PR labelled `docs-agent` with the body below.
+**8. Publish.** If no page changed, open no PR and exit (state isn't saved, so the next run simply
+re-checks the same window — harmless). If the only page changes are `last_reviewed` bumps, open no
+PR: commit them `docs: carry last_reviewed bumps (YYYY-MM-DD)` on top of `docs-agent/pending-reviews`
+(create it from `main` if missing; merge `main` in, never force-push), push that branch, and exit.
+Otherwise branch `docs-agent/YYYY-MM-DD` from `main`, commit
+`docs: nightly docs-agent update (YYYY-MM-DD)` (including any carried bumps), push, open a PR
+labelled `docs-agent` with the body below, then delete `docs-agent/pending-reviews` if it exists.
 
 ## PR body
 
