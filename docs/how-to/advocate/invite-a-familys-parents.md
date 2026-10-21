@@ -25,9 +25,9 @@ primary: frontend
 
 ## What you'll see
 
-Parents with a successfully delivered email receive a temporary password and can sign in themselves — see [Accept your invite](accept-your-invite.md). This creates a WrapAround sign-in for the family; it doesn't change any care-team assignments.
+Parents with a successfully delivered email receive a temporary password and can sign in themselves — see [Family sign-in help](../../get-started/families.md#already-have-an-account). This creates a WrapAround sign-in for the family; it doesn't change any care-team assignments.
 
 ## Related
 
 - [Add parent or child information](add-parent-or-child-info.md)
-- [Accept your invite](accept-your-invite.md)
+- [Family sign-in help](../../get-started/families.md#already-have-an-account)
