@@ -57,7 +57,7 @@ for each label to see what isn't covered. Prefer actions a user performs (a task
 over internal details. One feature per page; the ~10-changed-pages size cap below still applies, so
 drop new pages before dropping drift fixes if the run gets too large. Start from `templates/how-to-template.md`, add it to `nav:` in
 `mkdocs.yml`, set `status: draft`. If, after a genuine search, every feature you find is already
-documented, write no page and say so under "New pages" in the PR body, listing what you checked.
+documented, write no pages and say so under "New pages" in the PR body, listing what you checked.
 
 **5. Live verify + screenshots (best effort).** For pages touched in steps 2–4 (including 3a):
 - write a `shots.json` (format in `Wraparound-testing-Suite/src/screenshot.ts`) that logs in as
