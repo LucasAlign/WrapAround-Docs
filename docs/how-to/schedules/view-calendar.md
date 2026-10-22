@@ -3,12 +3,6 @@ status: needs-review
 primary: frontend
 ---
 
-<!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
-Volunteer: Schedule page is a month grid with a Viewing family selector and an
-Assigned/Unassigned legend by task type (Meals, Childcare, Transportation, etc). No
-separate "Upcoming" list was found alongside the grid this pass — the page is the
-month calendar itself. -->
-
 # View the calendar
 
 **Who this is for:** Volunteers, advocates, and program staff.
@@ -27,11 +21,16 @@ and you're assigned to a family.
 2. Each day shows its scheduled **events** and **commitments** (needs someone's claimed) —
    tap a day to see its full details.
 3. Use the **‹ ›** arrows next to the month name to move between months.
+4. On a phone, switch between **agenda** and **month** with the toggle beside the month
+   name. The agenda is an **Upcoming** list grouped into **Today**, **This week** and
+   **Later**. On a wide screen, an **Upcoming** list also sits beside the calendar.
 
 ## What you'll see
 
-Your family's upcoming events and your own commitments. The Schedule is view-only — to
-take on something new, [claim a need](../needs/browse-needs.md) on the Needs board.
+Your family's upcoming events and your own commitments. From a day's details you can
+also act on an entry — for example **Claim** it, or **Give up** a day you claimed (see
+[Sign up for a slot](sign-up-slot.md)). You can also [claim a need](../needs/browse-needs.md)
+on the Needs board.
 
 !!! tip "Recurring events"
     Some entries repeat — a weekly ride, for example. See
