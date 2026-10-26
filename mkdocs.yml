@@ -126,6 +126,7 @@ nav:
           - Oversight: how-to/admin/oversight.md
           - Build a Reports & Impact report: how-to/admin/reports-and-impact.md
           - Backfill user accounts: how-to/admin/backfill-user-accounts.md
+          - Bulk upload profile photos: how-to/admin/bulk-photo-upload.md
       - Report Metrics:
           - Kids Served: how-to/reports/kids-served.md
           - Families Served: how-to/reports/families-served.md

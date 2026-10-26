@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-10-26
 ---
 
 <!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
@@ -20,26 +21,32 @@ primary: frontend
 
 ## Steps
 
-1. Open **Needs**. Open needs (nobody signed up yet) appear under the **Open** tab.
+1. Open **Ways to Help** in the sidebar. Needs nobody has signed up for yet appear under the
+   **Available** tab.
+
+    !!! note "Different labels for staff"
+        Admins and coordinators see **Needs**, **Open** and **I can help** instead. The steps
+        are the same.
 
     ![Needs board Open tab showing needs with an "I can help" button](img/needs-board-open-desktop.png)
 
 2. Read the details — **what's needed**, **when**, and any notes.
 3. Make sure you can commit to it.
-4. Click **I can help**.
-    - For a **one-time** need, this claims it immediately.
-    - For a **recurring** need, a picker opens — choose **I can help with every date**
-      to take the whole series, or pick one or more individual dates.
+4. Click **Volunteer for this**.
+    - For a **one-time** need, a **Volunteer for this?** confirmation opens. Click
+      **Yes, sign me up**.
+    - For a **recurring** need, a picker opens. Choose **I can help** next to a single date
+      (then **Confirm commitment**), or choose **I can help with every date** and confirm
+      **Claim series** to take the whole series.
 
     ![Recurring need picker with "I can help with every date" and a list of individual dates](img/pick-a-date-desktop.png)
 
-5. The need (or the date you picked) now shows **your name**, and it's added to your
-   schedule.
+5. The need (or the date you picked) now shows **your name**.
 
 ## What you'll see
 
 - The need shows you as the volunteer, and the rest of the team can see it's covered.
-- It appears on your [Schedule](view-calendar.md) so you can find it again.
+- It appears on the [Schedule](view-calendar.md) so you can find it again.
 
 !!! tip "If your plans change"
     If you claimed a slot but can no longer make it, use

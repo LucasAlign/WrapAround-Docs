@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-10-26
 ---
 
 <!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
@@ -23,10 +24,13 @@ weekly ride appears every week without anyone re-entering it.
 
 ## What to check before you sign up
 
-1. A repeating need shows a **recurrence badge** (the rule's name, such as *Weekly*) on its
-   card, so you can tell it's part of a series.
-2. You claim **one occurrence at a time** — each date is its own need, so signing up for
-   this week's ride doesn't commit you to every week.
+1. A repeating need shows a **recurrence badge** on its card that spells out the rule (for
+   example, a weekly or monthly pattern), so you can tell it's part of a series. The
+   **Recurring** tab on **Ways to Help** (**Needs** for staff) lists every series.
+2. Click **Volunteer for this** and choose how much to take on:
+    - **I can help** on a single date commits you to **that date only**.
+    - **I can help with every date** commits you to every upcoming date in the series.
+      You can still hand off individual dates later.
 3. If you can only do some dates, claim just those and leave the rest open.
 
 ## What you'll see
