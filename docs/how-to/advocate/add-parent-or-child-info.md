@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-10-27
 ---
 
 <!-- @frontend verified live 2026-08-27, comparing DemoAdvocate against DemoAdmin on the
@@ -11,6 +12,13 @@ resolves the earlier open question on this page — it's a genuine role gate, no
 control. Contradicts ADVOCATE_ROLE.md's claim that advocates manage a family's "parents,
 children"; that claim is stale for this specific action. See
 docs/how-to/admin/families-and-people.md for the real (Admin/Coordinator-only) steps. -->
+
+<!-- @frontend: Align-Core #491 (merged 2026-10-26) lets Advocates add/remove parents and
+add/edit children in families their church serves (child delete stays admin-only). The
+frontend still gates "Add Parent" / "Add Child" / parent delete to admins
+(family-detail.tsx: canEditChildren/canAddParents/canDeleteParents = isAdmin), so this page
+is accurate for the UI today. Re-verify and rewrite once the frontend exposes the controls
+to advocates. -->
 
 # Add parent or child information
 
