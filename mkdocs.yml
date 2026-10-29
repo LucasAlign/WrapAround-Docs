@@ -85,6 +85,7 @@ nav:
           - View child information: how-to/advocate/view-child-information.md
           - View assigned advocates: how-to/advocate/view-assigned-advocates.md
           - Create a one-time need: how-to/advocate/create-a-one-time-need.md
+          - Re-send a need's email: how-to/advocate/resend-a-needs-email.md
           - Create a recurring need: how-to/advocate/create-a-recurring-need.md
           - Assign a volunteer to a need: how-to/advocate/assign-a-volunteer-to-a-need.md
           - Cover a single day of a recurring need: how-to/advocate/cover-a-single-day.md
@@ -117,6 +118,7 @@ nav:
           - Access training resources: how-to/training/resources.md
       - Admin & Staff:
           - Manage families & people: how-to/admin/families-and-people.md
+          - Archive a family or child: how-to/admin/archive-a-family.md
           - Manage volunteers & advocates: how-to/admin/volunteers-and-advocates.md
           - Manage churches & counties: how-to/admin/organizations.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
