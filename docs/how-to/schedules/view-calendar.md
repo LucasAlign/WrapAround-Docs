@@ -25,6 +25,12 @@ and you're assigned to a family.
    name. The agenda is an **Upcoming** list grouped into **Today**, **This week** and
    **Later**. On a wide screen, an **Upcoming** list also sits beside the calendar.
 
+   ![Phone view of the Schedule in Agenda mode: an Upcoming list grouped under Today and Later, with the Agenda and Month toggle at the top right.](../../assets/screens/view-calendar/agenda-view.png)
+
+   Tap **Month** to switch to the calendar grid.
+
+   ![Phone view of the Schedule in Month mode: a month grid with Assigned and Unassigned legend, and the Agenda and Month toggle beside the month name.](../../assets/screens/view-calendar/month-view.png)
+
 ## What you'll see
 
 Your family's upcoming events and your own commitments. From a day's details you can
