@@ -1,15 +1,12 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-10-26
+last_reviewed: 2026-10-30
 ---
 
-<!-- @backend: confirm who may attach photos for other users. The frontend route allows
-Central Admin and County Admin (Coordinator) roles only (route-access.ts, isAdminRole) and
-the page itself checks isAdmin; confirm the bulk avatar endpoint enforces the same scope. -->
-
-<!-- @frontend verified against Align-FrontEnd pages/admin-bulk-photo-upload.tsx and
-lib/route-access.ts on 2026-10-26. Not exercised live (no screenshots yet). -->
+<!-- @frontend verified 2026-10-30 against Align-FrontEnd pages/admin-bulk-photo-upload.tsx and
+lib/route-access.ts, and the start screen live in dev as Admin. The review and upload
+states need a photo folder and weren't captured. -->
 
 # Bulk upload profile photos
 
@@ -29,6 +26,9 @@ JPEG, PNG, WebP and HEIC.
 ## Steps
 
 1. Open `/admin-bulkphotoupload`. The page is titled **Bulk Photo Upload**.
+
+    ![The Bulk Photo Upload start screen, with the Choose folder button highlighted.](../../assets/screens/bulk-photo-upload/bulk-upload-start.png)
+
 2. Drop a folder of photos onto **Drop a folder of photos here**, or click **Choose folder**
    (a whole folder) or **Choose files** (individual photos). The buttons read **Loading
    roster…** until the list of users has loaded.
