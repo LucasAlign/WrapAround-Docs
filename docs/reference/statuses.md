@@ -38,9 +38,10 @@ Tracks where a volunteer is in their journey.
 Other common values include *Equipped / Waiting*, *Serving*, *Taking a Break*,
 *No Longer Serving*, and *Pending team placement*.
 
-Behind the scenes each volunteer status can carry a **category** — *intake*, *active*,
-*paused*, or *disabled* — set by an admin. The system acts on the category, not the status
-wording, so a status can be renamed freely. A status with no category is treated as active.
+Behind the scenes each volunteer status can carry a **category** — **Intake**, **Active**,
+**Paused**, or **Disabled** — set on the status under **Add/Remove Reference Data** in the
+admin area. The system acts on the category, not the status wording, so a status can be
+renamed freely. A status with no category shows as **Informational** and is treated as active.
 
 - **Paused** and **disabled** volunteers lose access to their families' and church's data,
   can't send or receive messages, stop getting notification emails, and can't be assigned
@@ -48,6 +49,8 @@ wording, so a status can be renamed freely. A status with no category is treated
 - Moving a volunteer into a **disabled** status also turns off their sign-in; moving them
   out turns it back on.
 - New volunteers start in the *intake* category (by default the **Prospect** status).
+
+![Admin Management, Add/Remove Reference Data tab, Volunteer Status list showing Intake, Active, Paused and Disabled category badges.](../assets/screens/statuses/volunteer-status-categories.png)
 
 <!-- @backend verified 2026-10-21 against Align-Core #455 (volunteer_status.category,
 migration aligncore/034): effects above match utils/volunteer-status.ts, messaging,
