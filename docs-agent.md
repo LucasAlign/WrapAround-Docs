@@ -68,7 +68,10 @@ documented, write no pages and say so under "New pages" in the PR body, listing 
 - embed with alt text: `![Alt text.](../../assets/screens/<page-slug>/<shot>.png)`;
 - if the live app disagrees with the page, fix the page; if it disagrees with the **code**, flag it
   in the PR instead of guessing;
-- if login, network or a step fails, keep going without that shot and list it in the PR.
+- if login, network or a step fails, keep going without that shot and list it in the PR;
+- **mobile screenshots:** take them only for the `advocate`, `family` and `volunteer` roles.
+  Never for `admin` or `coordinator` pages. Every mobile shot must be paired with a desktop shot
+  of the same step (never mobile alone), so capture both and embed both.
 
 Roles: `admin`, `coordinator`, `advocate`, `volunteer`, `family`. The demo volunteer is a **lead**
 on one family and **support** on another: switch family to capture either view. The demo family
@@ -113,6 +116,8 @@ labelled `docs-agent` with the body below, then delete `docs-agent/pending-revie
 
 - **Code wins.** Never cite other `docs/` pages as evidence. Quote UI labels exactly from frontend
   source; never invent them.
+- **Skip bulk photo upload.** It's an internal admin tool and gets no public documentation. Don't
+  write a page for it, and don't re-propose one in step 4.
 - **Size cap:** about 10 changed pages per PR, so review takes minutes. Screenshots don't count.
 - **Never** merge, push to `main`, or touch the code repos.
 - **Dev data:** you may create data in dev to stage tutorials. Mark it: put `[docs-agent]` in a
