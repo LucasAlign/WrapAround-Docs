@@ -49,9 +49,15 @@ For each, verify every claim against code (same rules as step 3) and fix what's 
 `status` unless the fix warrants it. Set `last_reviewed: YYYY-MM-DD` (today, ET) on each page you
 reviewed, even if nothing else changed. Steps 2–3 also set `last_reviewed` on pages they verify.
 
-**4. New page.** At most **1**: a user-facing feature with no help page (from step 2 or
-`user-docs-plan.md`). Start from `templates/how-to-template.md`, add it to `nav:` in `mkdocs.yml`,
-set `status: draft`.
+**4. New page.** Every run, make a real attempt to find **at least 1** (and at most **4**)
+user-facing features or actions with no help page, and write a page for each. Look first at step 2
+drift and `user-docs-plan.md`; if neither yields one, hunt for it: list the frontend's routes,
+nav entries, buttons and dialogs (and the backend's user-facing endpoints), then `grep` `docs/`
+for each label to see what isn't covered. Prefer actions a user performs (a task for a how-to)
+over internal details. One feature per page; the ~10-changed-pages size cap below still applies, so
+drop new pages before dropping drift fixes if the run gets too large. Start from `templates/how-to-template.md`, add it to `nav:` in
+`mkdocs.yml`, set `status: draft`. If, after a genuine search, every feature you find is already
+documented, write no pages and say so under "New pages" in the PR body, listing what you checked.
 
 **5. Live verify + screenshots (best effort).** For pages touched in steps 2–4 (including 3a):
 - write a `shots.json` (format in `Wraparound-testing-Suite/src/screenshot.ts`) that logs in as
