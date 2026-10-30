@@ -31,6 +31,8 @@ shows **No church assigned** and nothing is editable.
     - **Address** — **Street**, **City**, **State** and **ZIP**.
 4. Click **Save Changes** (or **Save** at the top of the page).
 
+    ![My Church page in edit mode, showing the read-only name and status, the editable Website, Contacts and Address, and the Save button at the top.](../../assets/screens/update-your-churchs-details/my-church-edit.png)
+
 ## What you'll see
 
 A **Church updated** message appears and your changes show on the page. If nothing

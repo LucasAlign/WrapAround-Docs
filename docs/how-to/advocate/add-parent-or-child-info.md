@@ -1,54 +1,48 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-27
+last_reviewed: 2026-10-30
 ---
 
-<!-- @frontend verified live 2026-08-27, comparing DemoAdvocate against DemoAdmin on the
-same family (Khoury Family): Admin sees "Add parent" / "Add child" controls in the
-Household section (12 buttons on the family page as Advocate vs. 27 as Admin, including
-these two); Advocate sees neither, in either the read-only Overview or Edit Details. This
-resolves the earlier open question on this page — it's a genuine role gate, not a missed
-control. Contradicts ADVOCATE_ROLE.md's claim that advocates manage a family's "parents,
-children"; that claim is stale for this specific action. See
-docs/how-to/admin/families-and-people.md for the real (Admin/Coordinator-only) steps. -->
-
-<!-- @frontend: Align-Core #491 (merged 2026-10-26) lets Advocates add/remove parents and
-add/edit children in families their church serves (child delete stays admin-only). The
-frontend still gates "Add Parent" / "Add Child" / parent delete to admins
-(family-detail.tsx: canEditChildren/canAddParents/canDeleteParents = isAdmin), so this page
-is accurate for the UI today. Re-verify and rewrite once the frontend exposes the controls
-to advocates. -->
+<!-- @backend: confirm the scope rule for Advocates adding/removing parents and adding/editing
+children (Align-Core #491: families their church serves; child DELETE stays admin-only;
+primary_contact is ignored on an Advocate's parent create). Frontend side verified against
+family-detail.tsx and families-modals.tsx (Align-FrontEnd #768). -->
 
 # Add parent or child information
 
-**Who this is for:** Advocate (read this to understand why you can't do this — the
-action itself is Admin/Coordinator-only).
-**When to use it:** You need a parent or child added to a family's household record.
-**Before you start:** Nothing — but see below before looking for a button that isn't there.
+**Who this is for:** Advocates (Admins and Coordinators do the same thing).
+**When to use it:** A parent or child is missing from a family's Household, or their details
+are out of date.
+**Before you start:** The family must be one your church serves.
 
-## Advocates can't add a parent or child directly
+## Steps
 
-Unlike editing a family's profile or managing its care team, adding a parent or child to
-the Household is **not available to Advocates** — the control simply doesn't appear,
-even on families your church serves and even while you're already editing that family's
-details.
+1. Open the family and scroll to its **Household** section.
+2. To add a parent, click **Add Parent** below the list of parents. In the **New Parent /
+   Caregiver** form, enter **Full name** (required), and optionally **Phone** and **Email**.
+   Click **Add**. (The **Force enable emails** switch lets a parent without a login receive
+   family emails; leave it off unless the family asked for them.)
 
-## What to do instead
+    ![The New Parent / Caregiver form open in the Household section, with Full name, Phone, Email and Force enable emails, and an Add button.](../../assets/screens/add-parent-or-child-info/household-add-parent-form.png)
+3. To add a child, click **Add Child** below the list of children. In the **New Child** form,
+   enter **Full name** (required), and optionally **Birthdate** and **Relationship**. Click
+   **Add**.
+4. To change someone, hover over their row and click the pencil (**Edit** *name*), change
+   the details, then click **Save**.
 
-1. Contact your program's Admin or Coordinator.
-2. Give them the parent or child's details (name, and for a parent, phone/email if you
-   have them).
-3. They'll add the record — see [Manage families & people](../admin/families-and-people.md#add-a-parent-or-child-to-a-family-admincoordinator-only)
-   for the steps they'll follow.
+## What you'll see
 
-## What you can do
+The new person appears in the Household list straight away.
 
-- [View child information](view-child-information.md) already on file.
-- [Invite a family's parents](invite-a-familys-parents.md) to create their own portal
-  login, once they're already listed as parents on the family.
-- [Modify a family's profile](modify-a-familys-profile.md) for everything else Advocates
-  *can* edit.
+## What you can't do
+
+- **Set the primary contact when adding a parent.** The **Primary contact** checkbox isn't
+  shown to Advocates; ask an Admin or Coordinator.
+- **Remove a child.** Advocates can edit and archive a child (the archive icon), but the
+  remove (trash) icon is Admin/Coordinator-only.
+- **Remove the primary contact** until another parent is made the primary contact; the
+  confirmation explains what to do.
 
 ## Related
 
