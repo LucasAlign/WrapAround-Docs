@@ -121,6 +121,11 @@ labelled `docs-agent` with the body below, then delete `docs-agent/pending-revie
   notifications are suppressed (`notificationsDisabled` defaults on for dev).
 - **Screenshot data:** content must be plausible (real-looking needs, dates, schedules, messages).
   Names, emails and phone numbers must be **obviously fake**: `Sample Volunteer`, `Test Parent`,
-  `jane.example@example.com`, `555-0100`. Mask (`mask` in the shot step) anything that looks like
-  a real person's details.
+  `jane.example@example.com`, `555-0100`.
+- **Redaction:** data pulled from the dev environment does not need redacting. Only obscure a
+  **real email address** (for example the tester's own address typed into a signup form or shown
+  on a dialog). Don't redact the owner's (Austin Lucas) name or photo; both are already public.
+  When something must be obscured, **blur** it, not a solid black box or fill: use a strong
+  Gaussian blur over just that region (the `mask` step if it blurs, otherwise a post-process such
+  as Pillow `ImageFilter.GaussianBlur`), and check the result is unreadable at full size.
 - No secrets in commits, PRs or logs.
