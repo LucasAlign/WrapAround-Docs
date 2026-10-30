@@ -47,14 +47,7 @@ previously documented. -->
 3. Make any changes you want.
 4. **Save** your changes by clicking **Save changes** in the top right.
 
-## Add a parent or child to a family — Admin/Coordinator only
-
-<!-- @frontend verified live 2026-08-27: confirmed this control is genuinely gated to
-Admin/Coordinator. Signed in as DemoAdvocate on the same family, the Household section
-shows no "Add parent"/"Add child" control anywhere — not on the read-only Overview, not
-inside Edit Details. Signed in as DemoAdmin, both controls are present and work as
-described below. This contradicts ADVOCATE_ROLE.md's claim that advocates manage a
-family's "parents, children" — that claim is stale for this specific action. -->
+## Add a parent or child to a family — Admin/Coordinator and Advocates {#add-a-parent-or-child-to-a-family-admincoordinator-only}
 
 1. Open the family and scroll to its **Household** section.
 2. Under **Parents / Caregivers**, click **+ Add** (or **Add child** under **Children**).
@@ -68,10 +61,19 @@ family's "parents, children" — that claim is stale for this specific action. -
 
 **What you'll see:** the new parent or child appears immediately in the Household list.
 
-!!! tip "Advocates can't do this"
-    Adding a parent or child is Admin/Coordinator-only — the control doesn't appear for
-    Advocates, even ones who can otherwise edit the same family's profile. An advocate
-    who needs a parent or child added has to ask program staff.
+!!! tip "Advocates"
+    Advocates can add and edit parents and children in the families their church serves.
+    Permanently deleting a child stays with Admins; an Advocate archives the child instead
+    (see [Archive a family or child](archive-a-family.md)).
+
+### Send family emails to a parent without an account
+
+Family notification emails only reach parents who have a WrapAround login. When you add
+or edit a parent who has no account, turn on **Force enable emails** to send them family
+notification emails anyway. Without an account they can't choose which emails they get.
+If the parent already has an account the switch is on and locked, and they manage their
+emails in their own notification preferences. Parents with an account show a **Has login**
+badge in the Household list.
 
 ## Family photo
 
@@ -91,6 +93,7 @@ family's "parents, children" — that claim is stale for this specific action. -
 
 ## Related
 
+- [Archive a family or child](archive-a-family.md)
 - [Manage volunteers & advocates](volunteers-and-advocates.md)
 - [Onboard a family & invite people](onboarding.md)
 - [Manage churches & counties](organizations.md)
