@@ -49,11 +49,6 @@ previously documented. -->
 
 ## Add a parent or child to a family — Admin/Coordinator and Advocates {#add-a-parent-or-child-to-a-family-admincoordinator-only}
 
-<!-- @backend: confirm an Advocate can add and edit parents and children only in families their
-church serves, and can't permanently delete a child (Align-Core #491, #449). The frontend
-(family-detail.tsx) sets canEditParents/canEditChildren to admin or advocate and
-canDeleteChildren to admin only. -->
-
 1. Open the family and scroll to its **Household** section.
 2. Under **Parents / Caregivers**, click **+ Add** (or **Add child** under **Children**).
 3. An inline form opens. For a parent: enter **Full name** (required), optionally **Phone** and **Email**, and check **Primary contact** if this person is the family's main point of contact.
@@ -77,7 +72,8 @@ Family notification emails only reach parents who have a WrapAround login. When 
 or edit a parent who has no account, turn on **Force enable emails** to send them family
 notification emails anyway. Without an account they can't choose which emails they get.
 If the parent already has an account the switch is on and locked, and they manage their
-emails in their own notification preferences.
+emails in their own notification preferences. Parents with an account show a **Has login**
+badge in the Household list.
 
 ## Family photo
 

@@ -4,11 +4,6 @@ primary: frontend
 last_reviewed: 2026-10-29
 ---
 
-<!-- @backend: confirm who may re-send. The frontend shows the button when the caller can
-manage care items (needs.tsx canManageNeeds / need-detail-dialog.tsx canManage). The Align-Core
-CHANGELOG (#493) says need managers and above, closed needs are refused (409), and a need can
-be re-sent at most once every 15 minutes. -->
-
 # Re-send a need's email
 
 **Who this is for:** Advocates, Admins and Coordinators, and lead volunteers for their own
@@ -22,6 +17,8 @@ changed and you want to nudge people again.
 1. Open **Needs**.
 2. On the need's card, click the envelope button (hover text: "Re-send this need's email to
    the care team"). You can also open the need and click **Re-send email** at the bottom.
+![A need card with the envelope re-send button highlighted.](../../assets/screens/resend-a-needs-email/resend-need-button.png)
+
 3. In the **Re-send email?** box, click **Re-send email**.
 
 ## What you'll see

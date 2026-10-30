@@ -4,17 +4,11 @@ primary: frontend
 last_reviewed: 2026-10-29
 ---
 
-<!-- @backend: confirm who can archive and restore. The frontend (family-detail.tsx) shows
-**Archive family…** and **Restore family** to Admins/Coordinators (isAdmin), and **Request
-archival…** to Advocates only. Align-Core CHANGELOG (#449): archive/restore are
-Admin/Coordinator, the archive request is an in-scope advocate emailing the county's
-coordinators (409 when the county has none), and a child can be archived by anyone who can
-edit the child but restored only by Admin/Coordinator. -->
-
 # Archive a family or child
 
 **Who this is for:** Admins and Coordinators archive and restore families. Advocates can
-request that a family be archived and can archive a child.
+request that a family be archived, and can archive and restore a child in a family their
+church serves.
 **When to use it:** A family has moved away or no longer needs care, and you want it out
 of everyday lists without losing its history.
 **Before you start:** Archiving keeps the records for reports. It is not the same as
@@ -25,6 +19,8 @@ of everyday lists without losing its history.
 1. Open the family from **Families**.
 2. Click the **More actions** (⋯) button next to the family's name.
 3. Choose **Archive family…**.
+![The More actions menu on a family page, with Archive family highlighted.](../../assets/screens/archive-a-family/archive-family-menu.png)
+
 4. Read the confirmation, then click **Archive Family**.
 
 ## What you'll see
@@ -43,6 +39,9 @@ banner with the date. Archiving:
 2. Turn on **Show archived** (it reads **Show 1 archived family** or
    **Show N archived families** when some match your filters). The list switches to
    archived families only.
+
+![The Families page filter bar with the Show archived checkbox highlighted.](../../assets/screens/archive-a-family/families-show-archived.png)
+
 3. Open the family and click **Restore family** in the banner.
 
 A **<family name> restored** message appears. The family is still inactive: change its
@@ -64,8 +63,8 @@ to archive. You'll see **Archive request sent**.
 
 In the family's **Household** section, click **Archive <child name>** next to the child
 and confirm with **Archive**. Archived children move to an **Archived children (N)**
-list under the household. Only an Admin or Coordinator can restore a child with
-**Restore**; others see "To restore a child, reach out to a coordinator."
+list under the household. Admins, Coordinators and Advocates can bring a child back with
+**Restore**; everyone else sees "To restore a child, reach out to a coordinator."
 
 ## Related
 
