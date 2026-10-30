@@ -25,6 +25,12 @@ Tracks where a family is in the care journey.
 Other common values include *Applicant*, *Active – Awaiting serving Church*,
 *Active / Being served*, *On Hold*, and *Closed*.
 
+Staff also assign each family status a **category** — *vetting*, *building*, *active*, or
+*inactive* — and the app colours the status badge by that category, not by the status text.
+*Building* is the stage after a family is approved and has signed the participation
+agreement but before its care circle is assembled. A status with no category shows a
+neutral badge.
+
 ## Volunteer status
 
 Tracks where a volunteer is in their journey.
@@ -35,19 +41,21 @@ Tracks where a volunteer is in their journey.
 Other common values include *Equipped / Waiting*, *Serving*, *Taking a Break*,
 *No Longer Serving*, and *Pending team placement*.
 
-Each volunteer status carries a hidden **category** that staff assign — *intake*, *active*,
+Each volunteer status carries a **category** that staff assign — *intake*, *active*,
 *paused*, or *disabled* — and the system acts on the category, not on the status text, so
 renaming a status is safe. A status with no category is treated as active.
 
-- **Paused** or **disabled** volunteers lose access to their families' and church's data,
-  can't send or receive messages, stop receiving notification emails, and can't be assigned
-  to needs.
+- **Paused** or **disabled** volunteers (and advocates) lose access to their families' and
+  church's data, are blocked from messaging, stop receiving notification emails, and can't
+  be assigned to needs. When they open the app they see a full-page **Your account is
+  paused** (or **Your account is disabled**) screen with a **Sign out** button, telling them
+  their advocate or coordinator needs to move them out of that status.
 - Moving a volunteer into **disabled** also turns off their sign-in; moving them out turns
   it back on.
 
 ## Where statuses come from
 
 Statuses are reference lists kept centrally and editable by staff, so treat the app's
-current list as authoritative. The system acts on a status's hidden category rather than its name: a family status in the
+current list as authoritative. The system acts on a status's category rather than its name: a family status in the
 *vetting* category gates a family's approval, and the volunteer status in the *intake*
 category is the starting point for a new volunteer.
