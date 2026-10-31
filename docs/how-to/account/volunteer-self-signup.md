@@ -10,16 +10,7 @@ carried all the way through signup, email verification, and profile completion:
 - Cognito's native "New user? Create an account" link, sign-up form, and live
   password-rule validation — confirmed on demo.wraparound.lucasalign.com.
 - Email verification code + the post-verification "Complete your profile" screen —
-  confirmed by actually receiving and entering a real code, twice.
-- The church/partnered-church/county cascade below is confirmed ONLY on the dev
-  instance (https://e609f495-...janeway.replit.dev), NOT yet on
-  demo.wraparound.lucasalign.com. The two environments currently disagree on this
-  screen: on demo, the field is "Your church (optional)" with a plain list and no
-  free-text option, no Partnered church field, and no County field — selecting nothing
-  and continuing lands straight in Training. On dev, the field is "Attending church"
-  (required) with the type-to-add-a-church + Partnered church + County cascade
-  described below. Re-check which behavior is live on demo before publishing this
-  page, since it directly contradicts what demo does today. -->
+  confirmed by actually receiving and entering a real code, twice. -->
 
 # Sign up as a volunteer
 
@@ -61,13 +52,6 @@ Adding a church this way opens a second required field, **Partnered church** —
 Choosing **No Partnered Church** opens a third required field, **County** — the county you live in. If your county isn't listed, WrapAround isn't active there yet; the form tells you to contact the program directly rather than letting you continue.
 
 ![Complete your profile screen on mobile, showing the full Attending church / Partnered church / County cascade](img/volunteer-signup-county-mobile.png)
-
-!!! tip "This cascade may not be live yet"
-    As of this writing it only appeared on the WrapAround dev/preview environment, not
-    the public demo site — the field there is simpler (optional, pick-from-list only,
-    no free-text option). If you're not seeing the extra fields described above, your
-    organization may not have this version yet — leaving attending church blank and
-    continuing still works.
 
 ## What you'll see
 
