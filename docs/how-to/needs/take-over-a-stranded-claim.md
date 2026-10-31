@@ -1,7 +1,7 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-10-24
+last_reviewed: 2026-10-31
 ---
 
 <!-- @backend: code-checked against Align-Core (canTakeOverStrandedClaim, PUT /need-claims/{id}, #467/#468):
@@ -17,7 +17,12 @@ last_reviewed: 2026-10-24
 
 ## Steps
 
-1. From the main menu, open **Schedule**.
+1. From the main menu, open **Schedule**. (Advocates can also tap **Needs claimed by paused volunteers** under **What needs attention** on **Home**, which opens **Schedule** filtered to **Paused volunteers only**.)
+
+    ![The advocate Home page with the red Needs claimed by paused volunteers tile outlined under What needs attention.](../../assets/screens/take-over-a-stranded-claim/dashboard-stranded-tile.png)
+
+    ![The same tile on a phone, outlined in red.](../../assets/screens/take-over-a-stranded-claim/dashboard-stranded-tile-mobile.png)
+
 2. Find the date marked **volunteer paused** (in the calendar and day list, the line under the title reads, for example, "Sample Volunteer · volunteer paused"). It is highlighted in red. A recurring need's date list on the **Needs** page, in the claim dialog, marks the same dates **Volunteer paused — needs cover**.
 3. Tap **Take over this day** on a recurring need, or **Take over** on a one-time need.
 4. In the **Take over this day?** confirmation, read the details and tap **Take over this day**. Tap **Never mind** to back out (**Not yet** in the recurring-need dialog on the **Needs** page).
