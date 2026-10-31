@@ -1,7 +1,7 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-10-27
+last_reviewed: 2026-10-31
 ---
 
 <!-- @backend: confirm that an Advocate can edit only the church they're assigned to
@@ -32,6 +32,8 @@ shows **No church assigned** and nothing is editable.
 4. Click **Save Changes** (or **Save** at the top of the page).
 
     ![My Church page in edit mode, showing the read-only name and status, the editable Website, Contacts and Address, and the Save button at the top.](../../assets/screens/update-your-churchs-details/my-church-edit.png)
+
+    ![The same My Church edit page on a phone, with the Save button at the top right.](../../assets/screens/update-your-churchs-details/my-church-edit-mobile.png)
 
 ## What you'll see
 

@@ -1,7 +1,7 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-30
+last_reviewed: 2026-10-31
 ---
 
 <!-- @backend: confirm the scope rule for Advocates adding/removing parents and adding/editing
@@ -25,6 +25,9 @@ are out of date.
    family emails; leave it off unless the family asked for them.)
 
     ![The New Parent / Caregiver form open in the Household section, with Full name, Phone, Email and Force enable emails, and an Add button.](../../assets/screens/add-parent-or-child-info/household-add-parent-form.png)
+
+    ![The same New Parent / Caregiver form on a phone, with Full name filled in and the Add button at the bottom right.](../../assets/screens/add-parent-or-child-info/household-add-parent-form-mobile.png)
+
 3. To add a child, click **Add Child** below the list of children. In the **New Child** form,
    enter **Full name** (required), and optionally **Birthdate** and **Relationship**. Click
    **Add**.
