@@ -43,6 +43,8 @@ with WrapAround, using an email your church leaders can recognize helps them pla
 
 6. Choose **Save and continue**. If the button is greyed out, a line above it reads **Still needed:** followed by the fields you haven't filled in yet. A required field you've left empty is outlined in red.
 
+    If the button is greyed out, look just above it: a red **Still needed:** line lists every required field you haven't filled in yet. A required field you've left empty is also outlined in red.
+
 ## If your church isn't in the list
 
 Don't pick the closest match — type your church's actual name and a **Use "‹what you typed›"** option appears below the field; select it.
