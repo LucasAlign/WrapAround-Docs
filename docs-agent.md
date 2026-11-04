@@ -122,8 +122,11 @@ labelled `docs-agent` with the body below, then delete `docs-agent/pending-revie
 - **Never** merge, push to `main`, or touch the code repos.
 - **Dev data:** you may create data in dev to stage tutorials. Mark it: put `[docs-agent]` in a
   title or notes field where one exists, and record each created item (type, id, role used) in
-  `.docs-agent/created.json` as you go. Never edit or delete data you didn't create. Dev email
-  notifications are suppressed (`notificationsDisabled` defaults on for dev).
+  `.docs-agent/created.json` as you go. Dev is a sandbox: you may also edit existing dev data
+  when a tutorial needs it (for example moving a family through statuses), but use caution. Make
+  the smallest change that does the job, and prefer your own `[docs-agent]` items when they
+  would work just as well. Dev email notifications are suppressed (`notificationsDisabled`
+  defaults on for dev).
 - **Screenshot data:** content must be plausible (real-looking needs, dates, schedules, messages).
   Names, emails and phone numbers must be **obviously fake**: `Sample Volunteer`, `Test Parent`,
   `jane.example@example.com`, `555-0100`.
