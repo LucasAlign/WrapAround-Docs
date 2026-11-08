@@ -1,7 +1,7 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-10-29
+last_reviewed: 2026-11-08
 ---
 
 # Archive a family or child
@@ -23,10 +23,16 @@ of everyday lists without losing its history.
 
 4. Read the confirmation, then click **Archive Family**.
 
+![The Archive confirmation dialog listing what archiving does, with Cancel and Archive Family buttons.](../../assets/screens/archive-a-family/archive-family-dialog.png)
+
 ## What you'll see
 
 A **<family name> archived** message appears and the family page shows an **Archived**
-banner with the date. Archiving:
+banner with the date.
+
+![An archived family's page with the yellow Archived banner and a Restore family button.](../../assets/screens/archive-a-family/archived-banner.png)
+
+Archiving:
 
 - sets the family to inactive and hides it from advocates, volunteers and the family
   themselves;
@@ -53,8 +59,15 @@ Advocates can't archive a family directly.
 
 1. Open the family and click **More actions** (⋯).
 2. Choose **Request archival…**.
+
+![The More actions menu on a family page for an advocate, with Request archival highlighted.](../../assets/screens/archive-a-family/request-archival-menu.png)
+
 3. Enter a **Reason** (for example, "The family has moved out of the area.") and click
    **Send request**.
+
+![The Request archival dialog with a sample reason typed in.](../../assets/screens/archive-a-family/request-archival-dialog.png)
+
+![The same dialog on a phone.](../../assets/screens/archive-a-family/request-archival-dialog-mobile.png)
 
 Your county's coordinators get an email with your name and the reason, and decide whether
 to archive. You'll see **Archive request sent**.
