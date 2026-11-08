@@ -1,7 +1,7 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-10-31
+last_reviewed: 2026-11-08
 ---
 
 <!-- @backend: code-checked against Align-Core (canTakeOverStrandedClaim, PUT /need-claims/{id}, #467/#468):
@@ -25,7 +25,15 @@ last_reviewed: 2026-10-31
 
 2. Find the date marked **volunteer paused** (in the calendar and day list, the line under the title reads, for example, "Sample Volunteer · volunteer paused"). It is highlighted in red. A recurring need's date list on the **Needs** page, in the claim dialog, marks the same dates **Volunteer paused — needs cover**.
 3. Tap **Take over this day** on a recurring need, or **Take over** on a one-time need.
+
+    ![The Schedule page with the red Take over this day button outlined on a paused volunteer's meal need.](../../assets/screens/take-over-a-stranded-claim/take-over-button.png)
+
 4. In the **Take over this day?** confirmation, read the details and tap **Take over this day**. Tap **Never mind** to back out (**Not yet** in the recurring-need dialog on the **Needs** page).
+
+    ![The Take over this day? confirmation on desktop, with Never mind and Take over this day buttons.](../../assets/screens/take-over-a-stranded-claim/take-over-dialog.png)
+
+    ![The same confirmation on a phone.](../../assets/screens/take-over-a-stranded-claim/take-over-dialog-mobile.png)
+
 5. A message confirms **You've taken over this day**.
 
 ## What you'll see
