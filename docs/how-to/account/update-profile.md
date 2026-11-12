@@ -1,47 +1,65 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-12
 ---
-
-<!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
-     https://demo.wraparound.lucasalign.com/profile. Correcting the draft: name, email,
-     and role are NOT editable here — they're read-only fields sourced from the LucasAlign
-     identity provider. There is no "how you'd like to help" or availability field on this
-     page for a volunteer. The only thing a volunteer can change here is their photo
-     (see upload-photo.md) and, further down the same page, which notification emails
-     they receive (see manage-notification-emails.md). -->
 
 # Update your profile
 
 **Who this is for:** Everyone with a WrapAround account.
-**When to use it:** To check the details WrapAround has on file for you, change your
-photo, or adjust which emails you receive.
+**When to use it:** To change your name, phone number, or address, or to change your password.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md).
 
-## Steps
+## Open Profile Settings
 
-1. Click your photo/initials in the sidebar, or go to **Profile Settings**.
+- **On a computer:** select **your name and profile picture** at the bottom of the left
+  sidebar.
+- **On a phone:** tap your **profile picture** in the top-right corner.
 
-    ![Profile Settings page showing a read-only Name, Email, and Role under Personal Information](img/profile-settings-desktop.png)
+## Change your name or phone number
 
-2. Under **Personal Information**, you can see your **name**, **email**, and **role**.
-   These fields are **read-only** — WrapAround manages them through your LucasAlign
-   identity provider, not through this page.
-3. To change your name or email, contact your administrator or coordinator — they're the
-   ones who can update it.
+1. Under **Personal Information**, edit **First name**, **Last name**, or **Phone**.
+
+    ![Profile Settings with the First name field outlined under Personal Information.](../../assets/screens/update-profile/personal-information.png)
+
+    ![Personal Information on a phone, with the First name field outlined.](../../assets/screens/update-profile/personal-information-mobile.png){ width="320" }
+
+2. If you see an **Address** card, you can also edit **Street**, **City**, **State**, and
+   **ZIP** there.
+3. Select **Save Changes** below the address. The button stays greyed out until you've
+   changed something.
+
+    ![The Address card with the Save Changes button outlined below it.](../../assets/screens/update-profile/address-save.png)
+
+    ![The Address card on a phone, with Save Changes outlined.](../../assets/screens/update-profile/address-save-mobile.png){ width="320" }
+
+!!! note "Email and role can't be changed here"
+    **Email** and **Role** are greyed out. They come from your sign-in account. If either is
+    wrong, contact your administrator.
+
+!!! info "Who sees the Address card"
+    The **Address** card appears only for people with a volunteer record, such as
+    volunteers and advocates. Family accounts don't have it.
+
+## Change your password
+
+1. Scroll to **Sign-in & Security** and select **Change password**.
+
+    ![The Sign-in & Security card with the Change password button outlined.](../../assets/screens/update-profile/change-password.png)
+
+    ![The Sign-in & Security card on a phone, with Change password outlined.](../../assets/screens/update-profile/change-password-mobile.png){ width="320" }
+
+2. You're taken to the secure sign-in page. Confirm your email with the verification code
+   it sends you, then set a new password.
 
 ## What you'll see
 
-Your current name, email, and role, exactly as WrapAround has them on file. There's
-nothing to save here — the **Save Changes** button under Personal Information doesn't
-apply to any of these fields.
-
-!!! note "Nothing to edit? That's expected"
-    Unlike some apps, WrapAround doesn't let you self-edit your name or contact info.
-    This keeps your identity consistent with your organization's records. If something's
-    wrong, ask your administrator to fix it at the source.
+After you save, a **Profile updated** message appears. If you changed your name, the
+message tells you your new name appears across WrapAround the next time you sign in.
+After you change your password, you're signed back in to WrapAround.
 
 ## Related
 
 - [Upload your photo](upload-photo.md)
+- [Change your language](change-your-language.md)
 - [Manage your notification emails](manage-notification-emails.md)
