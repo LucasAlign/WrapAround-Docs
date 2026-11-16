@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-10-27
 ---
 
 <!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
@@ -39,12 +40,13 @@ releasing.
     ![Day popover for a recurring need, with This day and Series buttons](img/day-popover-lead-desktop.png)
 
 2. Click **This day** to open the day's detail dialog.
-3. Next to the volunteer's name, click **excused this day** (shown under "Cover a series
-   volunteer for this day").
+3. Under "Cover a series volunteer for this day", click the **person-with-an-X icon**
+   (hover text: **Excuse from this day**) next to the volunteer's name.
 
     ![Modify This Day panel with a volunteer's claim struck through and marked excused this day](img/modify-this-day-desktop.png)
 
-4. Confirm. This can't be undone.
+4. Click **Excuse** in the confirmation. This can't be undone. The volunteer's name is then
+   struck through and labelled **excused this day**.
 
 ### For a one-time need
 
