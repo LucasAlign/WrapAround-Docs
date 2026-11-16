@@ -61,10 +61,20 @@ previously documented. -->
 
 **What you'll see:** the new parent or child appears immediately in the Household list.
 
-!!! note "Advocates"
-    Advocates can add and edit parents and children in families their church serves
-    ([steps](../advocate/add-parent-or-child-info.md)). Only Admins and Coordinators can set the
-    primary contact when adding a parent, or remove a child.
+!!! tip "Advocates"
+    Advocates can add and edit parents and children in the families their church serves
+    ([steps](../advocate/add-parent-or-child-info.md)).
+    Permanently deleting a child stays with Admins; an Advocate archives the child instead
+    (see [Archive a family or child](archive-a-family.md)).
+
+### Send family emails to a parent without an account
+
+Family notification emails only reach parents who have a WrapAround login. When you add
+or edit a parent who has no account, turn on **Force enable emails** to send them family
+notification emails anyway. Without an account they can't choose which emails they get.
+If the parent already has an account the switch is on and locked, and they manage their
+emails in their own notification preferences. Parents with an account show a **Has login**
+badge in the Household list.
 
 ## Family photo
 
@@ -84,6 +94,7 @@ previously documented. -->
 
 ## Related
 
+- [Archive a family or child](archive-a-family.md)
 - [Manage volunteers & advocates](volunteers-and-advocates.md)
 - [Onboard a family & invite people](onboarding.md)
 - [Manage churches & counties](organizations.md)

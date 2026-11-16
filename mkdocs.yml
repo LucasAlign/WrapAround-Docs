@@ -71,6 +71,7 @@ nav:
           - Update your profile: how-to/account/update-profile.md
           - Upload your photo: how-to/account/upload-photo.md
           - Manage your notification emails: how-to/account/manage-notification-emails.md
+          - Sign the volunteer agreement: how-to/account/sign-the-volunteer-agreement.md
           - Change the app's language: how-to/account/change-your-language.md
       - Your Family:
           - View your family: how-to/family/view-your-family.md
@@ -87,10 +88,13 @@ nav:
           - View child information: how-to/advocate/view-child-information.md
           - View assigned advocates: how-to/advocate/view-assigned-advocates.md
           - Create a one-time need: how-to/advocate/create-a-one-time-need.md
+          - Re-send a need's email: how-to/advocate/resend-a-needs-email.md
           - Create a recurring need: how-to/advocate/create-a-recurring-need.md
           - Assign a volunteer to a need: how-to/advocate/assign-a-volunteer-to-a-need.md
           - Cover a single day of a recurring need: how-to/advocate/cover-a-single-day.md
+          - Assign volunteers to several dates: how-to/advocate/assign-volunteers-to-dates.md
           - See what each volunteer has committed to: how-to/advocate/view-volunteer-commitments.md
+          - Assign volunteers to several dates of a recurring need: how-to/advocate/assign-volunteers-to-dates.md
           - Change recurring assignments: how-to/advocate/change-recurring-assignments.md
           - View the schedule: how-to/advocate/view-schedule.md
           - Request coverage on behalf of a volunteer: how-to/advocate/request-coverage.md
@@ -104,6 +108,7 @@ nav:
           - Claim a need: how-to/needs/claim-a-need.md
           - Withdraw a claim: how-to/needs/withdraw-a-claim.md
           - Request coverage on a need you've claimed: how-to/needs/request-coverage.md
+          - Take over a claim from a paused volunteer: how-to/needs/take-over-a-stranded-claim.md
           - Mark a need complete: how-to/needs/mark-complete.md
       - Schedules:
           - View the calendar: how-to/schedules/view-calendar.md
@@ -120,8 +125,10 @@ nav:
           - Access training resources: how-to/training/resources.md
       - Admin & Staff:
           - Manage families & people: how-to/admin/families-and-people.md
+          - Archive a family or child: how-to/admin/archive-a-family.md
           - Manage volunteers & advocates: how-to/admin/volunteers-and-advocates.md
           - Manage churches & counties: how-to/admin/organizations.md
+          - Manage counties: how-to/admin/manage-counties.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
           - Manage training modules: how-to/admin/training-management.md
           - Manage family agreements: how-to/admin/family-agreements.md
