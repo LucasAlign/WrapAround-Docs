@@ -1,12 +1,12 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-11-09
+last_reviewed: 2026-11-10
 ---
 
 # See what each volunteer has committed to
 
-**Who this is for:** Advocates, program staff and lead volunteers of the family
+**Who this is for:** Advocates, lead volunteers and program staff
 **When to use it:** To see, for one family, which needs each care-team volunteer has signed up for over the next few weeks, including recurring dates.
 **Before you start:** Pick the family you want to look at in **Select Family** on the **Needs** page.
 
@@ -35,8 +35,6 @@ Dates a volunteer was excused from, and dates a cover volunteer took over, are a
 
 !!! note
     The details window opened from this view is read-only. Use **Posted needs** to edit or reassign a need.
-
-<!-- @backend: confirm lead volunteers may read every claimant's name for their family's needs (Align-FrontEnd #811 says the expand read already allows it). -->
 
 ## Related
 
