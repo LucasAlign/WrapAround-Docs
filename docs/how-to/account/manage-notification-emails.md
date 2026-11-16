@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-12
 ---
 
 # Manage your notification emails
@@ -36,73 +37,81 @@ Either way, you land on **Profile Settings**. Scroll down to the **Notifications
 
 1. In the **Notifications** card, use the **toggle** next to each notification type to turn
    its email **on** (green) or **off** (grey).
-2. Select **Save Changes** to apply them. The button stays greyed out until you've actually
-   changed something, so if it's inactive you have nothing left to save.
 
-![The Notifications card on the Profile Settings screen, showing a labeled on/off toggle and short description for each notification type, with a Save Changes button below.](img/notifications-advocate.png)
+    ![The Notifications card on the Profile Settings screen, with the New needs toggle outlined.](../../assets/screens/manage-notification-emails/notifications-card.png)
+
+    ![The same Notifications card on a phone, with the New needs toggle outlined.](../../assets/screens/manage-notification-emails/notifications-card-mobile.png){ width="320" }
+
+2. Select **Save Changes** at the bottom of the card to apply them. The button stays greyed
+   out until you've actually changed something, so if it's inactive you have nothing left
+   to save.
+
+    ![The bottom of the Notifications card, with the Save Changes button outlined after a toggle was changed.](../../assets/screens/manage-notification-emails/notifications-save.png)
+
+    ![The bottom of the Notifications card on a phone, with the Save Changes button outlined.](../../assets/screens/manage-notification-emails/notifications-save-mobile.png){ width="320" }
+
+!!! note "Two Save Changes buttons"
+    Profile Settings has another **Save Changes** button higher up, under your address. That
+    one saves your personal details only. Use the one inside the **Notifications** card for
+    your email choices.
 
 ## What you'll see
 
-A short confirmation appears once your changes are saved, and they stick — reload the page
-or sign in again later and your choices are still there. Any email you switched off simply
-stops arriving; the matching in-app notifications are unaffected.
+A **Notification preferences saved.** message appears once your changes are saved, and they
+stick — reload the page or sign in again later and your choices are still there. Any email
+you switched off simply stops arriving.
 
-!!! info "Only the types that apply to you are shown"
-    The Notifications card lists just the notifications your role can actually receive, so
-    the list below will differ from a teammate's in a different role. That's expected.
+## Every notification type
 
-## What each role can turn on or off
+These are all the notification emails you can control. Your card shows a selection of
+them (see the next section).
 
-The exact toggles you see depend on your role. Here's what each role controls.
+| Toggle | When it's sent |
+|---|---|
+| **New needs** | A support need is posted for a family you serve. |
+| **Need sign-ups** | Someone signs up to help with a need for your family. |
+| **Assignment changes** | You're added to or removed from a need someone else manages. |
+| **Coverage requests** | A volunteer needs someone to cover their slot for a family you serve. |
+| **Unfilled needs coming due** | A need for a family you lead is still unfilled as its date approaches. |
+| **Upcoming event reminders** | A day-before reminder of needs and events scheduled for your family. |
+| **New volunteers at your church** | A volunteer is added to a church you advocate for. |
+| **Volunteers ready for placement** | A volunteer completes onboarding and is ready to be placed. |
+| **Family agreement signed** | A family signs their participation agreement. |
+| **Family status changes** | A family you're connected to changes status. |
+| **Family assignments** | You're assigned to support a family. |
+| **Childcare clearance expiring** | A childcare clearance (yours, or one of your volunteers') is nearing its expiry date. |
+| **Stalled family onboarding** | A family you coordinate has stalled partway through onboarding. |
+| **Care community expiring** | A care community you advocate for is 3 months from its 12-month expiration. |
+| **Family posts** | A lead volunteer, advocate, or admin posts an update for a family you serve. |
 
-### Volunteers
+!!! info "New needs that already have a volunteer"
+    When someone posts a need and assigns a volunteer to it right away, the **New needs**
+    email isn't sent for it. The need is already covered, so there's nothing to ask for.
 
-Two notifications, focused on the families you help:
+!!! info "Stalled family onboarding is off until you turn it on"
+    Every toggle starts **on**, except **Stalled family onboarding**. It starts **off**, and
+    you only get it after you switch it on and save.
 
-- **New needs** — A support need is posted for a family you serve.
-- **Family status changes** — A family you're connected to changes status.
+## Which toggles you'll see
 
-![The Notifications card for a volunteer, showing the New needs and Family status changes toggles.](img/notifications-volunteer.png)
+The card starts with the notifications meant for your role:
 
-### Lead volunteers
+- **Volunteers:** **New needs**, **Assignment changes**, **Family status changes**.
+- **Lead volunteers:** **New needs**, **Need sign-ups**, **Assignment changes**,
+  **Family status changes**.
+- **Advocates:** **New needs**, **New volunteers at your church**, **Volunteers ready for
+  placement**, **Family agreement signed**, **Family status changes**.
+- **Coordinators and administrators:** **Volunteers ready for placement**, **Family
+  agreement signed**, **Family status changes**.
+- **Families:** **Need sign-ups**, **Family status changes**.
 
-Everything a volunteer sees, plus a heads-up when help is claimed:
+Every role also sees the newer toggles: **Coverage requests**, **Unfilled needs coming
+due**, **Upcoming event reminders**, **Family assignments**, **Childcare clearance
+expiring**, **Stalled family onboarding**, **Care community expiring**, and **Family
+posts**. Some of these rarely or never apply to your role. Leaving one on when it doesn't
+apply to you does nothing.
 
-- **New needs** — A support need is posted for a family you serve.
-- **Need sign-ups** — Someone signs up to help with a need.
-- **Family status changes** — A family you're connected to changes status.
-
-### Advocates
-
-The widest set, covering both your families and the volunteers at your church:
-
-- **New needs** — A support need is posted for a family you serve.
-- **New volunteers at your church** — A volunteer is added to a church you advocate for.
-- **Volunteers ready for placement** — A volunteer completes onboarding and is ready to be placed.
-- **Family agreement signed** — A family signs their participation agreement.
-- **Family status changes** — A family you're connected to changes status.
-
-![The Notifications card for an advocate, showing all five toggles: New needs, New volunteers at your church, Volunteers ready for placement, Family agreement signed, and Family status changes.](img/notifications-advocate.png)
-
-### Program staff (coordinators & admins)
-
-County coordinators and administrators share the same three notifications, focused on
-onboarding and family milestones:
-
-- **Volunteers ready for placement** — A volunteer completes onboarding and is ready to be placed.
-- **Family agreement signed** — A family signs their participation agreement.
-- **Family status changes** — A family you're connected to changes status.
-
-![The Notifications card for program staff, showing the Volunteers ready for placement, Family agreement signed, and Family status changes toggles.](img/notifications-staff.png)
-
-### Families
-
-Two notifications about the help coming to your family:
-
-- **Need sign-ups** — Someone signs up to help with a need for your family.
-- **Family status changes** — A family you're connected to changes status.
-
-![The Notifications card for a family, showing the Need sign-ups and Family status changes toggles.](img/notifications-family.png)
+![The Notifications card for a coordinator, showing the staff toggles followed by the newer toggles every role sees.](../../assets/screens/manage-notification-emails/notifications-card-staff.png)
 
 ## Emails you can't turn off
 

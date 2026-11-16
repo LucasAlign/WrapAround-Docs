@@ -1,12 +1,8 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-12
 ---
-
-<!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
-     https://demo.wraparound.lucasalign.com/profile. The control is a "Replace photo"
-     button next to your current photo/avatar (plus a separate "Remove" button) — not the
-     avatar itself. No crop step; the file uploads as-is. -->
 
 # Upload your photo
 
@@ -17,23 +13,29 @@ you have a photo on the device you're using.
 
 ## Steps
 
-1. Click your photo/initials in the sidebar, or go to **Profile Settings**.
-2. Under **Profile Photo**, click **Replace photo**.
+1. Open **Profile Settings**: select your name and picture at the bottom of the sidebar on
+   a computer, or tap your profile picture in the top-right corner on a phone.
+2. Under **Profile Photo**, select **Upload photo** (or **Replace photo** if you already
+   have one).
 
-    ![Profile Photo section with Replace photo and Remove buttons](img/profile-photo-desktop.png)
+    ![The Profile Photo card with the Replace photo button outlined next to the current photo and a Remove button.](../../assets/screens/upload-photo/replace-photo.png)
 
-3. Choose a photo from your device — **JPEG, PNG, WebP, or HEIC**, up to **10 MB**.
-4. Your photo uploads and replaces the one shown. There's no separate confirm step and
-   no cropping — the photo you pick is the photo that's used.
+    ![The Profile Photo card on a phone, with Replace photo outlined.](../../assets/screens/upload-photo/replace-photo-mobile.png){ width="320" }
+
+3. Choose a photo from your device: **JPEG, PNG, WebP, or HEIC**, up to **10 MB**.
+4. Your photo uploads and a **Profile photo updated.** message appears. There's no separate
+   confirm step and no cropping — the photo you pick is the photo that's used.
+
+To take your photo down without adding a new one, select **Remove**, then **Remove photo**
+to confirm. The image is deleted and can't be restored.
 
 ## What you'll see
 
-Your new photo appears next to your name across WrapAround — on messages, claims, and
-the schedule — so the team can recognize you.
+Your new photo appears next to your name across WrapAround, so the team can recognize you.
 
 !!! warning "Replacing deletes the old photo"
-    WrapAround says this plainly on the page: replacing your photo **deletes the current
-    one**. There's no way to go back to it — pick a photo you're happy keeping.
+    The card says it plainly: "Replacing deletes the current photo." There's no way to go
+    back to it, so pick a photo you're happy keeping.
 
 !!! tip "Pick a clear, friendly photo"
     A simple headshot works best. Avoid group photos so people can tell which face is yours.

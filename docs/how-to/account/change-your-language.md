@@ -1,58 +1,52 @@
 ---
 status: draft
 primary: frontend
-last_reviewed: 2026-11-11
+last_reviewed: 2026-11-12
 ---
 
-<!-- @frontend written 2026-11-11 from Align-FrontEnd main (701b73b):
-     components/language-select.tsx (rendered on pages/profile.tsx with showPersistence,
-     and on cognito-landing.tsx, onboarding.tsx, volunteer-register.tsx and
-     family-signup.tsx without it), lib/i18n/language.ts (choice stored in localStorage),
-     components/translated-text.tsx (per-org content translation). Profile Settings
-     screenshot captured live on dev as the demo advocate. On dev the status line reads
-     "Saved on this browser. Account sync is not configured yet." -->
+# Change your language
 
-<!-- @backend: account-level language sync (saveAccountLanguage) and content translation
-     are per-org frontend flags (accountLanguageEnabled / contentTranslationEnabled).
-     Confirm which orgs have them on before this page says more than "your organization
-     may". -->
-
-# Change the app's language
-
-**Who this is for:** Everyone: volunteers, families, advocates, and program staff.
-**When to use it:** You'd rather use WrapAround in Spanish (or switch back to English).
-**Before you start:** Nothing. You can do this even before you sign in.
+**Who this is for:** Everyone with a WrapAround account.
+**When to use it:** To use WrapAround in Spanish instead of English, or to switch back.
+**Before you start:** Nothing. You can also pick a language on the sign-in screen before you
+sign in.
 
 ## Steps
 
-1. Click your photo or initials in the sidebar (on a phone, at the top of the screen) to
-   open **Profile Settings**. Program staff can also choose **Settings** in the sidebar.
-2. At the top of the page, find **Choose your language / English · Español** and pick
-   **Español** (or **English**).
+1. Open **Profile Settings**: select your name and picture at the bottom of the sidebar on a
+   computer, or tap your profile picture in the top-right corner on a phone.
+2. At the top of the page, find **Choose your language / English · Español**.
+3. Open the menu and choose **English** or **Español**.
 
-    ![Profile Settings with the Choose your language picker outlined at the top of the page.](../../assets/screens/change-your-language/step-2-language-select.png)
+    ![Profile Settings with the language menu outlined at the top of the page.](../../assets/screens/change-your-language/language-select.png)
 
-    ![The language picker on a phone.](../../assets/screens/change-your-language/step-2-language-select-mobile.png)
+    ![The language menu on a phone, outlined at the top of Profile Settings.](../../assets/screens/change-your-language/language-select-mobile.png){ width="320" }
+
+There's no save button. The change takes effect as soon as you pick a language.
 
 ## What you'll see
 
-Menus, buttons, and messages switch to the language you picked right away. There's
-nothing to save. The line under the picker tells you where your choice is kept:
+Menus, buttons, and page text switch to the language you chose right away.
 
-- **Saved on this browser. Account sync is not configured yet.** Your choice applies on
-  this browser only. Pick it again on another phone or computer.
-- **Language saved to your account.** Your choice follows you to any device you sign in on.
+![Profile Settings shown in Spanish after choosing Español, with the page titled Configuración del perfil.](../../assets/screens/change-your-language/language-spanish.png)
 
-!!! tip "Before you sign in"
-    The sign-in page, the sign-up pages, and **Complete your profile** have the same
-    **Choose your language** picker, so you can switch before you have an account.
+![Profile Settings in Spanish on a phone.](../../assets/screens/change-your-language/language-spanish-mobile.png){ width="320" }
 
-!!! note "Posts and needs written by people"
-    Switching the language changes WrapAround's own words. If your organization has turned
-    on translation, text that people wrote (such as a need's title or description) is
-    translated too. A **View original** link below it shows the text as it was written.
+A short line under the menu says where your choice is kept:
+
+- **Saved on this browser. Account sync is not configured yet.** Your choice is kept on
+  this device and browser only. Pick it again if you sign in somewhere else.
+- **Your language preference follows your account.** Your choice is saved to your account
+  and follows you to other devices. When you change it, you'll see **Language saved to your
+  account.**
+
+!!! note "Some content stays as it was written"
+    The language setting translates WrapAround's own menus and labels. Things people type,
+    such as need descriptions, posts, and messages, may still appear in the language they
+    were written in.
 
 ## Related
 
 - [Update your profile](update-profile.md)
+- [Manage your notification emails](manage-notification-emails.md)
 - [Sign up as a volunteer](volunteer-self-signup.md)
