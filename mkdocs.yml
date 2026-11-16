@@ -79,6 +79,7 @@ nav:
           - Onboard a new volunteer: how-to/advocate/onboard-a-volunteer.md
           - View volunteer details: how-to/advocate/view-volunteer-details.md
           - Modify a family's profile: how-to/advocate/modify-a-familys-profile.md
+          - Update your church's details: how-to/advocate/update-your-churchs-details.md
           - Manage a family's care team: how-to/advocate/manage-a-familys-care-team.md
           - Add parent or child information: how-to/advocate/add-parent-or-child-info.md
           - Invite a family's parents: how-to/advocate/invite-a-familys-parents.md
@@ -86,6 +87,7 @@ nav:
           - View child information: how-to/advocate/view-child-information.md
           - View assigned advocates: how-to/advocate/view-assigned-advocates.md
           - Create a one-time need: how-to/advocate/create-a-one-time-need.md
+          - Re-send a need's email: how-to/advocate/resend-a-needs-email.md
           - Create a recurring need: how-to/advocate/create-a-recurring-need.md
           - Assign a volunteer to a need: how-to/advocate/assign-a-volunteer-to-a-need.md
           - Cover a single day of a recurring need: how-to/advocate/cover-a-single-day.md
@@ -103,6 +105,7 @@ nav:
           - Claim a need: how-to/needs/claim-a-need.md
           - Withdraw a claim: how-to/needs/withdraw-a-claim.md
           - Request coverage on a need you've claimed: how-to/needs/request-coverage.md
+          - Take over a claim from a paused volunteer: how-to/needs/take-over-a-stranded-claim.md
           - Mark a need complete: how-to/needs/mark-complete.md
       - Schedules:
           - View the calendar: how-to/schedules/view-calendar.md
@@ -119,6 +122,7 @@ nav:
           - Access training resources: how-to/training/resources.md
       - Admin & Staff:
           - Manage families & people: how-to/admin/families-and-people.md
+          - Archive a family or child: how-to/admin/archive-a-family.md
           - Manage volunteers & advocates: how-to/admin/volunteers-and-advocates.md
           - Manage churches & counties: how-to/admin/organizations.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
