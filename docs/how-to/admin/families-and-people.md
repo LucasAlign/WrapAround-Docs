@@ -47,10 +47,10 @@ previously documented. -->
 3. Make any changes you want.
 4. **Save** your changes by clicking **Save changes** in the top right.
 
-## Add a parent or child to a family — Admin/Coordinator and Advocates {#add-a-parent-or-child-to-a-family-admincoordinator-only}
+## Add a parent or child to a family
 
 1. Open the family and scroll to its **Household** section.
-2. Under **Parents / Caregivers**, click **+ Add** (or **Add child** under **Children**).
+2. Click **Add Parent** below the parents (or **Add Child** below the children).
 3. An inline form opens. For a parent: enter **Full name** (required), optionally **Phone** and **Email**, and check **Primary contact** if this person is the family's main point of contact.
 
     ![Household section with the "New Parent / Caregiver" inline form open, showing Full name, Phone, Email, and Primary contact fields](img/add-parent-modal-desktop.png)
@@ -62,7 +62,8 @@ previously documented. -->
 **What you'll see:** the new parent or child appears immediately in the Household list.
 
 !!! tip "Advocates"
-    Advocates can add and edit parents and children in the families their church serves.
+    Advocates can add and edit parents and children in the families their church serves
+    ([steps](../advocate/add-parent-or-child-info.md)).
     Permanently deleting a child stays with Admins; an Advocate archives the child instead
     (see [Archive a family or child](archive-a-family.md)).
 

@@ -78,6 +78,7 @@ nav:
           - Onboard a new volunteer: how-to/advocate/onboard-a-volunteer.md
           - View volunteer details: how-to/advocate/view-volunteer-details.md
           - Modify a family's profile: how-to/advocate/modify-a-familys-profile.md
+          - Update your church's details: how-to/advocate/update-your-churchs-details.md
           - Manage a family's care team: how-to/advocate/manage-a-familys-care-team.md
           - Add parent or child information: how-to/advocate/add-parent-or-child-info.md
           - Invite a family's parents: how-to/advocate/invite-a-familys-parents.md
@@ -89,6 +90,7 @@ nav:
           - Create a recurring need: how-to/advocate/create-a-recurring-need.md
           - Assign a volunteer to a need: how-to/advocate/assign-a-volunteer-to-a-need.md
           - Cover a single day of a recurring need: how-to/advocate/cover-a-single-day.md
+          - See what each volunteer has committed to: how-to/advocate/view-volunteer-commitments.md
           - Change recurring assignments: how-to/advocate/change-recurring-assignments.md
           - View the schedule: how-to/advocate/view-schedule.md
           - Request coverage on behalf of a volunteer: how-to/advocate/request-coverage.md
@@ -102,6 +104,7 @@ nav:
           - Claim a need: how-to/needs/claim-a-need.md
           - Withdraw a claim: how-to/needs/withdraw-a-claim.md
           - Request coverage on a need you've claimed: how-to/needs/request-coverage.md
+          - Take over a claim from a paused volunteer: how-to/needs/take-over-a-stranded-claim.md
           - Mark a need complete: how-to/needs/mark-complete.md
       - Schedules:
           - View the calendar: how-to/schedules/view-calendar.md
