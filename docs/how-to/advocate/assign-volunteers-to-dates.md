@@ -39,3 +39,4 @@ Each volunteer and date pair gets one result: **Assigned**, **Already assigned**
 - [Assign a volunteer to a need](assign-a-volunteer-to-a-need.md)
 - [Cover a single day of a recurring need](cover-a-single-day.md)
 - [Change recurring assignments](change-recurring-assignments.md)
+- [See what each volunteer has committed to](view-volunteer-commitments.md)
