@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-04
 ---
 
 <!-- @backend verified: families are associated with a county; advocates are scoped to a
@@ -39,8 +40,8 @@ The directory shows each church's **county**, its **families**, and how many vol
 ## Counties
 
 Counties group families and volunteers geographically, and coordinators manage by county.
-There isn't a separate county-management screen — the county list is maintained centrally.
-Counties show up as a **filter** on the Churches, Families, and Volunteers directories and as
+Admins and Coordinators manage them from **Counties** in the navigation bar — see
+[Manage counties](manage-counties.md). Counties show up as a **filter** on the Churches, Families, and Volunteers directories and as
 a **County** field when you create a family, church, or user.
 
 ## Export churches to CSV
