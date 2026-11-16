@@ -1,7 +1,7 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-21
+last_reviewed: 2026-11-11
 ---
 
 <!-- @frontend verified live end-to-end 2026-08-27, using two real throwaway accounts
@@ -10,7 +10,14 @@ carried all the way through signup, email verification, and profile completion:
 - Cognito's native "New user? Create an account" link, sign-up form, and live
   password-rule validation — confirmed on demo.wraparound.lucasalign.com.
 - Email verification code + the post-verification "Complete your profile" screen —
-  confirmed by actually receiving and entering a real code, twice. -->
+  confirmed by actually receiving and entering a real code, twice.
+
+Re-verified 2026-11-11 against Align-FrontEnd main (701b73b): App.tsx gates run in the
+order provisioning ("Setting up your account") → volunteer agreement (/volunteer/agreement,
+only when the tenant has an active volunteer agreement; Align-Core #413) → onboarding
+("Complete your profile") → training (only when onboarding_status is training_assigned).
+pages/onboarding.tsx shows "Your mailing address" before "Your church". Not re-captured
+live: it needs a fresh Cognito account. -->
 
 # Sign up as a volunteer
 
@@ -33,17 +40,17 @@ with WrapAround, using an email your church leaders can recognize helps them pla
 
     Your password needs to be at least 8 characters and include a number, an uppercase letter, and a special character — the form validates each requirement as you type.
 
-4. Choose **Sign up**. You'll be sent an email with a verification code — enter it on the **Confirm your account** screen and choose **Confirm account**.
+4. Choose **Sign up**. You'll be sent an email with a verification code. Enter it on the **Confirm your account** screen and choose **Confirm account**.
 
     ![Confirm your account screen with a Code field and Confirm account button](img/volunteer-signup-confirm-desktop.png)
 
-5. You land on **Complete your profile**. Select your **attending church** from the list, then fill in your **street address**, **city**, **state**, and **ZIP code**.
+5. You may see **Setting up your account** for a few seconds while WrapAround finishes your registration.
+6. If your program uses a volunteer agreement, the **Volunteer agreement** page opens next. Read it, choose **Review & sign**, check your details on **Confirm your signature**, and choose **I agree & sign**.
+7. You land on **Complete your profile**. Under **Your mailing address**, fill in your **street address**, **city**, **state**, and **ZIP code**. Then, under **Your church**, select your **attending church** from the list.
 
     ![Complete your profile screen with a church dropdown and address fields](img/volunteer-signup-profile-desktop.png)
 
-6. Choose **Save and continue**. If the button is greyed out, a line above it reads **Still needed:** followed by the fields you haven't filled in yet. A required field you've left empty is outlined in red.
-
-    If the button is greyed out, look just above it: a red **Still needed:** line lists every required field you haven't filled in yet. A required field you've left empty is also outlined in red.
+8. Choose **Save and continue**. If the button is greyed out, look just above it: a red **Still needed:** line lists every required field you haven't filled in yet. A required field you've left empty is also outlined in red.
 
 ## If your church isn't in the list
 
@@ -55,9 +62,15 @@ Choosing **No Partnered Church** opens a third required field, **County** — th
 
 ![Complete your profile screen on mobile, showing the full Attending church / Partnered church / County cascade](img/volunteer-signup-county-mobile.png)
 
+!!! tip "Prefer Spanish?"
+    The sign-in page and **Complete your profile** both have a **Choose your language**
+    picker. See [Change the app's language](change-your-language.md).
+
 ## What you'll see
 
-Next you'll be taken into [training](../training/modules-and-progress.md) — complete any assigned modules before program staff can place you with a family.
+You're taken into WrapAround. If training has been assigned to you, you go straight to
+[training](../training/modules-and-progress.md). Complete your modules before program
+staff can place you with a family.
 
 !!! tip "Already have an invite instead?"
     If a program or advocate already invited you by email, don't sign up here — follow

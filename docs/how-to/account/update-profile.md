@@ -1,47 +1,58 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-11
 ---
 
-<!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
-     https://demo.wraparound.lucasalign.com/profile. Correcting the draft: name, email,
-     and role are NOT editable here — they're read-only fields sourced from the LucasAlign
-     identity provider. There is no "how you'd like to help" or availability field on this
-     page for a volunteer. The only thing a volunteer can change here is their photo
-     (see upload-photo.md) and, further down the same page, which notification emails
-     they receive (see manage-notification-emails.md). -->
+<!-- @frontend verified 2026-11-11 against Align-FrontEnd main (701b73b), pages/profile.tsx,
+     and live on dev as the demo advocate. Correcting the earlier draft: First name, Last
+     name, and Phone ARE now editable (saved via PUT /users/me); only Email and Role are
+     read-only. The Address block shows only for someone with a volunteer record
+     (volunteers, lead volunteers, advocates). Password changes go through the hosted
+     sign-in page ("Change password", #543). -->
+
+<!-- @backend: confirm PUT /users/me lets every role change its own first_name, last_name
+     and phone, and that a volunteer may update their own address through
+     PUT /volunteers/{id}. -->
 
 # Update your profile
 
 **Who this is for:** Everyone with a WrapAround account.
-**When to use it:** To check the details WrapAround has on file for you, change your
-photo, or adjust which emails you receive.
+**When to use it:** To fix your name, phone number, or mailing address, change your
+password, or check the details WrapAround has on file for you.
 **Before you start:** You've [accepted your invite and signed in](accept-invite.md).
 
 ## Steps
 
-1. Click your photo/initials in the sidebar, or go to **Profile Settings**.
+1. Click your photo or initials in the sidebar (on a phone, at the top of the screen).
+   Program staff can also choose **Settings** in the sidebar. **Profile Settings** opens.
+2. Under **Personal Information**, change your **First name**, **Last name**, or **Phone**.
 
-    ![Profile Settings page showing a read-only Name, Email, and Role under Personal Information](img/profile-settings-desktop.png)
+    ![Profile Settings with the Personal Information card outlined, showing editable First name, Last name, and Phone fields above a read-only Email and Role.](../../assets/screens/update-profile/step-2-personal-information.png)
 
-2. Under **Personal Information**, you can see your **name**, **email**, and **role**.
-   These fields are **read-only** — WrapAround manages them through your LucasAlign
-   identity provider, not through this page.
-3. To change your name or email, contact your administrator or coordinator — they're the
-   ones who can update it.
+    ![The Personal Information card on a phone.](../../assets/screens/update-profile/step-2-personal-information-mobile.png)
+
+3. Volunteers and advocates: under **Address**, update your **Street**, **City**, **State**,
+   and **ZIP**.
+4. Click **Save Changes**. The button stays greyed out until you've changed something.
 
 ## What you'll see
 
-Your current name, email, and role, exactly as WrapAround has them on file. There's
-nothing to save here — the **Save Changes** button under Personal Information doesn't
-apply to any of these fields.
+A **Profile updated** message. If you changed your name, the new name shows across
+WrapAround the next time you sign in.
 
-!!! note "Nothing to edit? That's expected"
-    Unlike some apps, WrapAround doesn't let you self-edit your name or contact info.
-    This keeps your identity consistent with your organization's records. If something's
-    wrong, ask your administrator to fix it at the source.
+!!! note "Email and role can't be changed here"
+    Your **Email** and **Role** are managed through your sign-in account. If either is
+    wrong, contact your administrator or coordinator.
+
+## Change your password
+
+Under **Sign-in & Security**, click **Change password**. You're taken to the secure sign-in
+page, where you confirm your email with a verification code and set a new password. You're
+signed back in when you're done.
 
 ## Related
 
 - [Upload your photo](upload-photo.md)
 - [Manage your notification emails](manage-notification-emails.md)
+- [Change the app's language](change-your-language.md)

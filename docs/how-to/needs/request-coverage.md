@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-11
 ---
 
 <!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER (a Lead Volunteer account,
@@ -10,7 +11,10 @@ plain assigned volunteer on (e.g. "O'Brien Family") and opening a day it has cla
 exactly the plain-volunteer view this page describes: no "Modify this day" manager card,
 just the "Claimed the series" row with the volunteer's own name and a single Request
 coverage control next to it. Confirms the source-level prediction in need-detail-dialog.tsx
-(coverageControl() renders for the claim holder when canManage is false). -->
+(coverageControl() renders for the claim holder when canManage is false).
+Re-verified 2026-11-11 against Align-FrontEnd main (701b73b): labels unchanged; once
+requested, the button is replaced by a "coverage requested" marker, and the confirmation
+toast reads "Coverage requested — the care community has been notified". -->
 
 # Request coverage on a need you've claimed
 
@@ -32,18 +36,20 @@ slot yet.
 
 ## What you'll see
 
-The care community is emailed that this slot needs a different volunteer. **You stay
-assigned** — this only asks for backup, it doesn't remove you from the slot. If no one
-steps in, you still hold it; if you can no longer do it at all, use
-[Withdraw a claim](withdraw-a-claim.md) instead to release it outright.
+A **Coverage requested — the care community has been notified** message, and the button
+next to your name changes to **coverage requested**. The care community is emailed that
+this slot needs a different volunteer. **You stay assigned**: this only asks for backup,
+it doesn't remove you from the slot. If no one steps in, you still hold it. If you can't
+do it at all, ask your lead volunteer, advocate, or coordinator to
+[release you from the slot](withdraw-a-claim.md).
 
 For a recurring need, requesting coverage only affects the **date you opened** — your
 assignment on every other occurrence in the series is untouched.
 
-!!! tip "Not the same as withdrawing"
-    **Request coverage** asks for backup while you keep the slot. **Withdraw** gives the
-    slot up completely and returns it to the open list. Use whichever matches what you
-    actually need.
+!!! tip "Not the same as being released"
+    **Request coverage** asks for backup while you keep the slot. Being released (which
+    only a lead volunteer, advocate, or coordinator can do) gives the slot up completely
+    and returns it to the open list for someone else.
 
 ## Related
 
