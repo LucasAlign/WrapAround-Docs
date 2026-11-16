@@ -28,12 +28,12 @@ rules live in `CONTRIBUTING.md` at the repo root.
 | **Program staff (Admin)** | Non-profit staff with full access to every family. | Central Admin |
 | **Coordinator** | Staff with the same full access as an Admin, focused on their county. | Coordinator Admin |
 | **Advocate** | The case lead for a family, scoped to their serving church. | Church Advocate |
-| **Volunteer** | A family supporter, scoped to exactly one family. | Support Volunteer |
-| **Lead Volunteer** | A volunteer with extra abilities (e.g. creating needs) within their one family. | Lead Volunteer |
+| **Volunteer** | A family supporter, scoped to the families they're assigned to (one or more). | Support Volunteer |
+| **Lead Volunteer** | A volunteer with extra abilities (e.g. creating needs) for a family they lead. | Lead Volunteer |
 | **Volunteer role** | The kind of help a volunteer provides. | Support Types |
-| **Need** | A specific task a family has asked for help with. | Needs (Needs Board) |
+| **Need** | A specific task a family has asked for help with. | Ways to Help (page title; admins and coordinators see Needs Board) |
 | **Need type / support type** | The kind of help a need or volunteer offers (meal, ride, supplies, etc.) — an admin-configured reference list, not a fixed set. | Support Types |
-| **Claim** | A volunteer signing up to handle a need. | I can help |
+| **Claim** | A volunteer signing up to handle a need. | Volunteer for this (a single date of a recurring need: I can help) |
 | **Schedule / event** | A planned event on the family's calendar. | Schedule |
 | **Recurring event** | An event that repeats on a rule. | Recurring |
 | **Thread** | A message conversation among participants. | Conversation (New Conversation) |

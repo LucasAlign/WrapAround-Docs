@@ -1,7 +1,7 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-27
+last_reviewed: 2026-11-11
 ---
 
 <!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
@@ -13,7 +13,12 @@ last_reviewed: 2026-10-27
      only way a claim is released outright is a Lead Volunteer / advocate / staff member
      "excusing" the volunteer for that day (recurring needs) or unassigning/deleting the
      need (one-time needs) — both require canManage. Retargeting this page's audience
-     accordingly and pointing plain volunteers to request-coverage.md instead. -->
+     accordingly and pointing plain volunteers to request-coverage.md instead.
+     Re-verified 2026-11-11 against Align-FrontEnd main (701b73b): need-detail-dialog.tsx
+     still offers the claim holder only "Request coverage"; "Excuse from this day",
+     the "Excuse" confirm and "excused this day" are unchanged. Note: the backend
+     (Align-Core care handler DELETE /need-claims/{id}) does let a volunteer delete their
+     own claim; the UI just doesn't expose it. -->
 
 # Withdraw a claim
 

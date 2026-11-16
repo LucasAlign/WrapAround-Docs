@@ -49,3 +49,4 @@ A short line under the menu says where your choice is kept:
 
 - [Update your profile](update-profile.md)
 - [Manage your notification emails](manage-notification-emails.md)
+- [Sign up as a volunteer](volunteer-self-signup.md)
