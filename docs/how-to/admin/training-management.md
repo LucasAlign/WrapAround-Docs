@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-17
 ---
 
 # Manage training modules
@@ -18,7 +19,7 @@ organization (or your county).
 
     ![Training Management page — Volunteers tab, showing module/volunteer/completion stats and a per-volunteer progress list.](img/training-management-desktop.png)
 
-2. The page has three tabs:
+2. The page has these tabs:
     - **Volunteers** — a progress matrix: every volunteer, their completion percentage,
       how many required modules they've finished (e.g. "1 / 6"), whether they're in a
       group training session, and their status (**In Progress** / **Not Started** /
@@ -34,6 +35,10 @@ organization (or your county).
       volunteers" checkbox confirmed; reorder confirmed (orderIndex-based). -->
     - **Group Training** — see and manage group training sessions across every family/
       church in your scope, not just the ones you personally lead.
+    - **Events** — Central Admins only. Public training events that volunteers can RSVP
+      to: create single dates or a series, publish them, and see each event's roster. See
+      [Create a training event](create-a-training-event.md). Coordinators don't see this
+      tab.
 3. To change what's required, mandatory, or in what order, use the **Training Modules**
    tab. To check on an individual volunteer's progress, use **Volunteers** and search
    for their name.
@@ -57,4 +62,6 @@ organization (or your county).
 - [Find your modules & track progress](../training/modules-and-progress.md) (the
   volunteer's own view)
 - [Start a group training session](../advocate/start-group-training.md)
+- [Create a training event](create-a-training-event.md)
+- [RSVP to a training event](../training/rsvp-to-a-training-event.md)
 - [Oversight: needs, training & audit log](oversight.md)

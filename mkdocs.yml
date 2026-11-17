@@ -124,6 +124,7 @@ nav:
       - Training:
           - Find your modules & track progress: how-to/training/modules-and-progress.md
           - Access training resources: how-to/training/resources.md
+          - RSVP to a training event: how-to/training/rsvp-to-a-training-event.md
       - Admin & Staff:
           - Manage families & people: how-to/admin/families-and-people.md
           - Archive a family or child: how-to/admin/archive-a-family.md
@@ -132,6 +133,8 @@ nav:
           - Manage counties: how-to/admin/manage-counties.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
           - Manage training modules: how-to/admin/training-management.md
+          - Create a training event: how-to/admin/create-a-training-event.md
+          - Change a user's role: how-to/admin/change-a-users-role.md
           - Manage family agreements: how-to/admin/family-agreements.md
           - Manage reference data: how-to/admin/reference-data.md
           - Oversight: how-to/admin/oversight.md
