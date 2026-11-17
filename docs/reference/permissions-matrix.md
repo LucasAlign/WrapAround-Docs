@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: backend
+last_reviewed: 2026-11-17
 ---
 
 # Roles & permissions matrix
@@ -21,7 +22,7 @@ role). Corrected: Family cannot create or remove needs — that cell was wrong. 
 |---|:---:|:---:|:---:|:---:|:---:|
 | See **all** families | ✓ | ✓ | — | — | — |
 | See families at **their church** | ✓ | ✓ | ✓ | — | — |
-| See **one** family (assigned / own) | ✓ | ✓ | ✓ ᵃ | ✓ | ✓ |
+| See **their** families (assigned / own) | ✓ | ✓ | ✓ ᵃ | ✓ | ✓ |
 | Browse & claim needs | ✓ | ✓ | ✓ | ✓ | — |
 | Create / remove needs | ✓ | ✓ | ✓ | Lead ᵇ | — |
 | View the schedule | ✓ | ✓ | ✓ | ✓ | ✓ ᶜ |
@@ -29,9 +30,20 @@ role). Corrected: Family cannot create or remove needs — that cell was wrong. 
 | Manage families, volunteers, churches | ✓ | ✓ | their church ᵃ | — | — |
 | Invite / onboard people | ✓ | ✓ | ✓ | — | — |
 | View the audit log | ✓ | ✓ | — | — | — |
+| Change a user's role | ✓ | ✓ ᵈ | — | — | — |
+| Create & publish training events | ✓ | — ᵉ | — | — | — |
+| RSVP to a training event | — | — | ✓ | ✓ | — |
 
 **✓** = allowed · **—** = not available
 
 - **ᵃ** Across each family their church serves.
-- **ᵇ** A **Lead Volunteer** can create/remove needs within their one family.
+- **ᵇ** A **Lead Volunteer** can create/remove needs for the families they lead.
 - **ᶜ** Within their own family's circle: a read-only calendar and a "Message Team" thread.
+- **ᵈ** Within a tier only (Admin ↔ Coordinator, or Advocate ↔ Volunteer / Lead Volunteer),
+  never on their own account or a family account. Only an Admin can make someone an Admin
+  or change an Admin's role. See [Change a user's role](../how-to/admin/change-a-users-role.md).
+- **ᵉ** The **Events** tab under **Training Management** is shown to Central Admins only.
+
+<!-- @backend: the training-events API (/training/events) also accepts Coordinators; the
+frontend hides the Events tab from them (Align-FrontEnd #831). Confirm the matrix should
+follow the UI. -->

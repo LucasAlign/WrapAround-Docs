@@ -1,7 +1,7 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-17
 ---
 
 # Manage your notification emails
@@ -71,6 +71,7 @@ them (see the next section).
 | **New needs** | A support need is posted for a family you serve. |
 | **Need sign-ups** | Someone signs up to help with a need for your family. |
 | **Assignment changes** | You're added to or removed from a need someone else manages. |
+| **Need changes** | A need for your family, or one you signed up for, is changed or removed. |
 | **Coverage requests** | A volunteer needs someone to cover their slot for a family you serve. |
 | **Unfilled needs coming due** | A need for a family you lead is still unfilled as its date approaches. |
 | **Upcoming event reminders** | A day-before reminder of needs and events scheduled for your family. |
@@ -83,10 +84,18 @@ them (see the next section).
 | **Stalled family onboarding** | A family you coordinate has stalled partway through onboarding. |
 | **Care community expiring** | A care community you advocate for is 3 months from its 12-month expiration. |
 | **Family posts** | A lead volunteer, advocate, or admin posts an update for a family you serve. |
+| **Training event reminders** | A reminder before a training event you registered for. |
+| **Church changes digest** | A Monday/Wednesday/Friday summary of churches added, changed, or removed. |
 
 !!! info "New needs that already have a volunteer"
     When someone posts a need and assigns a volunteer to it right away, the **New needs**
     email isn't sent for it. The need is already covered, so there's nothing to ask for.
+
+!!! info "Training event reminders are the only event email you can turn off"
+    If you've signed up for a training event, the confirmation, the address or meeting-link
+    emails, and any change or cancellation notices always send. Only the reminder before the
+    event follows the **Training event reminders** toggle. The reminder email's
+    **Turn off event reminders** link brings you straight to this card.
 
 !!! info "Stalled family onboarding is off until you turn it on"
     Every toggle starts **on**, except **Stalled family onboarding**. It starts **off**, and
@@ -96,19 +105,21 @@ them (see the next section).
 
 The card starts with the notifications meant for your role:
 
-- **Volunteers:** **New needs**, **Assignment changes**, **Family status changes**.
+- **Volunteers:** **New needs**, **Assignment changes**, **Family status changes**,
+  **Training event reminders**.
 - **Lead volunteers:** **New needs**, **Need sign-ups**, **Assignment changes**,
-  **Family status changes**.
+  **Family status changes**, **Training event reminders**.
 - **Advocates:** **New needs**, **New volunteers at your church**, **Volunteers ready for
-  placement**, **Family agreement signed**, **Family status changes**.
+  placement**, **Family agreement signed**, **Family status changes**, **Training event
+  reminders**.
 - **Coordinators and administrators:** **Volunteers ready for placement**, **Family
   agreement signed**, **Family status changes**.
 - **Families:** **Need sign-ups**, **Family status changes**.
 
-Every role also sees the newer toggles: **Coverage requests**, **Unfilled needs coming
-due**, **Upcoming event reminders**, **Family assignments**, **Childcare clearance
-expiring**, **Stalled family onboarding**, **Care community expiring**, and **Family
-posts**. Some of these rarely or never apply to your role. Leaving one on when it doesn't
+Every role also sees the newer toggles: **Need changes**, **Coverage requests**,
+**Unfilled needs coming due**, **Upcoming event reminders**, **Family assignments**,
+**Childcare clearance expiring**, **Stalled family onboarding**, **Care community
+expiring**, **Family posts**, and **Church changes digest**. Some of these rarely or never apply to your role. Leaving one on when it doesn't
 apply to you does nothing.
 
 ![The Notifications card for a coordinator, showing the staff toggles followed by the newer toggles every role sees.](../../assets/screens/manage-notification-emails/notifications-card-staff.png)

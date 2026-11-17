@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: backend
+last_reviewed: 2026-11-17
 ---
 
 <!-- @frontend verified 2026-08-28: cross-checked against the fuller
@@ -18,16 +19,21 @@ in-app wording, is in the [Glossary](../reference/glossary.md).
   advocate and volunteers supporting them.
 - **Need** — a specific request for help from a family (a meal, a ride, supplies).
 - **Claim** — signing up to handle a need.
-- **Schedule** — the family's calendar of events, including recurring commitments.
+- **Recurring need** — a need that repeats on a schedule (for example every Monday). Each
+  date is an **occurrence**; a volunteer can claim the whole series or a single date.
+- **Schedule** — the calendar view of a family's needs and their dates.
 - **Thread** — a private message conversation; a **message** is one entry in it.
-- **Post** — an update shared with the care circle; people can **comment** on it. Limited
-  to Lead Volunteers, advocates, and program staff.
+- **Post** — an update shared with the care circle; people can **comment** on it. Writing
+  posts is limited to Lead Volunteers, advocates, and program staff.
 - **Training module** — a unit of training that prepares people to serve.
+- **Training event** — a scheduled training date, in person or online, that volunteers
+  **RSVP** to from a public events page.
 - **Status** — a lifecycle stage (for example a family's or volunteer's), managed as an
   editable list by program staff. → [Statuses explained](../reference/statuses.md)
 - **Temporary password** — the one-time password from an invite email; you replace it
   with your own on first sign-in.
-- **Participation agreement** — the document a family signs before staff can activate
-  their request.
+- **Participation agreement** — the document a family signs before staff can move them out
+  of intake.
+- **Volunteer agreement** — the document a volunteer signs to finish onboarding.
 - **Central Admin**, **Coordinator**, **Advocate**, **Volunteer**, **Family** — the five
   roles. See [Roles & who sees what](roles-and-visibility.md).
