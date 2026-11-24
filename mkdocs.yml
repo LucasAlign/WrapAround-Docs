@@ -69,6 +69,7 @@ nav:
           - Accept your invite & sign in: how-to/account/accept-invite.md
           - Sign up as a volunteer: how-to/account/volunteer-self-signup.md
           - Update your profile: how-to/account/update-profile.md
+          - Reset your password from an email: how-to/account/reset-your-password-from-an-email.md
           - Upload your photo: how-to/account/upload-photo.md
           - Change your language: how-to/account/change-your-language.md
           - Manage your notification emails: how-to/account/manage-notification-emails.md
@@ -131,6 +132,7 @@ nav:
           - Manage churches & counties: how-to/admin/organizations.md
           - Manage counties: how-to/admin/manage-counties.md
           - Onboard a family & invite people: how-to/admin/onboarding.md
+          - Send an invite link: how-to/admin/send-an-invite-link.md
           - Manage training modules: how-to/admin/training-management.md
           - Manage family agreements: how-to/admin/family-agreements.md
           - Manage reference data: how-to/admin/reference-data.md

@@ -51,7 +51,8 @@ Archiving:
 3. Open the family and click **Restore family** in the banner.
 
 A **<family name> restored** message appears. The family is still inactive: change its
-status to reactivate it.
+status to reactivate it. If the family never signed the current participation agreement, a
+parent has to sign it before you can move the family back into care.
 
 ## Request an archive (Advocate)
 

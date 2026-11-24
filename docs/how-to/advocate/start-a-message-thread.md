@@ -3,11 +3,15 @@ status: needs-review
 primary: frontend
 ---
 
+<!-- @backend verified 2026-11-24 against Align-Core #550 (getContactableUserIds in
+utils/auth.ts): an advocate can start a thread with any volunteer partnered with their
+church, placed on a family or not. -->
+
 # Start a message thread
 
 **Who this is for:** Advocate
 **When to use it:** To message a volunteer, a family, or a group about a family you serve.
-**Before you start:** Nothing — anyone signed in can start a thread with people they share a care circle with.
+**Before you start:** Nothing. As an advocate you can message the people in the care circles of the families you serve, and any volunteer partnered with your church, even one not yet placed with a family.
 
 ## Steps
 
@@ -17,7 +21,7 @@ primary: frontend
 
 2. Click **New conversation**.
 3. Choose **Direct message** (one person) or **Group conversation** (multiple people).
-4. Select the recipient(s) — you can message Volunteers or Family Members.
+4. Select the recipient(s) from the **Volunteers** or **Family Members** list.
 
     ![New conversation panel with Direct message / Group conversation options and a recipient list](img/start-a-message-thread-desktop.png)
 

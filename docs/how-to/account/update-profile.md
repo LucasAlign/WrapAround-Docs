@@ -1,8 +1,13 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-24
 ---
+
+<!-- @frontend verified 2026-11-24 against Align-FrontEnd #842 (pages/profile.tsx): Change
+password no longer redirects to the Hosted UI. It emails a code + /reset-password link,
+shows a "Check your email" toast and an instructions card, and the button becomes
+"Resend email". The link expires in 1 hour (Align-Core #555, PASSWORD_RESET_LINK_EXPIRY). -->
 
 # Update your profile
 
@@ -49,17 +54,26 @@ last_reviewed: 2026-11-12
 
     ![The Sign-in & Security card on a phone, with Change password outlined.](../../assets/screens/update-profile/change-password-mobile.png){ width="320" }
 
-2. You're taken to the secure sign-in page. Confirm your email with the verification code
-   it sends you, then set a new password.
+2. WrapAround emails you a reset link and a code, and a **Check your email** message
+   appears. The card lists what to do next.
+3. Open the email and select **Reset your password** (or enter the code on the page it
+   opens). The link expires in 1 hour.
+4. Choose your new password and save it, then sign in again. See
+   [Reset your password from an email](reset-your-password-from-an-email.md) for the
+   details of that page.
+
+If the email doesn't arrive, check your spam folder, or select **Resend email** on the
+card.
 
 ## What you'll see
 
 After you save, a **Profile updated** message appears. If you changed your name, the
 message tells you your new name appears across WrapAround the next time you sign in.
-After you change your password, you're signed back in to WrapAround.
+After you change your password, sign in again with the new one.
 
 ## Related
 
 - [Upload your photo](upload-photo.md)
+- [Reset your password from an email](reset-your-password-from-an-email.md)
 - [Change your language](change-your-language.md)
 - [Manage your notification emails](manage-notification-emails.md)

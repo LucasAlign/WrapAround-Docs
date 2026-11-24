@@ -43,9 +43,9 @@ rules live in `CONTRIBUTING.md` at the repo root.
 | **Comment** | A reply on a post, added by expanding its comments row. | Comments |
 | **Training module** | A unit of assigned training. | Training |
 | **Training resource** | Supporting material for a training module. | Resources Library |
-| **Onboarding / invite** | The flow that brings a new person into WrapAround by email invite. | Create New User / Invite New User |
+| **Onboarding / invite** | The flow that brings a new person into WrapAround by email invite. | Add Volunteer or Advocate / Invite New User |
 | **Temporary password** | The one-time password sent in an invite email; expires after 7 days and must be replaced with a permanent password on first sign-in. | Temporary Password |
-| **Participation agreement** | The document a family reviews and signs before staff can activate their request. | Participation agreement |
+| **Participation agreement** | The document a family reviews and signs before staff can move the family into care. | Participation agreement |
 | **Status** | A lifecycle state (for example family status or volunteer status). | Status |
 | **Serving church** | The church coordinating care for a family — distinct from the family's *attending* church. | Serving Church |
 | **County** | The county a family or volunteer is associated with. | County |

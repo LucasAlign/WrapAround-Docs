@@ -1,11 +1,14 @@
 ---
 status: needs-review
 primary: backend
-last_reviewed: 2026-10-22
+last_reviewed: 2026-11-24
 ---
 
 <!-- @backend verified 2026-10-22 against Align-Core: family and volunteer gates key off the admin-assigned
-`category` flag (community_status / volunteer_status, #99, #455), not the status name. -->
+`category` flag (community_status / volunteer_status, #99, #455), not the status name.
+Re-verified 2026-11-24 against Align-Core #552: the family agreement gate now fires on
+entering care (target not vetting/inactive, previous status vetting/inactive or none),
+not on leaving vetting (requiresSignedAgreement in handlers/people/index.ts). -->
 
 # Statuses explained
 
@@ -18,9 +21,14 @@ the few that drive how the system behaves.
 
 Tracks where a family is in the care journey.
 
-- **Care Requested / Needs Vetting** — where a newly self-registered family starts. Staff
-  must review and approve the family before it becomes active. *(The system enforces this
-  gate, so this status matters.)*
+- **Care Requested / Needs Vetting** — where a new family starts. Staff review and approve
+  the family before it moves into care.
+
+A family in an intake (*vetting*) or *inactive* status can't be moved into care (an
+*active*, *building* or uncategorized status) until a parent has signed the current
+participation agreement. The system enforces this. Moving a family to an *inactive*
+status never needs a signature, so a family that drops out of intake can be closed
+without signing.
 
 Other common values include *Applicant*, *Active – Awaiting serving Church*,
 *Active / Being served*, *On Hold*, and *Closed*.
@@ -65,6 +73,6 @@ asserted here — confirm before marking ready. -->
 ## Where statuses come from
 
 Statuses are reference lists kept centrally and editable by staff, so treat the app's
-current list as authoritative. The system acts on a status's category rather than its name: a family status in the
-*vetting* category gates a family's approval, and the volunteer status in the *intake*
-category is the starting point for a new volunteer.
+current list as authoritative. The system acts on a status's category rather than its name: the participation-agreement
+check runs when a family moves from a *vetting* or *inactive* status into care, and the
+volunteer status in the *intake* category is the starting point for a new volunteer.
