@@ -1,7 +1,14 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-24
 ---
+
+<!-- @frontend verified 2026-11-24 against Align-FrontEnd #837 (pages/messages.tsx,
+components/unread-badge.tsx, components/layout.tsx): conversations with unread messages
+show a bold name and a count badge, the Messages nav item shows the total, and an open
+thread shows a "New" divider above the first message you haven't read. Opening a thread
+marks it read (Align-Core #551). There is still no read-receipt (seen-by) indicator. -->
 
 <!-- @frontend verified live 2026-08-26 as WA_VOLUNTEER_USER against
      https://demo.wraparound.lucasalign.com/messages. Correcting the draft: there is no
@@ -20,7 +27,8 @@ primary: frontend
 
 ## Steps
 
-1. Open **Messages** and select the thread from the list on the left.
+1. Open **Messages** and select the thread from the list on the left. A conversation with
+   messages you haven't read shows its name in bold with a red count badge.
 
     ![Messages list with a group and direct-message threads](img/messages-list-desktop.png)
 
@@ -31,7 +39,14 @@ primary: frontend
 
 ## What you'll see
 
-The conversation in order, with the latest message at the bottom.
+The conversation in order, with the latest message at the bottom. If there were messages
+you hadn't read, a red **New** line marks where they start.
+
+Opening a conversation marks its messages as read, so its badge clears.
+
+!!! tip "Spot unread messages anywhere"
+    The **Messages** item in the main menu shows a badge with your total number of unread
+    messages, so you can see new messages from any page.
 
 !!! warning "Read receipts aren't available yet"
     WrapAround doesn't show who's read a message — there's no "Seen" indicator, checkmark,

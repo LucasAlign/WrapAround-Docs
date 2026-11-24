@@ -1,56 +1,78 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-24
 ---
+
+<!-- @frontend verified 2026-11-24 against Align-FrontEnd pages/admin-management.tsx: the
+Admin Management tab is "Agreements" (TAB_CONFIG), with "Signed Agreements" / "Agreement
+Management" sub-tabs and a "Family" / "Volunteer" audience switcher. Coordinators
+(county_admin) get the Signed Agreements sub-tab only; Central Admins get both
+(agreementSubTabs in admin-management-access.ts). The editor is titled "New Family
+Agreement Version", with Version, Title, Agreement Text and a "Make this the active
+agreement immediately" checkbox; the row icons are View / Make active / Edit / Delete. -->
+
+<!-- @backend verified 2026-11-24 against Align-Core #552: the family agreement gate fires
+when a family moves into care (from an intake or inactive status into active, building or
+an uncategorized status). Moving a family to inactive never needs a signature. Families
+already in care when the gate was added are not affected. -->
+
+<!-- @frontend: the Agreement Management banner still reads "a family must sign it before
+promotion out of vetting", which no longer matches the backend rule after Align-Core #552.
+Worth updating the copy. -->
 
 # Manage family agreements
 
-**Who this is for:** Central Admin, Coordinator.
-**When to use it:** To view signed participation agreements, or to write/update the
+**Who this is for:** Central Admin (all steps); Coordinator (viewing signed agreements only).
+**When to use it:** To view signed participation agreements, or to write or update the
 agreement text families sign when they register.
 **Before you start:** Nothing.
 
 ## Steps
 
-1. Open **Admin Management** from the top nav, then click the **Family Agreements** tab.
+1. Open **Admin Management** from the main menu, then select the **Agreements** tab.
+2. Make sure **Family** is selected in the switcher at the top right. (**Volunteer** shows
+   the volunteer agreement instead.)
 
-    ![Admin Management — Family Agreements tab, Signed Agreements sub-tab, showing a search bar and signature count.](img/family-agreements-signed-desktop.png)
+    ![Admin Management, Agreements tab, Signed Agreements sub-tab, showing a search bar and signature count.](img/family-agreements-signed-desktop.png)
 
-2. There are two sub-tabs:
+3. Pick a sub-tab:
     - **Signed Agreements** — a read-only, searchable list of every family's signature:
-      who signed, when, which agreement version, and their county. Filter by agreement
-      version or county, or search by family/signer/email.
-    - **Agreement Management** — the current active agreement template plus its full
-      version history.
+      who signed, when, which agreement version, and their county. Filter with
+      **All Versions** and **All Counties**, or search with **Search family, signer, email…**.
+    - **Agreement Management** (Central Admins only) — the current active agreement plus
+      its **Version History**.
 
-    ![Admin Management — Family Agreements tab, Agreement Management sub-tab, showing the active-agreement banner and New Version button.](img/family-agreements-templates-desktop.png)
+    ![Admin Management, Agreements tab, Agreement Management sub-tab with Family selected, showing the active Family Participation Agreement and the New Version button outlined.](../../assets/screens/family-agreements/agreement-management.png)
 
-3. To change the agreement text, click **New Version**. In the **New Agreement Version**
-   dialog, fill in the version number, title, and full agreement body, and check the box
-   if you want to activate it immediately. Click **Create**.
-   <!-- @frontend verified 2026-08-27 against AgreementEditorModal in admin-management.tsx:
-   the dialog title is "New Agreement Version" and the confirm button reads "Create" in
-   create mode (it reads "Save" only when editing an existing unsigned version). -->
-4. To make an existing draft version the one families sign, open it and click
-   **Activate**. A version that already has signatures against it is **locked** — you
-   can view it but can't edit its text (editing it would retroactively change what
-   families already agreed to); create a new version instead.
-5. To view or print a specific agreement's full text, click the eye icon next to it.
+4. To change the agreement text, select **New Version**. In the **New Family Agreement
+   Version** dialog, fill in **Version**, **Title** and **Agreement Text**. Leave **Make
+   this the active agreement immediately** checked if families should sign this version
+   from now on. Select **Create**.
+5. To make an older version the one families sign, select its **Make active** icon in
+   **Version History**. A version that already has signatures is **locked**: you can view
+   it but can't edit or delete it (that would change what families already agreed to).
+   Create a new version instead.
+6. To read a version's full text, select its **View** (eye) icon.
 
 ## What you'll see
 
-- The **active agreement** gates family intake: a family can't be promoted out of
-  vetting until they've signed the currently-active version.
-- Signing happens automatically as part of [family self-registration](../../get-started/families.md)
-  — this page is for the admin side (writing/versioning the text and reviewing who's
-  signed), not for signing it yourself.
+- The **active agreement** gates a family's move into care. A family in an intake or
+  inactive status can't be moved into an active or building status until a parent has
+  signed the currently active version. You
+  can still move an unsigned family to an inactive status, for example when they drop out
+  of intake.
+- Signing happens as part of [family self-registration](../../get-started/families.md).
+  This page covers the admin side (writing and versioning the text and reviewing who's
+  signed), not signing it yourself.
 
 !!! tip "One agreement is active at a time"
-    Creating a new version doesn't retire the old one automatically unless you choose to
-    activate it. Families who already signed an earlier version keep that signature on
-    record — a new version only applies going forward.
+    A new version only replaces the active one if you activate it. Families who signed an
+    earlier version keep that signature on record.
 
 ## Related
 
 - [Getting started for families](../../get-started/families.md)
+- [Onboard a family & invite people](onboarding.md)
 - [Manage families & people](families-and-people.md)
+- [Sign the volunteer agreement](../account/sign-the-volunteer-agreement.md)
