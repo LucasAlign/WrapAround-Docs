@@ -1,13 +1,15 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-30
+last_reviewed: 2026-11-25
 ---
 
-<!-- @frontend verified 2026-10-30 against Align-FrontEnd source and the live dev app as the
-     demo Lead Volunteer: signing up happens on the needs board (needs.tsx), not on the
-     Schedule calendar. The claim button is shown only to advocates and volunteers
-     (needs.tsx, need-link.ts); admins and coordinators manage needs and have no claim button. -->
+<!-- @frontend re-verified 2026-11-25 against Align-FrontEnd source: the needs-board claim
+     button (needs.tsx) is shown only to advocates, lead volunteers and volunteers on open
+     needs; admins and coordinators manage needs and have no claim button. The Schedule
+     (schedule.tsx DayRow) also offers Claim / Claim this day / Claim series, but only to
+     viewers who can't manage care items (base volunteers); advocates and leads see
+     Modify / This day / Series there instead. -->
 
 # Sign up for a slot
 
@@ -38,10 +40,19 @@ see a sign-up button.)
 
 5. The need (or the date you picked) now shows **your name**.
 
+!!! note "Signing up from the Schedule"
+    Volunteers can also sign up straight from the [Schedule](view-calendar.md). Tap a day,
+    then tap **Claim** on an open entry, or **Claim this day** or **Claim series** on a
+    repeating one, and confirm. Choose **Never mind** to back out.
+
+    If a need asks for childcare approval you don't have yet, the needs board shows
+    **Childcare approval required** instead of the sign-up button.
+
 ## What you'll see
 
 - The need shows you as the volunteer, and the rest of the team can see it's covered.
-- It appears on the [Schedule](view-calendar.md) so you can find it again.
+- It appears on the [Schedule](view-calendar.md) so you can find it again. On that day
+  you'll see **You're in**.
 
 !!! tip "If your plans change"
     If you claimed a slot but can no longer make it, use
