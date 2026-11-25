@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-25
 ---
 
 # Assign a volunteer as Lead to a family
@@ -11,11 +12,13 @@ primary: frontend
 
 ## Steps
 
-1. Open the family and go to its **Care Team** tab.
+1. From the main menu, open **Families**, open the family, and go to its **Care Team** tab.
 2. Find the volunteer in the **Volunteers** list.
-3. Toggle **Lead** on for that volunteer.
+3. Tick the **Lead** checkbox next to that volunteer. To remove Lead later, untick it.
 
-    ![Care Team volunteer list showing the Lead toggle, checked on for Elias Haddad](img/assign-a-lead-volunteer-desktop.png)
+    ![The Care Team tab on a computer, with the Lead checkbox highlighted next to the first volunteer.](../../assets/screens/assign-a-lead-volunteer/lead-checkbox.png)
+
+    ![The Care Team tab on a phone, with the Lead checkbox highlighted next to the first volunteer.](../../assets/screens/assign-a-lead-volunteer/lead-checkbox-mobile.png)
 
 ## What you'll see
 

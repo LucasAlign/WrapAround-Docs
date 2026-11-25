@@ -1,7 +1,7 @@
 ---
 status: needs-review
 primary: frontend
-last_reviewed: 2026-10-30
+last_reviewed: 2026-11-25
 ---
 
 <!-- @frontend verified 2026-08-27 against the dev instance, signed in as the demo
@@ -9,7 +9,7 @@ Volunteer: Schedule month-grid confirmed live (screenshot shared with view-calen
 
 # Understand recurring events
 
-**Who this is for:** Volunteers, advocates, and program staff.
+**Who this is for:** Volunteers, advocates, coordinators, and families.
 **When to use it:** When a calendar entry repeats and you want to know what you're
 signing up for.
 **Before you start:** You can [view the calendar](view-calendar.md) for your family.
@@ -31,7 +31,8 @@ weekly ride appears every week without anyone re-entering it.
     - **I can help** next to a single date commits you to **that date only**. Confirm with
       **Confirm commitment**.
     - **I can help with every date** commits you to every upcoming date in the series. Confirm
-      with **Claim series**. You can still hand off individual dates later.
+      with **Claim series**. You can still hand off individual dates later. If some dates
+      already have volunteers, the confirmation tells you so before you commit.
 
     ![The picker for a recurring need, with the I can help with every date button highlighted.](../../assets/screens/recurring-events/pick-whole-series.png)
 
@@ -39,8 +40,10 @@ weekly ride appears every week without anyone re-entering it.
 
 ## What you'll see
 
-Recurring events appear on every date they apply to. When you sign up, your name shows on
-the occurrence(s) you committed to.
+Recurring events appear on every date they apply to. On the [Schedule](view-calendar.md),
+each entry shows how often it repeats after its time. When you sign up, your name shows on
+the occurrence(s) you committed to. To see every repeating need and who holds it, open
+**Recurring needs** below the Schedule calendar, or the **Recurring** tab on the needs page.
 
 !!! tip "Repeating help is a big help"
     Families rely on steady, predictable support. If you can take a recurring slot, it
