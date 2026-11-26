@@ -1,6 +1,7 @@
 ---
 status: ready
 primary: frontend
+last_reviewed: 2026-11-26
 ---
 
 # Build a Reports & Impact report
@@ -16,7 +17,7 @@ primary: frontend
 
 Admins see figures across every county. Coordinators start filtered to their own county and can switch to another county or *All Counties* from the filters.
 
-![Reports & Impact page showing metric tiles (Kids Served, Families Served, Active Care Communities, Paused Communities, Volunteers Active, New Families, Needs Fulfilled) and charts below them](img/reports-and-impact-overview-desktop.png)
+![Reports & Impact page showing the default tiles (Kids Served, Families Served, Active Care Communities, Paused Communities, Volunteers Active, Active Churches, New Families, Needs Fulfilled) with a Trend chart below.](../../assets/screens/reports-and-impact/overview.png)
 
 ## Filter the report
 
@@ -30,67 +31,71 @@ A row of filters at the top controls every metric at once:
 
 ### When the date range doesn't apply
 
-The **date range** applies only to metrics that count something that happened on a date — *New Families*, *Needs Fulfilled*, *Families Served Over Time*, and *Monthly Support Activity Totals*.
+The **date range** applies only to metrics that count something that happened on a date: *Needs Fulfilled*, the *Trend chart* (such as *Families Served Over Time* and *Monthly Support Activity Totals*), and *New Families* when it's set to follow the date range.
 
-Some metrics describe **how things stand right now** (for example *Families Served* and the status breakdowns) or count **people without a recorded date** (the volunteer metrics, and *Kids Served*). A date range can't be applied to those, so instead of quietly ignoring it, the metric shows a small **"Date range N/A"** badge in its corner. That's your cue that the number reflects current totals (filtered by county and church), not the selected time window.
+Some metrics describe **how things stand right now** (for example *Families Served*, *Active Churches*, and the *Breakdown chart*) or count **people without a recorded date** (the volunteer metrics, and *Kids Served*). A date range can't be applied to those, so instead of quietly ignoring it, the metric shows a small **"Date range N/A"** badge in its bottom-right corner. That's your cue that the number reflects current totals (filtered by county and church), not the selected time window.
 
 !!! note "Why current-status metrics ignore the date range"
     We don't keep a history of when a family's status changed, so we can't say how many were "active" *during* a past period — only how many are active *now*. See [Statuses explained](../../reference/statuses.md).
 
 ## Customize your report
 
-Select **Customize** in the top-right to start editing. (Select **Done** when finished.) While customizing you can:
-
-![Reports & Impact page in Customize mode, showing the Add metric, Export, Import, Reset, and Done buttons, and drag handles / options / remove icons on every panel](img/reports-and-impact-customize-desktop.png)
+Your report is yours to shape. Some changes work at any time; moving and resizing panels needs **Edit Layout**.
 
 ### Add a metric
 
+**Add metric** is always available, just below the page's action bar.
+
 1. Select **Add metric**.
-2. Pick a counter or chart from the list. It's added to the bottom of the report.
+2. Pick a tile from **Metrics**, a chart from **Charts**, or a text block or divider from **Layout**. It's added to the bottom of the report.
 
-![Add metric picker open, listing Metrics (Families Served, Needs Fulfilled), Charts (Trend chart, Breakdown chart), and Layout (Text / Heading, Divider)](img/reports-and-impact-add-metric-desktop.png)
+![Add metric menu open, listing Families Served, Active Churches, and Needs Fulfilled under Metrics; Trend chart, Breakdown chart, and Billing by County under Charts; and Text / Heading and Divider under Layout.](../../assets/screens/reports-and-impact/add-metric-menu.png)
 
-The **Add metric** list only offers **Families Served**, **Needs Fulfilled**, **Trend chart**, **Breakdown chart**, **Text / Heading**, and **Divider** — Families Served and Needs Fulfilled can each be added **several times** so you can track different statuses or need types side by side. **Kids Served**, **Volunteers Active**, and **New Families** aren't in this list: they ship on every new report by default, and you can remove or reconfigure them, but you can't add a second copy or bring one back except with **Reset**.
+Some metrics can be added **several times**, so you can track different statuses, need types, counties, or chart views side by side: **Families Served**, **Active Churches**, **Needs Fulfilled**, **Trend chart**, **Breakdown chart**, **Text / Heading**, and **Divider**.
 
-!!! note "This is a desktop feature"
-    Customizing a report — dragging, resizing, and adding panels — is a power-user layout task, so it isn't a practical experience on a phone screen. Viewing the finished report (above) works fine on mobile.
-
-### Move and resize
-
-- **Drag** a panel by the handle at its top edge to reposition it.
-- **Resize** by dragging the corner at its bottom-right. Panels never overlap — they stay where you place them.
+The others (**Kids Served**, **Volunteers Active**, **New Families**, and **Billing by County**) can only be on a report once. They drop off the **Add metric** list while they're on your report and come back to it if you remove them.
 
 ### Change a metric's options
 
-Some metrics can be tuned. A panel with options shows a **gear (⚙)** while customizing.
+Many metrics can be tuned. You don't need **Edit Layout** for this.
 
-1. Select the **gear (⚙)** on the panel.
-2. Adjust its settings, for example:
-    - **Needs Fulfilled** — pick which need **types** to count (e.g. Meals, Transportation) and a custom label.
-    - **Families by County** — group by county, church, or status, and show the percentage of the total.
-    - **Families by Church / Training by Church** — set how many to show (top 5, 10, all).
-    - **New Families** — follow the date-range filter and show the change versus the previous period.
+1. Select **Options** (the gear icon) in the top-right corner of the panel.
+2. Adjust its settings. Each metric's options are described on its own page under **Report Metrics**, for example [Needs Fulfilled](../reports/needs-count.md), [Families Served](../reports/families-served.md), or the [Breakdown chart](../reports/breakdown-chart.md).
 
-The tile updates as you change its settings.
+The panel updates as you change its settings.
 
 ### Remove a metric
 
-Select the **✕** on a panel to take it off the report.
+Select the **✕** in the top-right corner of a panel to take it off the report. A **Metric removed** message appears with an **Undo** button in case you change your mind.
+
+### Move and resize
+
+1. Select **Edit Layout** in the top-right. (Select **Done** when finished.)
+2. **Drag** a panel by the handle along its top edge to reposition it.
+3. **Resize** a panel by dragging its bottom-right corner. Panels never overlap; they stay where you place them.
+
+![Reports & Impact page in Edit Layout mode, with the Done button highlighted, Reset beside it, and a drag handle along the top of each panel.](../../assets/screens/reports-and-impact/edit-layout-mode.png)
+
+!!! note "This is a desktop feature"
+    **Edit Layout** isn't offered on phone-sized screens, where panels stack in reading order. Viewing the report, changing options, and adding or removing metrics still work on a phone.
 
 ### Start over
 
-Select **Reset** to restore the default report with every metric in its standard place.
+1. Select **Edit Layout**, then **Reset**.
+2. In **Reset to the default view?**, select **Reset view**. This restores the default set of metrics and their default sizes and positions, and it can't be undone.
 
 ## Your layout is saved automatically
 
-Your customized report is remembered **in this browser**, so it's still there when you come back. (It isn't shared between devices or teammates — to share a layout, use export/import below.)
+Your report is remembered **on this device**, so it's still there when you come back. It's your personal view: it doesn't change anyone else's reports. To give someone the same layout, share it as described below.
 
 ## Share a report layout
 
 To give a teammate the same arrangement of metrics:
 
-1. While customizing, select **Export** and either **Download .json** the layout file or **Copy code** to copy it.
-2. Have your teammate select **Import**, then paste the code or upload the file. Their report switches to your layout.
+1. Select **Share Layout**, then either **Download .json** to save the layout file or **Copy code** to copy it.
+2. Have your teammate select **Import Layout**, paste the code or select **Choose file…**, and then select **Import**. Importing replaces their current report with your layout.
+
+![Export report layout dialog open from Share Layout, showing the layout code with Download .json and Copy code buttons.](../../assets/screens/reports-and-impact/share-layout-dialog.png)
 
 ## Export and print
 
@@ -108,9 +113,6 @@ You can turn the current report — its metrics, order, options, and filters —
 ## What you'll see
 
 A dashboard that matches the metrics, layout, and filters you chose — and CSV/PDF/print output that mirrors it exactly.
-
-!!! note "Impact Summary"
-    The **Impact Summary** block currently shows a "coming soon" message. Narrative impact summaries will appear here in a later release.
 
 ## Related
 
