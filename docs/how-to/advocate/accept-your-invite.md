@@ -1,6 +1,7 @@
 ---
 status: needs-review
 primary: frontend
+last_reviewed: 2026-11-27
 ---
 
 # Accept your invite
@@ -9,15 +10,14 @@ primary: frontend
 **When to use it:** The first time you sign in, after program staff or an advocate has created your account.
 **Before you start:** You need the invite email sent to the address staff used to create your account.
 
-<!-- @backend verified 2026-08-27: onboarding invites use Cognito AdminCreateUser with a
-temporary password; the auth stack sets no TemporaryPasswordValidityDays override, so the
-Cognito default of 7 days applies. -->
+<!-- Verified 2026-11-27 against Align-Core lib/stacks/auth-stack.ts: tempPasswordValidity is
+45 days (#354), and Cognito's ForgotPassword does not work for an account that has never
+signed in (FORCE_CHANGE_PASSWORD). Staff re-issue with "Send New Temp Password". -->
 
-!!! note "Use your temporary password within 7 days"
-    The temporary password in your invite email expires after **7 days**. If it's expired,
-    you don't need a new invite — on the sign-in screen, choose **Forgot your password?**
-    and follow the steps to set your own password, using the same email the invite was
-    sent to.
+!!! note "Use your temporary password within 45 days"
+    The temporary password in your invite email expires after **45 days**. **Forgot your
+    password?** on the sign-in screen can't reset a password you've never used, so if
+    it's expired, ask the person who invited you to send you a new temporary password.
 
 ## Steps
 
@@ -32,10 +32,16 @@ Cognito default of 7 days applies. -->
 
 ## What you'll see
 
-If you haven't completed your assigned training yet, you're taken straight to **Training**. Once training is complete, you land on your normal dashboard — for an Advocate, this is **Managed Care Communities**, showing the families your church serves.
+Before you reach your dashboard, WrapAround walks you through anything still outstanding, in this order:
+
+1. signing the volunteer agreement, if your organization has one;
+2. filling in your personal information (onboarding);
+3. completing your assigned training, on **Training**.
+
+After that you land on your normal dashboard. For an Advocate, this is **Managed Families**, showing the families you serve.
 
 !!! tip "Not sure which email to use?"
-    Invites always go to the exact address staff entered when creating your account. If sign-in fails, double check you're using that address, not a personal alternate.
+    Invites always go to the exact address staff entered when creating your account. If sign-in fails, check you're using that address, not a different personal one.
 
 ## Related
 
